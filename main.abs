@@ -1,5 +1,0 @@
-Axiom weakening is a technique that allows for a fine-grained repair of inconsistent ontologies. Its main advantage is that it repairs ontologies by making axioms
-less restrictive rather than by deleting them, employing refinement operators.  In this paper, we build on previously introduced axiom weakening for \ALC, and show how it can be extended to deal with \SROIQ, the expressive and decidable description logic underlying OWL 2 DL.
-We here focus on describing a prototype implementation computing axiom weakening for \SROIQ and discuss a number of performance and evaluation aspects.
-%the definitions of the refinement operators to deal with \SROIQ constructs, in particular with %such as reflexive and irreflexive roles, disjoint roles,
-%role hierarchies,  cardinality constraints and nominals, and illustrate its application. Finally, we discuss the problem of termination of an iterated weakening procedure.

@@ -5,6 +5,9 @@ notes-tex
 ### Latex ###
 *.synctex.gz
 *.aux
+*.abs
+*.xmpdata
+*.xmpi
 *.fls
 *.out
 *.toc
