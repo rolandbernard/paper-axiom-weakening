@@ -1,6 +1,7 @@
 
 tmp.*
 notes-tex
+*-old.*
 
 ### Latex ###
 *.synctex.gz
