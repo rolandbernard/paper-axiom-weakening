@@ -37,6 +37,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% OUR SETTINGS
+\usepackage{cleveref}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{mathtools}
@@ -95,11 +96,8 @@ Free University of Bozen-Bolzano, Italy
 %% The abstract is a short summary of the work to be presented in the
 %% article.
 \begin{abstract}
-Axiom weakening is a technique that allows for a fine-grained repair of inconsistent ontologies. Its main advantage is that it repairs ontologies by making axioms
-less restrictive rather than by deleting them, employing refinement operators. In this paper, we build on previously introduced axiom weakening for \ALC, and show how it can be extended to deal with \SROIQ, the expressive and decidable description logic underlying OWL 2 DL.
-We here focus on describing a prototype implementation computing axiom weakening for \SROIQ and discuss a number of performance and evaluation aspects.
-%the definitions of the refinement operators to deal with \SROIQ constructs, in particular with %such as reflexive and irreflexive roles, disjoint roles, 
-%role hierarchies,  cardinality constraints and nominals, and illustrate its application. Finally, we discuss the problem of termination of an iterated weakening procedure.
+Axiom weakening is a technique that allows for a fine-grained repair of inconsistent ontologies. Its main advantage is that it repairs ontologies by making axioms less restrictive rather than by deleting them, employing refinement operators. In this paper, we build on previously introduced axiom weakening for \ALC, and show how it can be extended to deal with \SROIQ, the expressive and decidable description logic underlying OWL 2 DL. We here focus on describing a prototype implementation computing axiom weakening for \SROIQ and discuss a number of performance and evaluation aspects.
+%the definitions of the refinement operators to deal with \SROIQ constructs, in particular with %such as reflexive and irreflexive roles, disjoint roles, role hierarchies,  cardinality constraints and nominals, and illustrate its application. Finally, we discuss the problem of termination of an iterated weakening procedure.
 \end{abstract}
 
 %%
@@ -128,8 +126,6 @@ We here focus on describing a prototype implementation computing axiom weakening
 % explain other gentle repair approaches
 % briefly describe refinement operators
 % briefly describe what we have done
-
-\section{Preliminaries}
 
 \section{Axiom Weakening for \ALC}
 
@@ -168,13 +164,13 @@ We now give a brief description of the DL \SROIQ; for full details see \cite{baa
   & & \more n S.C \mid \less n S.C \mid \exists S.\self \mid \nominal i \enspace,
 \end{eqnarray*}
 
-where $r \in N_R$ is a role name, $A \in N_C$ is a concept name, $i \in N_i$ is an individual name and $n \in \mathbb{N}_0$ is a non-negative integer. $U$ and $E$ are respectively the universal role and empty role. $S$ is a \emph{simple role} (see below) in the RBox $\Rmc$.
+where $r \in N_R$ is a role name, $A \in N_C$ is a concept name, $i \in N_I$ is an individual name and $n \in \mathbb{N}_0$ is a non-negative integer. $U$ and $E$ are respectively the universal role and empty role. $S$ is a \emph{simple role} (see below) in the RBox $\Rmc$.
 
 % describe the TBox, ABox and RBox statements
 A \emph{TBox} $\Tmc$ is a finite set of concept inclusions (GCIs) of the form $C \sqsubseteq D$ where $C$ and $D$ are concepts. The TBox is used to stores terminological knowledge concerning the relationship between concepts. A \emph{ABox} $\Amc$ is a finite set of statements of the form $R(a)$, $\lnot R (a)$, $a = b$, and $a \not= b$ where $R$ is a role and $a$ and $b$ are individual names. The ABox expresses knowledge regarding individuals in the domain. A \emph{RBox} $\Rmc$ is a finite set of role inclusions (RIAs) of the form $R_1 \circ \cdots \circ R_n \sqsubseteq R$, and disjoint role axioms $\disjoint(S_1, S_2)$ where $R$, $R_1$, $\dots$, $R_n$, $S_1$, and $S_2$ are roles. $S_1$ and $S_2$ are simple (see next) in the RBox $\Rmc$. The special case of $n = 1$ is a simple role inclusion, while we call the cases where $n > 1$ complex role inclusions. The RBox represents knowledge about the relationship between roles.
 
 % describe simple and complex roles since it is relevant
-The set of \emph{non-simple} roles in $\Rmc$ is the smallest set such that: $U$ and $E$ are non-simple; any role $R$ that appears on the right-hand side of a complex role inclusion $R_1 \circ \cdots \circ R_n \sqsubseteq R$ where $n > 1$ is non-simple; any role $R$ that appears on the right-hand side of a simple role inclusion $S \sqsubseteq R$ where $S$ is non-simple, is also non-simple; and a role $r$ is non-simple if and only if $r^-$ is non-simple.
+The set of \emph{non-simple} roles in $\Rmc$ is the smallest set such that: $U$ and $E$ are non-simple; any role $R$ that appears on the right-hand side of a complex RIA $R_1 \circ \cdots \circ R_n \sqsubseteq R$ where $n > 1$ is non-simple; any role $R$ that appears on the right-hand side of a simple RIA $S \sqsubseteq R$ where $S$ is non-simple, is also non-simple; and a role $r$ is non-simple if and only if $r^-$ is non-simple.
 All other roles are \emph{simple}.
 
 % describe regularity since it is relevant
@@ -196,13 +192,47 @@ The semantics of \SROIQ are defined using \emph{interpretations} $I = \langle \D
 Given two concepts $C$ and $D$ we say that $C$ is \emph{subsumed} by $D$ (or $D$ \emph{subsumes} $C$) with respect to the ontology $\Omc$, written $C \sqsubseteq_\Omc D$, if $C^I \subseteq D^I$ in every model $I$ of $\Omc$. Further $C$ is \emph{strictly subsumed by} $D$, written $C \sqsubset_\Omc D$, if $C \sqsubseteq_\Omc D$ but not $D \sqsubseteq_\Omc C$. Analogously, given two roles $R$ and $S$, $R$ is subsumed by $S$ with respect to $\Omc$ ($R \sqsubseteq_\Omc S$) if $R^I \sqsubseteq S^I$ in all models $I$ of $\Omc$. Again, $R \sqsubset_\Omc S$ holds if $R \sqsubseteq_\Omc S$ but not $D \sqsubseteq_\Omc C$
 
 % explain the complications of weakening SROIQ
+The main difficulties that arise when weakening axioms in \SROIQ ontologies, and especially when weakening RIAs, are related to ensuring that the constraints on the use of non-simple roles and the regularity of the role hierarchy are maintained. Not every weaker axiom can be inserted into a valid \SROIQ ontology without causing a violation of these restrictions.
 
-\begin{example}
 % example of the complications of weakening SROIQ
+\begin{example}
+  Take the ontology $\Omc = \{ r \circ s \circ r \sqsubseteq t, r \sqsubseteq s, \top \sqsubseteq \forall t.\bot, \exists s.\self \sqsubseteq \top \}$. Since $t$ is empty in every model of this ontology, the axiom $r \sqsubseteq s$ could be weakened to $t \sqsubseteq s$ if we ignore the additional constraints. This would result in an ontology where $s$ is non-simple, which is not allowed since $s$ is used as part of a self constraint.
+  Additionally, using this weakening would also cause a non-regular RBox, because for any pre-order $\preceq$, $t \not\preceq s$ must hold for the complex RIA and $t \preceq s$ must hold for the new axiom. Yet, this is a contradiction.
 \end{example}
 
 % lay out the constraints that we want to maintain
+To prevent these kinds of issues, we restrict how concepts are refined, and RIA can be weakened. To achieve this, we must ensure that only simple roles are used when weakening disjoint role axioms or refining cardinality and self constraints. Further, it must be guaranteed that all roles that are currently used in such context remain simple when adding the weakened axioms to the ontology. Finally, the addition of a weakened axiom must maintain the regularity of the role hierarchy. We discuss now the restrictions we applied in order to satisfy these requirements.
+
 % explain how each of them can be ensured
+Firstly, the covers and refinement operators for roles operate only on roles that are simple. A similar restriction has already been applied in the refinement operator suggested in \cite{confalonieri2020towards}. Restricting the refinement to simple roles guarantees that the new axioms created by weakening will not contain non-simple roles in axioms or concepts where they are not allowed. An important detail to not here is that the roles over which the covers operate must be simple in all ontologies that the weaker axioms are used in. It is therefore not generally sufficient to use the roles that are simple in the reference ontology, since the reference ontology may not contain all RBox axioms, and therefore contain simple roles that are not simple in the full ontology. For this reason we give to the upward and downward cover as an argument not only the reference ontology $\Omcref$, but also the full ontology $\Omcfull$. In the context of repairing inconsistent ontologies, $\Omcfull$ can be chosen to be the inconsistent ontology that we want to repair.
+
+Then, to ensure further that by adding weakened axioms we do not cause a constraint violation in existing axioms and concepts, we choose the allowed weakening for RIAs such that all roles that are simple in $\Omcfull$, are also simple after adding to it a weakening of one of its axioms. We observe that for complex RIAs $S_1 \circ \cdots \circ S_n \sqsubseteq R$ we should not refine the role $R$. Since all roles returned by our refinement operator are simple in $\Omcfull$, such a replacement would make a role with was simple in $\Omcfull$ non-simple. A similar argument can be made for refining $R$ in a simple RIA $S \sqsubseteq R$ where the role $S$ is non-simple in $\Omcfull$. So the only way to refine the right-hand side during the weakening of a RIA is when it is a simple RIA and additionally the left-hand side of the axiom is simple in $\Omcfull$.
+
+When it comes to refining the left-hand side of RIAs, we do not need any special restrictions. The main significant observation is that all roles that are returned by the refinement will be simple. This means that in a simple RIA $R \sqsubseteq S$, even if $S$ is simple, replacing $R$ with another simple role will not cause $S$ to become non-simple. For a complex RIA $S_1 \circ \cdots \circ S_n \sqsubseteq R$ on the other hand, the role $R$ must already have been non-simple in $\Omcfull$, and replacing any $S_i$ with a refinement has no effect on which roles are simple.
+
+A more interesting question is whether such a weakening may still cause a non-regular role hierarchy. The important insight is that simple roles are always allowed on the left-hand side of a RIA. While this is more directly evident in some alternative definitions of regularity (e.g., \cite{rudolph2011foundations}) it is not so apparent form the one presented in this paper. Intuitively, the constraint given above for regularity disallows dependency cycles that contain complex RIAs. Simple roles can not be part of such a cycle, since the cycle must contain at least one complex RIA to be a violation of the constraint, and all roles that depend in this sense on a complex RIA must be non-simple. A more formal justification for this fact is given in the \hyperref[proof:global-constraints]{proof} for \cref{lemma:global-constraints}.
+Since all refinements of the left-hand side of RIAs are performed using simple roles, these can not lead to a non-regular RBox. Further, refinements of the right-hand side of RIAs are only performed on simple RIAs $S \sqsubseteq R$ where $S$ is a simple role. Since $S$ is simple in this case, all refinements of $R$ are allowed, potentially also if the refinement yielded a non-simple role.
+
+\begin{definition}
+  Let $\Omc$ be a \SROIQ ontology. The set of \emph{subconcepts} of $\Omc$ is given by 
+  \begin{align*}
+    \sub(\Omc) = \{\top, \bot\} \cup \bigcup_{C(a) \in \Omc} \sub(C) \cup \bigcup_{C \sqsubseteq D \in \Omc} \left( \sub(C) \cup \sub(D) \right)
+  \end{align*}
+  where $\sub(C)$ is the set of \emph{subconcepts} in $C$ given by
+  \begin{align*}
+    \sub(A) &= \{ A \} \quad , A \in N_C \cup \{ \top, \bot \} &
+    \sub(\lnot C) &= \{ \lnot C \} \cup \sub(C) \\
+    \sub(C \sqcup D) &= \{ C \sqcup D \} \cup \sub(C) \cup \sub(D) &
+    \sub(\forall R.C) &= \{ \forall R.C \} \cup \sub(C) \\
+    \sub(C \sqcap D) &= \{ C \sqcap D \} \cup \sub(C) \cup \sub(D) &
+    \sub(\exists R.C) &= \{ \exists R.C \} \cup \sub(C) \\
+    \sub(\more n R.C) &= \{ \more n R.C \} \cup \sub(C) &
+    \sub(\less n R.C) &= \{ \less n R.C \} \cup \sub(C) \\
+    \sub(\exists R.\self) &= \{ \exists R.\self \} &
+    \sub(\nominal{i}) &= \{ \nominal{i} \}
+  \end{align*}
+\end{definition}
+
 % define upward and downward covers
 % define the abstract refinement operator
 % define the concrete generalization and specialization operator
@@ -213,6 +243,12 @@ Given two concepts $C$ and $D$ we say that $C$ is \emph{subsumed} by $D$ (or $D$
 \end{example}
 
 % proof that the constrains are retained
+\begin{lemma} \label{lemma:global-constraints}
+\end{lemma}
+
+\begin{proof}(\emph{Sketch})
+  \phantomsection\label{proof:global-constraints}
+\end{proof}
 
 \section{Implementing Axiom Weakening for \SROIQ}
 
