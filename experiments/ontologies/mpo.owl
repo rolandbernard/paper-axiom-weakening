@@ -1,0 +1,3307 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03006 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_03006"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10000 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10001 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10001">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10002 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10002">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10003 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10003">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10004 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10004">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10005 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10005">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10004"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10006 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10006">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10004"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10007 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10007">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10004"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10008 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10008">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10009 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10009">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10008"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10010 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10010">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10008"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10011 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10011">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10008"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10012 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10012">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10013 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10013">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10014 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10014">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10016 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10016">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10017 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10017">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10018 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10018">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10019 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10019">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10020 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10020">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10009"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10021 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10021">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10009"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10022 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10022">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10005"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10023 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10023">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10005"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10024 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10024">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10025 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10025">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10026 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10026">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10027 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10027">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10028 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10028">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10000"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10029 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10029">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10028"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10030 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10030">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10028"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10031 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10031">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10028"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10032 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10032">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10031"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_10033 -->
+
+
+    <ObjectProperty rdf:about="http://purl.jp/bio/10/mpo#MPO_10033">
+        <rdfs:subPropertyOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_10031"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000216 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/SIO_000216"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00000 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00000"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00001 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00001"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00010 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00010"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00011 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00011">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00010"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Class>
+                                <unionOf rdf:parseType="Collection">
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://semanticscience.org/resource/SIO_000216"/>
+                                        <someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000318"/>
+                                    </Restriction>
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://semanticscience.org/resource/SIO_000216"/>
+                                        <someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000319"/>
+                                    </Restriction>
+                                </unionOf>
+                            </Class>
+                            <Restriction>
+                                <onProperty rdf:resource="http://semanticscience.org/resource/SIO_000216"/>
+                                <someValuesFrom rdf:resource="http://semanticscience.org/resource/SIO_000438"/>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                    <Restriction>
+                        <onProperty rdf:resource="http://semanticscience.org/resource/SIO_000216"/>
+                        <someValuesFrom rdf:resource="http://sweet.jpl.nasa.gov/2.3/propSpaceHeight.owl#Depth"/>
+                    </Restriction>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00012 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00012"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00101 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00101"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00102 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00102">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00101"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00103 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00103">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00101"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00104 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00104">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00101"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00105 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00105">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00102"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00106 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00106">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00102"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00107 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00107"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00108 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00108">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00107"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00109 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00109">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00107"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00110 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00110">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00107"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00111 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00111">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00108"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00112 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00112">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00108"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00113 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00113"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00114 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00114">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00113"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00115 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00115">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00113"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00116 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00116">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00117"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00117 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00117">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00114"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00118 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00118">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00114"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00119 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00119"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00120 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00120">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00119"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00121 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00121">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00119"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00122 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00122">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00119"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00123 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00123">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00120"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00124 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00124">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00120"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00125 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00125"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00126 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00126"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00127 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00127">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00126"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00128 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00128">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00126"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00129 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00129">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00127"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00130 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00130">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00127"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00131 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00131">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00128"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00132 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00132">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00128"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00133 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00133"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00134 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00134">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00133"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00135 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00135">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00133"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00136 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00136">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00133"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00137 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00137">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00134"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00138 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00138">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00134"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_00139 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_00139"/>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01000 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01000">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01001 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01001">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01002 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01002">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01003 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01003">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01004 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01004">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01005 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01005">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01006 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01006">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01007 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01007">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01008 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01008">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01009 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01009">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01010 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01010">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01011 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01011">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01012 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01012">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01013 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01013">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01014 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01014">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01015 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01015">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01017 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01017">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01018 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01018">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01019 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01019">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01020 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01020">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01021 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01021">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01022 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01022">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01018"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01023 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01023">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01018"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01025 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01025">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01018"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01030 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01030">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01031 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01031">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01030"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01032 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01032">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01030"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01033 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01033">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01030"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01034 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01034">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01030"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01035 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01035">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01030"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01036 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01036">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01030"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01037 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01037">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01030"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01038 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01038">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01030"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01039 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01039">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01035"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01040 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01040">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01032"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01041 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01041">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01032"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01042 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01042">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01032"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01043 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01043">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01034"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01044 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01044">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01034"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01045 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01045">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01036"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01046 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01046">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01036"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_01047 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_01047">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_01030"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02000 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02000">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02001 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02001">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02002 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02002">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02003 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02003">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02004 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02004">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02005 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02005">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02006 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02006">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02007 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02007">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02008 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02008">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02009 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02009">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02010 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02010">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02011 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02011">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02012 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02012">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02013 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02013">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02014 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02014">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02015 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02015">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02016 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02016">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02017 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02017">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02018 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02018">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02004"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02019 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02019">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02004"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02020 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02020">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02004"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02021 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02021">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02004"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02022 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02022">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02023 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02023">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02024 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02024">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02025 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02025">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02026 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02026">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02027 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02027">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02028 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02028">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_02029 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_02029">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_02000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03000 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03000">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03001 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03001">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03013"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03002 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03002">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03004"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03003 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03003">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03013"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03004 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03004">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03005 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03005">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03006 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03006">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03007 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03007">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03006"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03008 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03008">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03006"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03009 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03009">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03010 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03010">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03009"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03011 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03011">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03009"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03012 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03012">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03009"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03013 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03013">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03014 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03014">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03015 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03015">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03014"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03016 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03016">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03015"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03017 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03017">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03015"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03018 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03018">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03019 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03019">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03020 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03020">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03013"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03021 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03021">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03013"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03022 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03022">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03013"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03023 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03023">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03009"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03024 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03024">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03006"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_03025 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_03025">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_03006"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04000 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04000">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04001 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04001">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04002 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04002">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04003 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04003">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04004 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04004">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04002"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04005 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04005">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04002"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04006 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04006">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04007 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04007">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04008 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04008">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04009 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04009">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04002"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04010 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04010">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04011 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04011">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04012 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04012">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04013 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04013">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04014 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04014">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04015"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04015 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04015">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04016 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04016">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04017 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04017">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04018 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04018">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04019 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04019">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04020 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04020">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04021 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04021">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04022 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04022">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04023 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04023">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04003"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04024 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04024">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04025 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04025">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04019"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04026 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04026">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04019"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04027 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04027">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04019"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04028 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04028">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04019"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04029 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04029">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04019"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04030 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04030">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04019"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04031 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04031">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04019"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04032 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04032">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04019"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04033 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04033">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04022"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04034 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04034">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04022"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04035 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04035">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04022"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04036 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04036">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04022"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04037 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04037">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04022"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04038 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04038">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04022"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04039 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04039">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04022"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04040 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04040">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04022"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04041 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04041">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04013"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04042 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04042">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04013"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04043 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04043">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04044 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04044">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04012"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04045 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04045">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04046 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04046">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04047 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04047">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04046"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04048 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04048">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04046"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04049 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04049">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04046"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04050 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04050">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04046"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04052 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04052">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04010"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04053 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04053">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04054 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04054">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04055 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04055">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04053"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04056 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04056">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04057 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04057">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04056"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04058 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04058">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04057"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04059 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04059">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04058"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04060 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04060">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04058"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04061 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04061">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04073"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04062 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04062">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04073"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04063 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04063">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04073"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04064 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04064">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04073"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04065 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04065">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04073"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04066 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04066">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04073"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04067 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04067">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04073"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04068 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04068">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04073"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04069 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04069">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04073"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04070 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04070">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04073"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04071 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04071">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04073"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04072 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04072">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04073"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04073 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04073">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04060"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04074 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04074">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04060"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04075 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04075">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04074"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04076 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04076">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04074"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04077 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04077">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04074"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04078 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04078">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04074"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04079 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04079">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04060"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04080 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04080">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04079"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04081 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04081">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04093"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04082 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04082">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04093"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04083 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04083">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04093"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04084 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04084">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04093"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04085 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04085">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04093"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04086 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04086">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04093"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04087 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04087">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04093"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04088 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04088">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04093"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04089 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04089">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04093"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04090 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04090">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04093"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04091 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04091">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04093"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04092 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04092">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04093"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04093 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04093">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04059"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04094 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04094">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04059"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04095 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04095">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04094"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04096 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04096">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04059"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04097 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04097">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04096"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04098 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04098">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04060"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04099 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04099">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04098"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04100 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04100">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04098"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04101 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04101">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04062"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04102 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04102">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04063"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04103 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04103">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04065"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04104 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04104">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04065"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04105 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04105">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04066"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04106 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04106">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04066"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04107 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04107">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04066"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04108 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04108">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04066"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04109 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04109">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04066"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04110 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04110">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04067"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04111 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04111">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04067"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04112 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04112">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04067"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04113 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04113">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04068"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04114 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04114">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04080"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04115 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04115">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04080"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04116 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04116">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04060"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04117 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04117">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04116"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04118 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04118">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04059"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04119 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04119">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04118"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04120 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04120">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04118"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04121 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04121">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04067"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04122 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04122">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04067"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04123 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04123">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04068"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04124 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04124">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04068"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04125 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04125">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04061"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04126 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04126">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04061"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04127 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04127">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04062"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04128 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04128">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04062"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04129 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04129">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04063"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04130 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04130">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04063"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04131 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04131">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04063"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04132 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04132">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04064"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04133 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04133">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04064"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04134 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04134">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04064"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04135 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04135">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04064"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04136 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04136">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04065"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04137 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04137">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04066"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04138 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04138">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04060"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04139 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04139">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04138"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04140 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04140">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04138"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04141 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04141">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04138"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04142 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04142">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04138"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04143 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04143">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04139"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04144 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04144">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04140"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04145 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04145">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04079"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04146 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04146">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04088"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04147 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04147">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04088"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04148 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04148">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04060"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04149 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04149">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04148"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04150 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04150">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04148"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04151 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04151">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04017"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_04152 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_04152">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_04040"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_05000 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_05000">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_05001 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_05001">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_05000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_05002 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_05002">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_05000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_06000 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_06000">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_07000 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_07000">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_07001 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_07001">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_07000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_07002 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_07002">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_07001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_07003 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_07003">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_07001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_07004 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_07004">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_07001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_07005 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_07005">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_07000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_08000 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_08000">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_08001 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_08001">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_08000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_08002 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_08002">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_08001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_08003 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_08003">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_08001"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_09000 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_09000">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_09001 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_09001">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_09000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_09002 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_09002">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_09000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_09003 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_09003">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_09000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_09004 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_09004">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_09000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_11000 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_11000">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_00000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_11001 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_11001">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_11000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_11002 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_11002">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_11000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_11003 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_11003">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_11000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_11004 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_11004">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_11000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_11005 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_11005">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_11000"/>
+    </Class>
+    
+
+
+    <!-- http://purl.jp/bio/10/mpo#MPO_11006 -->
+
+
+    <Class rdf:about="http://purl.jp/bio/10/mpo#MPO_11006">
+        <rdfs:subClassOf rdf:resource="http://purl.jp/bio/10/mpo#MPO_11000"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000318 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/SIO_000318"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000319 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/SIO_000319"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000438 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/SIO_000438"/>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/propSpaceHeight.owl#Depth -->
+
+
+    <Class rdf:about="http://sweet.jpl.nasa.gov/2.3/propSpaceHeight.owl#Depth"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Resource -->
+
+
+    <Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000319 -->
+
+
+    <Thing rdf:about="http://semanticscience.org/resource/SIO_000319">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing -->
+
+
+    <Thing rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

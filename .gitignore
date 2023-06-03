@@ -1,4 +1,6 @@
 
+experiments/repairs/
+target/
 tmp.*
 notes-tex
 *-old.*

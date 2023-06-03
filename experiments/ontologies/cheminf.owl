@@ -1,0 +1,3365 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cheminf="http://www.semanticweb.org/ontologies/cheminf.owl#"
+     xmlns:cheminf1="http://semanticscience.org/ontology/cheminf.owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+
+    <AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/doi -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
+    
+
+
+    <!-- http://semanticscience.org/ontology/cheminf.owl#short_name -->
+
+
+    <AnnotationProperty rdf:about="http://semanticscience.org/ontology/cheminf.owl#short_name"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDefinition -->
+
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDefinition"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonym -->
+
+
+    <AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/cheminf.owl#short_name -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/ontologies/cheminf.owl#short_name"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionInfo -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002218 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002218"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi#is_enantiomer_of -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/chebi#is_enantiomer_of">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000461"/>
+        <propertyDisjointWith rdf:resource="http://semanticscience.org/resource/CHEMINF_000463"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi#is_tautomer_of -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/chebi#is_tautomer_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/chebi#is_tautomer_of"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/chebi#is_tautomer_of"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://purl.obolibrary.org/obo/chebi#is_tautomer_of"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/chebi#is_tautomer_of"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000047 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000047"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000143 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000143"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000145 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000145">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000148 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000148">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000200 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000200"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000200"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000201"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000201 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000201">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000200"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000204 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000204"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000204"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000204"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000452 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000452">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000453"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000453 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000453"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000453"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000452"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000454 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000454">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000453"/>
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000452"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000455 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000455">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000462"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000455"/>
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000455"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000455"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000455"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000456 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000456">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000491"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000457 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000457">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000479"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000458 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000458">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000457"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000494"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000459 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000459">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000489"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000460 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000460">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000479"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000495"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000461 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000461">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000462"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000461"/>
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000461"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000461"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000461"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000462 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000462"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000463 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000463">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000461"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000477 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000477">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000457"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000478 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000478">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000479 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000479"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000480 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000480">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000492"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000478"/>
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000460"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000481 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000481">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000479"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000482 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000482">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000481"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000483 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000483">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000481"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000486 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000486">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/chebi#is_tautomer_of"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000493"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000489 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000489"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000489"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000459"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000491 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000491"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000491"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000456"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000492 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000492"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000492"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000480"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000493 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000493">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/chebi#is_tautomer_of"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000493"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000486"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000494 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000494">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000479"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000494"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000458"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000495 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000495">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000479"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000495"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000460"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000497 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000497">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000462"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000498 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000498">
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000479"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000498"/>
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000498"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000498"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000498"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000499 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000499">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/chebi#is_tautomer_of"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000514"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000514 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000514">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/chebi#is_tautomer_of"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000514"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000499"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000606 -->
+
+
+    <ObjectProperty rdf:about="http://semanticscience.org/resource/CHEMINF_000606"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/is_output_of -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/is_output_of"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+        <rdfs:subPropertyOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000145"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000010 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000010"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000033"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000064 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000064"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000098 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000098"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000000 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000014 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000017 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000044 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000044"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000057 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000058 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000058">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000057"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000065 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000065"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000085 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000085"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000086 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000103 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000103">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000340"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000123 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000123">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000143"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000138 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000343"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000139 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000140 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000140"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000141 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000141"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000142 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000142">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000342"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000144 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000064"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000147 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000147">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000145"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000148"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000500"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000198 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000198"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000221 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000221">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000450"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000266 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000266"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000305 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000305"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000306 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000306">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000450"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000307 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000307"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000308 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000308">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000307"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000309 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000309"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000310 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000310"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000311 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000311"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000312 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000312"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000313 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000313">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000450"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000314 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000314">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000312"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000315 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000315"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000316 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000316">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000450"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000317 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000317">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000315"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000318 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000318"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000319 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000319">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000318"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000320 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000320">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000342"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000321 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000321">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000322 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000322"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000323 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000323">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000322"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000324 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000324"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000325 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000325"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000326 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000326"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000327 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000327">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000326"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000328 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000328">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000320"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000329 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000329">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000142"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000332 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000332">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000342"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000333 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000333">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000332"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000334 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000334"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000335 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000335"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000336 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000336"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000337 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000337"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000338 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000338"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000339 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000339"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000340 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000340">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000139"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000341"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000341 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000341">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000139"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000342 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000342">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000343"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <someValuesFrom>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000340"/>
+                            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000341"/>
+                        </unionOf>
+                    </Class>
+                </someValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000343 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000343">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000139"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000344 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000344">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000322"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000345 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000345">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000346 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000346">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000347 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000347">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000348 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000348"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000349 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000349">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000307"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000350 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000350"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000351 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000351"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000352 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000352">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000353 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000353">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000354 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000354"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000355 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000355"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000356 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000356">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000342"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000356"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000357 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000357"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000358 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000358">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000359 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000359">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000360 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000360">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000361 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000361">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000362 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000362">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000363 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000363">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000364 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000364">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000365 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000365">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000366 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000366">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000367 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000367">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000312"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000368 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000368">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000369 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000369"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000370 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000370"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000371 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000371"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000372 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000372"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000373 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000373"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000374 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000374"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000375 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000375"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000376 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000376"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000377 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000377">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000342"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000378 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000378">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000377"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000379 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000379"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000380 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000380"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000381 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000381">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000380"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000382 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000382"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000383 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000383">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000342"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000384 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000384">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000383"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000385 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000385">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000342"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000386 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000386">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000385"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000387 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000387"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000388 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000388"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000389 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000389"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000390 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000390"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000391 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000391"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000392 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000392"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000393 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000393">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000342"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000394 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000394">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000393"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000395 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000395"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000396 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000396"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000397 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000397">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000342"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000398 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000398">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000397"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000399 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000399"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000400 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000400"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000404 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000404">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000429 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000429">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000377"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000430 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000430"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000431 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000431"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000432 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000432">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000433 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000433">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000434 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000434">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000435 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000435">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000436 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000436">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000437 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000437">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000438 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000438">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000439 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000439">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000440 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000440">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000441 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000441">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000442 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000442">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000443 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000443">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000444 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000444">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000445 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000445">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000448 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000448"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000449 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000449"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000450 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000450"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000451 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000451">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000047"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000450"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000464 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000464"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000465 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000465">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000044"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000466 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000466"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000467 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000467">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000464"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000468 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000468"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000469 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000469">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000471"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000470 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000470">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000471"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000471 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000471">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000472 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000472">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000471"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000473 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000473">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000471"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000474 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000474">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000471"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000475 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000475">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000471"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000476 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000476">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000465"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000484 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000484"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000485 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000485"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000487 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000487"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000488 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000488"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000490 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000490">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/is_output_of"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000354"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000496 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000496"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000500 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000501 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000501">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000502"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000047"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000509"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000502 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000502">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000501"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000047"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000510"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000503 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000503">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000500"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000501"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000500"/>
+                    <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000501"/>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000504 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000504">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000500"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000502"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000500"/>
+                    <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000502"/>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000509 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000509">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000510 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000510">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000098"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000511 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000511">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000123"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000123"/>
+                    <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000501"/>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000512 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000512">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000123"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000123"/>
+                    <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000502"/>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000513 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000513"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000515 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000515"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000516 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000516"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000550 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000550">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000044"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000552 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000552">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000064"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000553 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000553"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000554 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000554"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000555 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000555">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000606"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000552"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000556 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000556">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000606"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000552"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000557 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000557"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000558 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000558">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000557"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000606"/>
+                <someValuesFrom rdf:resource="http://semanticscience.org/resource/CHEMINF_000552"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000559 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000559">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000557"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000560 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000560">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000557"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000561 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000561"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000562 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000562"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000563 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000563">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000464"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000564 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000564">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000464"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000565 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000565">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000464"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000566 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000566">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000464"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000570 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000570">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000464"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000571 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000571">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000464"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000572 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000572">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000464"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000573 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000573">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000464"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000800 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000800">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000342"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000801 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000801">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000800"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000802 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000802">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000312"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000803 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000803"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000804 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000804"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000805 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000805"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000806 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000806"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000807 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000807"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_000808 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_000808">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000307"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001500 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001500"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001501 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001501"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001502 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001502"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001503 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001503"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001504 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001504"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001505 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001505"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001506 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001506"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001507 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001507"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001508 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001508"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001509 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001509"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001510 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001510"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001511 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001511">
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_001510"/>
+    </Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001512 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001512"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001513 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001513"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001514 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001514"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001515 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001515"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001516 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001516"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001517 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001517"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001518 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001518"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001519 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001519"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001520 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001520"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001521 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001521"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001522 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001522"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001523 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001523"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001524 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001524"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001525 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001525"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001526 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001526"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001527 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001527"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001528 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001528"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001529 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001529"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001530 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001530"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001531 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001531"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001532 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001532"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001533 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001533"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001534 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001534"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001535 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001535"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001536 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001536"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001537 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001537"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001538 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001538"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001539 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001539"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001540 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001540"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001541 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001541"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001542 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001542"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001543 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001543"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001544 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001544"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001545 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001545"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/CHEMINF_001546 -->
+
+
+    <Class rdf:about="http://semanticscience.org/resource/CHEMINF_001546"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000047"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000143"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000148"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000200"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000455"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000456"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000457"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000458"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000459"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000460"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000461"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000462"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000463"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000478"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000480"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000489"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000491"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000497"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000498"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000499"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000514"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000606"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000064"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000123"/>
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000501"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000511"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000123"/>
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000502"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000512"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000500"/>
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000501"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000503"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000500"/>
+            <rdf:Description rdf:about="http://semanticscience.org/resource/CHEMINF_000502"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000504"/>
+    </Class>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000047"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000143"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000145"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000148"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000201"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000454"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000455"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000456"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000457"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000458"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000459"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000460"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000461"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000462"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000463"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000478"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000480"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/CHEMINF_000266"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000489"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000491"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000497"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000498"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000499"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000514"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://semanticscience.org/resource/CHEMINF_000606"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

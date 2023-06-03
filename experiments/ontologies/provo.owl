@@ -1,0 +1,1541 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionInfo -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#aq -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#aq"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#category -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#category"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#component -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#component"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#constraints -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#constraints"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#definition -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#definition"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#dm -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#dm"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#editorialNote -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#editorialNote"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#editorsDefinition -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#editorsDefinition"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#inverse -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#inverse"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#n -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#n"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#order -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#order"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedForm -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#qualifiedForm"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#sharesDefinitionWith -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#sharesDefinitionWith"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#specializationOf -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#specializationOf"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#todo -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#todo"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#unqualifiedForm -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#unqualifiedForm"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasRevisionOf -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#wasRevisionOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/prov#actedOnBehalfOf -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#actedOnBehalfOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedDelegation"/>
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#agent"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#activity -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#activity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#influencer"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#agent -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#agent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#influencer"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#alternateOf -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#alternateOf"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#atLocation -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#atLocation"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#entity -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#entity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#influencer"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#generated -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#generated">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#influenced"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://www.w3.org/ns/prov#generated"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasGeneratedBy"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#hadActivity -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#hadActivity"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#hadGeneration -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#hadGeneration"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#hadMember -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#hadMember">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#hadPlan -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#hadPlan"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#hadPrimarySource -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#hadPrimarySource">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedPrimarySource"/>
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#entity"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#hadRole -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#hadRole"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#hadUsage -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#hadUsage"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#influenced -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#influenced"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://www.w3.org/ns/prov#influenced"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#influencer -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#influencer"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#invalidated -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#invalidated">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#influenced"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://www.w3.org/ns/prov#invalidated"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInvalidatedBy"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedAssociation -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedAssociation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedAttribution -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedAttribution">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedCommunication -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedCommunication">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedDelegation -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedDelegation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedDerivation -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedDerivation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedEnd -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedEnd">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedGeneration -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedGeneration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedInfluence -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedInvalidation -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedInvalidation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedPrimarySource -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedPrimarySource">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedQuotation -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedQuotation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedRevision -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedRevision">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedStart -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedStart">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#qualifiedUsage -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#qualifiedUsage">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#specializationOf -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#specializationOf"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#used -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#used">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedUsage"/>
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#entity"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasAssociatedWith -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasAssociatedWith">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedAssociation"/>
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#agent"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasAttributedTo -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasAttributedTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedAttribution"/>
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#agent"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedDerivation"/>
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#entity"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasEndedBy -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasEndedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedEnd"/>
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#entity"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasGeneratedBy -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasGeneratedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.w3.org/ns/prov#generated"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedGeneration"/>
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#activity"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasInfluencedBy -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasInfluencedBy">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.w3.org/ns/prov#influenced"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasInformedBy -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasInformedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedCommunication"/>
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#activity"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasInvalidatedBy -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasInvalidatedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.w3.org/ns/prov#invalidated"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedInvalidation"/>
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#activity"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasQuotedFrom -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasQuotedFrom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedQuotation"/>
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#entity"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasRevisionOf -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasRevisionOf"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasStartedBy -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasStartedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#qualifiedStart"/>
+            <rdf:Description rdf:about="http://www.w3.org/ns/prov#entity"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#actedOnBehalfOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#activity"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#agent"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#alternateOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#atLocation"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Location"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#entity"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#generated"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#hadActivity"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#hadGeneration"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#hadMember"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#hadPlan"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#hadPrimarySource"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#hadRole"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Role"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#hadUsage"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Usage"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#influencer"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#invalidated"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedAssociation"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Association"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedAttribution"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedCommunication"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Communication"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedDelegation"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Delegation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedDerivation"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Derivation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedEnd"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#End"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedGeneration"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Influence"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedInvalidation"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Invalidation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedPrimarySource"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#PrimarySource"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedQuotation"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Quotation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedRevision"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Revision"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedStart"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Start"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedUsage"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Usage"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#used"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#wasAssociatedWith"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#wasAttributedTo"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#wasEndedBy"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#wasGeneratedBy"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+                <allValuesFrom>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/ns/prov#Entity"/>
+                            <Class>
+                                <unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Activity"/>
+                                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Agent"/>
+                                </unionOf>
+                            </Class>
+                        </unionOf>
+                    </Class>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#wasInformedBy"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#wasInvalidatedBy"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#wasQuotedFrom"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#wasStartedBy"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Activity -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Activity">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#ActivityInfluence -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#ActivityInfluence">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Influence"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.w3.org/ns/prov#EntityInfluence"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#hadActivity"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Agent -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Agent">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.w3.org/ns/prov#InstantaneousEvent"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#AgentInfluence -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#AgentInfluence">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Influence"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Association -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Association">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#AgentInfluence"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Attribution -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Attribution">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#AgentInfluence"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Bundle -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Bundle">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Collection -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Collection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Communication -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Communication">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#ActivityInfluence"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Delegation -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Delegation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#AgentInfluence"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Derivation -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Derivation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#EntityInfluence"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#EmptyCollection -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#EmptyCollection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Collection"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#End -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#End">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#EntityInfluence"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#InstantaneousEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Entity -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Entity">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.w3.org/ns/prov#InstantaneousEvent"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#EntityInfluence -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#EntityInfluence">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Influence"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.w3.org/ns/prov#ActivityInfluence"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Generation -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Generation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#ActivityInfluence"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#InstantaneousEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Influence -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Influence"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#InstantaneousEvent -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#InstantaneousEvent">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Invalidation -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Invalidation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#ActivityInfluence"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#InstantaneousEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Location -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Location"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Organization -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Organization">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Person -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Person">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Plan -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Plan">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#PrimarySource -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#PrimarySource">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Derivation"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Quotation -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Quotation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Derivation"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Revision -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Revision">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Derivation"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Role -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Role"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#SoftwareAgent -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#SoftwareAgent">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Start -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Start">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#EntityInfluence"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#InstantaneousEvent"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Usage -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#Usage">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#EntityInfluence"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#InstantaneousEvent"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/prov#EmptyCollection -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/ns/prov#EmptyCollection"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#actedOnBehalfOf"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#activity"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#ActivityInfluence"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#agent"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#AgentInfluence"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#alternateOf"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#atLocation"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#InstantaneousEvent"/>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/ns/prov#Entity"/>
+                            <Class>
+                                <unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Activity"/>
+                                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Agent"/>
+                                </unionOf>
+                            </Class>
+                        </unionOf>
+                    </Class>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#entity"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#EntityInfluence"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#generated"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#hadActivity"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Influence"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#hadActivity"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Start"/>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/ns/prov#End"/>
+                            <Class>
+                                <unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Delegation"/>
+                                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Derivation"/>
+                                </unionOf>
+                            </Class>
+                        </unionOf>
+                    </Class>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#hadGeneration"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Derivation"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#hadMember"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Collection"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#hadPlan"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Association"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#hadPrimarySource"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#hadRole"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Influence"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#hadRole"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Association"/>
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#InstantaneousEvent"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#hadUsage"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Derivation"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#influencer"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Influence"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#invalidated"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedAssociation"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedAttribution"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedCommunication"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedDelegation"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedDerivation"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedEnd"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedGeneration"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedInfluence"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Entity"/>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/ns/prov#Activity"/>
+                            <rdf:Description rdf:about="http://www.w3.org/ns/prov#Agent"/>
+                        </unionOf>
+                    </Class>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedInvalidation"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedPrimarySource"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedQuotation"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedRevision"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedStart"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#qualifiedUsage"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#used"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#wasAssociatedWith"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#wasAttributedTo"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#wasEndedBy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#wasGeneratedBy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/ns/prov#Entity"/>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/ns/prov#Activity"/>
+                            <rdf:Description rdf:about="http://www.w3.org/ns/prov#Agent"/>
+                        </unionOf>
+                    </Class>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#wasInformedBy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#wasInvalidatedBy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#wasQuotedFrom"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/ns/prov#wasStartedBy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

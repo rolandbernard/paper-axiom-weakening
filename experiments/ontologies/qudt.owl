@@ -1,0 +1,3547 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:qudt="http://qudt.org/schema/qudt/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vaem="http://www.linkedmodel.org/schema/vaem#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/abstract -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/rights -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/subject -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/example -->
+
+
+    <AnnotationProperty rdf:about="http://qudt.org/schema/qudt/example"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/expression -->
+
+
+    <AnnotationProperty rdf:about="http://qudt.org/schema/qudt/expression"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/isReplacedBy -->
+
+
+    <ObjectProperty rdf:about="http://purl.org/dc/terms/isReplacedBy"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/allowedUnitOfSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/allowedUnitOfSystem">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/isUnitOfSystem"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/allowedUnitOfSystem"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasAllowedUnit"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ansiSQLName -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/ansiSQLName"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/applicableCGSUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/applicableCGSUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/applicableUnit"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/applicableISOUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/applicableISOUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/applicableUnit"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/applicableImperialUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/applicableImperialUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/applicableUnit"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/applicablePhysicalConstant -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/applicablePhysicalConstant"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/applicablePlanckUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/applicablePlanckUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/applicableUnit"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/applicableSIUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/applicableSIUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/applicableUnit"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/applicableSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/applicableSystem"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/applicableUSCustomaryUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/applicableUSCustomaryUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/applicableUnit"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/applicableUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/applicableUnit"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/baseDimensionEnumeration -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/baseDimensionEnumeration"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/baseUnitOfSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/baseUnitOfSystem">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/coherentUnitOfSystem"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/baseUnitOfSystem"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasBaseUnit"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/basis -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/basis"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/belongsToSystemOfQuantities -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/belongsToSystemOfQuantities"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/bitOrder -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/bitOrder"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/bits -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/bits"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/byteOrder -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/byteOrder"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/cName -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/cName"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/cardinality -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/cardinality"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/categorizedAs -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/categorizedAs"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/coherentUnitOfSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/coherentUnitOfSystem">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/definedUnitOfSystem"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/coherentUnitOfSystem"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasCoherentUnit"/>
+    </rdf:Description>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/coherentUnitOfSystem"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasNonCoherentUnit"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/coherentUnitSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/coherentUnitSystem">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasUnitSystem"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/dataEncoding -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/dataEncoding"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/dataType -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/dataType"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/default -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/default"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/definedUnitOfSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/definedUnitOfSystem">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/isUnitOfSystem"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/definedUnitOfSystem"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasDefinedUnit"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/denominatorDimensionVector -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/denominatorDimensionVector"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/derivedCoherentUnitOfSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/derivedCoherentUnitOfSystem">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/coherentUnitOfSystem"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/derivedUnitOfSystem"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/derivedCoherentUnitOfSystem"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasDerivedCoherentUnit"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/derivedNonCoherentUnitOfSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/derivedNonCoherentUnitOfSystem">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/derivedUnitOfSystem"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/derivedNonCoherentUnitOfSystem"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasDerivedNonCoherentUnit"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/derivedQuantityKindOfSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/derivedQuantityKindOfSystem">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/isQuantityKindOf"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/derivedQuantityKindOfSystem"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/systemDerivedQuantityKind"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/derivedUnitOfSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/derivedUnitOfSystem">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/isUnitOfSystem"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/derivedUnitOfSystem"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasDerivedUnit"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/dimensionInverse -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/dimensionInverse">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/dimensionInverse"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/dimensionInverse"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/dimensionInverse"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/dimensionVectorForSI -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/dimensionVectorForSI"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/element -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/element"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/elementKind -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/elementKind"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/encoding -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/encoding"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/enumeratedValue -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/enumeratedValue"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/enumeration -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/enumeration"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/exactMatch -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/exactMatch"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/figure -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/figure"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/generalization -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/generalization"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/generalization"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/specialization"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/guidance -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/guidance"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasAllowedUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasAllowedUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasUnit"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/allowedUnitOfSystem"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasBaseQuantityKind -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasBaseQuantityKind">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/hasBaseQuantityKind"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/isBaseQuantityKindOfSystem"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasBaseUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasBaseUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasCoherentUnit"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/baseUnitOfSystem"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasCoherentUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasCoherentUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasDefinedUnit"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/coherentUnitOfSystem"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasDefinedUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasDefinedUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasUnit"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/definedUnitOfSystem"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasDenominatorPart -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasDenominatorPart"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasDerivedCoherentUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasDerivedCoherentUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasCoherentUnit"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasDerivedUnit"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/derivedCoherentUnitOfSystem"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasDerivedNonCoherentUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasDerivedNonCoherentUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasDerivedUnit"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/derivedNonCoherentUnitOfSystem"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasDerivedUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasDerivedUnit">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/derivedUnitOfSystem"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasDimension -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasDimension"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasDimensionExpression -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasDimensionExpression"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasDimensionVector -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasDimensionVector"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasNonCoherentUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasNonCoherentUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasDefinedUnit"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/coherentUnitOfSystem"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasNumeratorPart -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasNumeratorPart"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasPrefixUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasPrefixUnit">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasDefinedUnit"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasQuantity -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasQuantity"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasQuantityKind -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasQuantityKind"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/isQuantityKindOf"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasReferenceQuantityKind -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasReferenceQuantityKind"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasRule -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasRule"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasUnit"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasUnitSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasUnitSystem"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/hasVocabulary -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/hasVocabulary"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/iec61360Code -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/iec61360Code"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/isBaseQuantityKindOfSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/isBaseQuantityKindOfSystem">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/isQuantityKindOf"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/hasBaseQuantityKind"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/isDimensionInSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/isDimensionInSystem"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/isQuantityKindOf -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/isQuantityKindOf">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/isUnitOfSystem -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/isUnitOfSystem"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/length -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/length"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/numeratorDimensionVector -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/numeratorDimensionVector"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/numericValue -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/numericValue"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/omUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/omUnit"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/oracleSQLName -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/oracleSQLName"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/orderedType -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/orderedType"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/permissibleMaths -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/permissibleMaths"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/permissibleTransformation -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/permissibleTransformation"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/prefix -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/prefix"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/protocolBuffersName -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/protocolBuffersName"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/pythonName -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/pythonName"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/qkdvDenominator -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/qkdvDenominator"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/qkdvNumerator -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/qkdvNumerator"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/quantity -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/quantity"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/quantityValue -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/quantityValue"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/quantityValue"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/valueQuantity"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/rationale -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/rationale"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/rdfsDatatype -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/rdfsDatatype"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/reference -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/reference"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/referenceUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/referenceUnit"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/relevantQuantityKind -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/relevantQuantityKind"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/relevantUnit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/relevantUnit"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ruleType -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/ruleType"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/scaleType -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/scaleType"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/specialization -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/specialization">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/generalization"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/systemDefinition -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/systemDefinition">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/systemDefinition"/>
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/systemDefinition"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/systemDerivedQuantityKind -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/systemDerivedQuantityKind">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/derivedQuantityKindOfSystem"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/systemDimension -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/systemDimension"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ucumCaseInsensitiveCode -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/ucumCaseInsensitiveCode">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/ucumCode"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ucumCaseSensitiveCode -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/ucumCaseSensitiveCode">
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/ucumCode"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ucumCode -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/ucumCode"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/udunitsCode -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/udunitsCode"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/uneceCommonCode -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/uneceCommonCode"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/unit -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/unit"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://qudt.org/schema/qudt/unit"/>
+        <rdfs:subPropertyOf rdf:resource="http://qudt.org/schema/qudt/unitFor"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/unitFor -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/unitFor">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/unit"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/valueQuantity -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/valueQuantity">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://qudt.org/schema/qudt/quantityValue"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/vbName -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/vbName"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/vectorMagnitude -->
+
+
+    <ObjectProperty rdf:about="http://qudt.org/schema/qudt/vectorMagnitude"/>
+    
+
+
+    <!-- http://voag.linkedmodel.org/schema/voag#supersededBy -->
+
+
+    <ObjectProperty rdf:about="http://voag.linkedmodel.org/schema/voag#supersededBy"/>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/dtype#value -->
+
+
+    <ObjectProperty rdf:about="http://www.linkedmodel.org/schema/dtype#value"/>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/vaem#hasGraphRole -->
+
+
+    <ObjectProperty rdf:about="http://www.linkedmodel.org/schema/vaem#hasGraphRole"/>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/vaem#hasOwner -->
+
+
+    <ObjectProperty rdf:about="http://www.linkedmodel.org/schema/vaem#hasOwner"/>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/vaem#hasSteward -->
+
+
+    <ObjectProperty rdf:about="http://www.linkedmodel.org/schema/vaem#hasSteward"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#broader -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#broader"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error10 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error10"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error11 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error11"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error12 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error12"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error13 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error13"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error14 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error14"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error15 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error15"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error16 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error16"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error17 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error17"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error18 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error18"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error19 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error19"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error20 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error20"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error21 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error21"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error22 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error22"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error23 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error23"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error24 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error24"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error25 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error25"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error3 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error3"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error4 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error4"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error5 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error5"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error6 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error6"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error7 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error7"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error8 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error8"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error9 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error9"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/AbstractQuantityKind -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/AbstractQuantityKind">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#broader"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/AngleUnit -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/AngleUnit">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/DimensionlessUnit"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Aspect -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Aspect">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/AspectClass -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/AspectClass"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/BaseDimensionMagnitude -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/BaseDimensionMagnitude">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://qudt.org/schema/qudt/hasBaseQuantityKind"/>
+                        <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minCardinality>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://qudt.org/schema/qudt/hasBaseQuantityKind"/>
+                        <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasBaseQuantityKind"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/BinaryPrefix -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/BinaryPrefix">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Prefix"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/BitEncodingType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/BitEncodingType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Encoding"/>
+        <rdfs:subClassOf>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/BitEncoding"/>
+                </oneOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/BooleanEncodingType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/BooleanEncodingType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Encoding"/>
+        <rdfs:subClassOf>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/BitEncoding"/>
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/BooleanEncoding"/>
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/OctetEncoding"/>
+                </oneOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ByteEncodingType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/ByteEncodingType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Encoding"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/CardinalityType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/CardinalityType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/EnumeratedValue"/>
+        <rdfs:subClassOf>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/CT_COUNTABLY-INFINITE"/>
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/CT_FINITE"/>
+                </oneOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/CharEncodingType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/CharEncodingType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Encoding"/>
+        <rdfs:subClassOf>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/CharEncoding"/>
+                </oneOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Citation -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Citation">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error11"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Comment -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Comment">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error17"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Verifiable"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/rationale"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Concept -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Concept">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error14"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasRule"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Rule"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.org/dc/terms/isReplacedBy"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ConstantValue -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/ConstantValue">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/CountingUnit -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/CountingUnit">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/DimensionlessUnit"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/CurrencyUnit -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/CurrencyUnit">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/DimensionlessUnit"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/DataEncoding -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/DataEncoding">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Aspect"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/bitOrder"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/EndianType"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/encoding"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Encoding"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/bitOrder"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/byteOrder"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/encoding"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Datatype -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Datatype">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error3"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error4"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error5"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error6"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error7"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/basis"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Datatype"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/cardinality"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/CardinalityType"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/orderedType"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/OrderedType"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/ansiSQLName"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/cName"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/oracleSQLName"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/protocolBuffersName"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/pythonName"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/vbName"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/DateTimeStringEncodingType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/DateTimeStringEncodingType">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error13"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/StringEncodingType"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/DecimalPrefix -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/DecimalPrefix">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Prefix"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/DerivedUnit -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/DerivedUnit">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/DimensionlessUnit -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/DimensionlessUnit">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Discipline -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Discipline">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Encoding -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Encoding">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/bits"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/EndianType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/EndianType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/EnumeratedValue"/>
+        <rdfs:subClassOf>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://qudt.org/vocab/type/BigEndian"/>
+                    <rdf:Description rdf:about="http://qudt.org/vocab/type/LittleEndian"/>
+                </oneOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/EnumeratedQuantity -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/EnumeratedQuantity">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/enumeratedValue"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/EnumeratedValue"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/enumeration"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Enumeration"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/EnumeratedValue -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/EnumeratedValue">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error9"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf rdf:resource="http://www.linkedmodel.org/schema/dtype#EnumeratedValue"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Enumeration -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Enumeration">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf rdf:resource="http://www.linkedmodel.org/schema/dtype#Enumeration"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/default"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/EnumeratedValue"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/element"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/EnumeratedValue"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/element"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/default"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/EnumerationScale -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/EnumerationScale">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Scale"/>
+        <rdfs:subClassOf rdf:resource="http://www.linkedmodel.org/schema/dtype#Enumeration"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Figure -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Figure">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/FloatingPointEncodingType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/FloatingPointEncodingType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Encoding"/>
+        <rdfs:subClassOf>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/DoublePrecisionEncoding"/>
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/IEEE754_1985RealEncoding"/>
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/SinglePrecisionRealEncoding"/>
+                </oneOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/IntegerEncodingType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/IntegerEncodingType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Encoding"/>
+        <rdfs:subClassOf>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/LongUnsignedIntegerEncoding"/>
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/ShortUnsignedIntegerEncoding"/>
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/SignedIntegerEncoding"/>
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/UnsignedIntegerEncoding"/>
+                </oneOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/IntervalScale -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/IntervalScale">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Scale"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/LatexString -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/LatexString"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/LogarithmicUnit -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/LogarithmicUnit">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/DimensionlessUnit"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/MathsFunctionType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/MathsFunctionType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/NIST_SP811_Comment -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/NIST_SP811_Comment">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Comment"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/NominalScale -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/NominalScale">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Scale"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/NumericUnion -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/NumericUnion">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf rdf:resource="http://www.linkedmodel.org/schema/dtype#numericUnion"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/OrderedType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/OrderedType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/EnumeratedValue"/>
+        <rdfs:subClassOf>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/PartiallyOrdered"/>
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/TotallyOrdered"/>
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/Unordered"/>
+                </oneOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/OrdinalScale -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/OrdinalScale">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Scale"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Organization -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Organization">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/PhysicalConstant -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/PhysicalConstant">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Quantity"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/PlaneAngleUnit -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/PlaneAngleUnit">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/AngleUnit"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Prefix -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Prefix">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Verifiable"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/ucumCode"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/UCUMcs-term"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Quantifiable -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Quantifiable">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error15"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Aspect"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/dataEncoding"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/DataEncoding"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/dataType"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Datatype"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/unit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/dataEncoding"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/dataType"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasUnit"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/unit"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Quantity -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Quantity">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Quantifiable"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/quantityValue"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityKind -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/QuantityKind">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error18"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error19"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error20"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error21"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error22"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error23"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/AbstractQuantityKind"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Verifiable"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/dimensionVectorForSI"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector_SI"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/generalization"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasDimensionVector"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/isQuantityKindOf"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/SystemOfQuantityKinds"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableCGSUnit"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableISOUnit"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableImperialUnit"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableSIUnit"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableUSCustomaryUnit"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableUnit"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/dimensionVectorForSI"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/generalization"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/qkdvDenominator"/>
+                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                <onClass rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/qkdvNumerator"/>
+                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                <onClass rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityKindDimensionVector -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/QuantityKindDimensionVector">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-EMU -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-EMU">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-ESU -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-ESU">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-GAUSS -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-GAUSS">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-LH -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS-LH">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector_CGS"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityKindDimensionVector_ISO -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/QuantityKindDimensionVector_ISO">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityKindDimensionVector_Imperial -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/QuantityKindDimensionVector_Imperial">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityKindDimensionVector_SI -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/QuantityKindDimensionVector_SI">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/QuantityType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/EnumeratedValue"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.linkedmodel.org/schema/dtype#value"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/QuantityValue -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/QuantityValue">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Quantifiable"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasUnit"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/unit"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/RatioScale -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/RatioScale">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Scale"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Rule -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Rule">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error25"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Verifiable"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/ruleType"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/RuleType"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/rationale"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/RuleType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/RuleType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/EnumeratedValue"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ScalarDatatype -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/ScalarDatatype">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error24"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Datatype"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/bits"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/length"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Scale -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Scale">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/permissibleMaths"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/MathsFunctionType"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/permissibleTransformation"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/TransformType"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/scaleType"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/ScaleType"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/scaleType"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ScaleType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/ScaleType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/EnumeratedValue"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/permissibleMaths"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/MathsFunctionType"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/permissibleTransformation"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/TransformType"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/SignednessType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/SignednessType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/EnumeratedValue"/>
+        <rdfs:subClassOf>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/SIGNED"/>
+                    <rdf:Description rdf:about="http://qudt.org/schema/qudt/UNSIGNED"/>
+                </oneOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/SolidAngleUnit -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/SolidAngleUnit">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/AngleUnit"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Statement -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Statement"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/StringEncodingType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/StringEncodingType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Encoding"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/StructuredDatatype -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/StructuredDatatype">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error10"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Datatype"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Symbol -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Symbol">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/SystemOfQuantityKinds -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/SystemOfQuantityKinds">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/baseDimensionEnumeration"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Enumeration"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasUnitSystem"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/SystemOfUnits"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/baseDimensionEnumeration"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/SystemOfUnits -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/SystemOfUnits">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicablePhysicalConstant"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/PhysicalConstant"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasAllowedUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasBaseUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasCoherentUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasDefinedUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasDerivedCoherentUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasDerivedUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/TransformType -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/TransformType">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/EnumeratedValue"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/UCUMci -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/UCUMci"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/UCUMci-term -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/UCUMci-term"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/UCUMcs -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/UCUMcs"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/UCUMcs-term -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/UCUMcs-term"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Unit -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Unit">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error8"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Verifiable"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableSystem"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/SystemOfUnits"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasDimensionVector"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/qkdvDenominator"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/qkdvNumerator"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/ucumCode"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/UCUMcs"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasDimensionVector"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/qkdvDenominator"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/qkdvNumerator"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/UserQuantityKind -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/UserQuantityKind">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/AbstractQuantityKind"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+                        <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minCardinality>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+                        <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Verifiable -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/Verifiable">
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Aspect"/>
+    </Class>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/floatPercentage -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/floatPercentage"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/integerPercentage -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/integerPercentage"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/valueUnion -->
+
+
+    <Class rdf:about="http://qudt.org/schema/qudt/valueUnion"/>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/dtype#EnumeratedValue -->
+
+
+    <Class rdf:about="http://www.linkedmodel.org/schema/dtype#EnumeratedValue"/>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/dtype#Enumeration -->
+
+
+    <Class rdf:about="http://www.linkedmodel.org/schema/dtype#Enumeration"/>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/dtype#numericUnion -->
+
+
+    <Class rdf:about="http://www.linkedmodel.org/schema/dtype#numericUnion"/>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/vaem#CatalogEntry -->
+
+
+    <Class rdf:about="http://www.linkedmodel.org/schema/vaem#CatalogEntry"/>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/vaem#GraphMetaData -->
+
+
+    <Class rdf:about="http://www.linkedmodel.org/schema/vaem#GraphMetaData"/>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/vaem#Party -->
+
+
+    <Class rdf:about="http://www.linkedmodel.org/schema/vaem#Party"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML -->
+
+
+    <Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement -->
+
+
+    <Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Class -->
+
+
+    <Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Datatype -->
+
+
+    <Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Resource -->
+
+
+    <Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#anySimpleType -->
+
+
+    <Class rdf:about="http://www.w3.org/2001/XMLSchema#anySimpleType"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+
+    <Class rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+
+    <Class rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+
+    <Class rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Ontology -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#Ontology"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableCGSUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableISOUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableImperialUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicablePlanckUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableSIUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableUSCustomaryUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/applicableUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/baseDimensionEnumeration"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Enumeration"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/belongsToSystemOfQuantities"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/SystemOfQuantityKinds"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/bitOrder"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/EndianType"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/byteOrder"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/EndianType"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/coherentUnitOfSystem"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/SystemOfUnits"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/dataEncoding"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/DataEncoding"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/denominatorDimensionVector"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/derivedNonCoherentUnitOfSystem"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/SystemOfUnits"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/dimensionVectorForSI"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector_SI"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/enumeratedValue"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/EnumeratedValue"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/enumeration"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Enumeration"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/figure"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Figure"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasDimensionVector"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasQuantity"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Quantity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasQuantityKind"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/isUnitOfSystem"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/SystemOfUnits"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/numeratorDimensionVector"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/numericValue"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/NumericUnion"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/prefix"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Prefix"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/qkdvDenominator"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/qkdvNumerator"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKindDimensionVector"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/quantityValue"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityValue"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/relevantQuantityKind"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/relevantUnit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/ucumCode"/>
+                <allValuesFrom>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://qudt.org/schema/qudt/UCUMcs"/>
+                            <rdf:Description rdf:about="http://qudt.org/schema/qudt/UCUMcs-term"/>
+                        </unionOf>
+                    </Class>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/unit"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+                <allValuesFrom rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/baseDimensionEnumeration"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/coherentUnitSystem"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/dimensionInverse"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasBaseQuantityKind"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/hasUnitSystem"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://qudt.org/schema/qudt/referenceUnit"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty>
+                    <rdf:Description>
+                        <inverseOf rdf:resource="http://qudt.org/schema/qudt/dimensionInverse"/>
+                    </rdf:Description>
+                </onProperty>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Category:Units_of_angle -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Category:Units_of_angle"/>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/AngleUnit -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/AngleUnit">
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Category:Units_of_angle"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Aspect -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/Aspect">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/AspectClass"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/BigEndian -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/BigEndian">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/EndianType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/BitEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/BitEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/BitEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/BooleanEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/BooleanEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/BooleanEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/CT_COUNTABLY-INFINITE -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/CT_COUNTABLY-INFINITE">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/CardinalityType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/CT_FINITE -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/CT_FINITE">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/CardinalityType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/CT_UNCOUNTABLE -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/CT_UNCOUNTABLE">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/CardinalityType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/CharEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/CharEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/BooleanEncodingType"/>
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/CharEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/DoublePrecisionEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/DoublePrecisionEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/FloatingPointEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/EnumeratedQuantity -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/EnumeratedQuantity">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/AspectClass"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/IEEE754_1985RealEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/IEEE754_1985RealEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/FloatingPointEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ISO8601-UTCDateTime-BasicFormat -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/ISO8601-UTCDateTime-BasicFormat">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/DateTimeStringEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/LittleEndian -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/LittleEndian">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/EndianType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/LongUnsignedIntegerEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/LongUnsignedIntegerEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/IntegerEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/OctetEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/OctetEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/BooleanEncodingType"/>
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/ByteEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/PartiallyOrdered -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/PartiallyOrdered">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/OrderedType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/SIGNED -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/SIGNED">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/SignednessType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ShortSignedIntegerEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/ShortSignedIntegerEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/IntegerEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ShortUnsignedIntegerEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/ShortUnsignedIntegerEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/BooleanEncodingType"/>
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/IntegerEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/SignedIntegerEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/SignedIntegerEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/IntegerEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/SinglePrecisionRealEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/SinglePrecisionRealEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/FloatingPointEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/TotallyOrdered -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/TotallyOrdered">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/OrderedType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/UNSIGNED -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/UNSIGNED">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/SignednessType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/UTF16-StringEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/UTF16-StringEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/StringEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/UTF8-StringEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/UTF8-StringEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/StringEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Unordered -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/Unordered">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/OrderedType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/UnsignedIntegerEncoding -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/UnsignedIntegerEncoding">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/IntegerEncodingType"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Verifiable -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/Verifiable">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/AspectClass"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/Wikipedia -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/Wikipedia">
+        <rdf:type rdf:resource="http://qudt.org/schema/qudt/Organization"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/allowedUnitOfSystem -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/allowedUnitOfSystem">
+        <terms:isReplacedBy rdf:resource="http://qudt.org/schema/qudt/applicableSystem"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://qudt.org/schema/qudt/applicableSystem -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/schema/qudt/applicableSystem"/>
+    
+
+
+    <!-- http://qudt.org/vocab/type/BigEndian -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/vocab/type/BigEndian"/>
+    
+
+
+    <!-- http://qudt.org/vocab/type/LittleEndian -->
+
+
+    <NamedIndividual rdf:about="http://qudt.org/vocab/type/LittleEndian"/>
+    
+
+
+    <!-- http://voag.linkedmodel.org/schema/voag#QUDT-SchemaCatalogEntry -->
+
+
+    <NamedIndividual rdf:about="http://voag.linkedmodel.org/schema/voag#QUDT-SchemaCatalogEntry">
+        <rdf:type rdf:resource="http://www.linkedmodel.org/schema/vaem#CatalogEntry"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SCHEMA -->
+
+
+    <NamedIndividual rdf:about="http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SCHEMA">
+        <rdf:type rdf:resource="http://www.linkedmodel.org/schema/vaem#GraphMetaData"/>
+        <vaem:hasGraphRole rdf:resource="http://www.linkedmodel.org/schema/vaem#SchemaGraph"/>
+        <vaem:hasOwner rdf:resource="http://www.linkedmodel.org/schema/vaem#QUDT"/>
+        <vaem:hasSteward rdf:resource="http://www.linkedmodel.org/schema/vaem#QUDT"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/vaem#QUDT -->
+
+
+    <NamedIndividual rdf:about="http://www.linkedmodel.org/schema/vaem#QUDT">
+        <rdf:type rdf:resource="http://www.linkedmodel.org/schema/vaem#Party"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.linkedmodel.org/schema/vaem#SchemaGraph -->
+
+
+    <NamedIndividual rdf:about="http://www.linkedmodel.org/schema/vaem#SchemaGraph"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Class>
+        <oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/BitEncoding"/>
+        </oneOf>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/BitEncodingType"/>
+    </Class>
+    <Class>
+        <oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/BitEncoding"/>
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/BooleanEncoding"/>
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/OctetEncoding"/>
+        </oneOf>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/BooleanEncodingType"/>
+    </Class>
+    <Class>
+        <oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/CT_COUNTABLY-INFINITE"/>
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/CT_FINITE"/>
+        </oneOf>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/CardinalityType"/>
+    </Class>
+    <Class>
+        <oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/CharEncoding"/>
+        </oneOf>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/CharEncodingType"/>
+    </Class>
+    <Class>
+        <oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/DoublePrecisionEncoding"/>
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/IEEE754_1985RealEncoding"/>
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/SinglePrecisionRealEncoding"/>
+        </oneOf>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/FloatingPointEncodingType"/>
+    </Class>
+    <Class>
+        <oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/LongUnsignedIntegerEncoding"/>
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/ShortUnsignedIntegerEncoding"/>
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/SignedIntegerEncoding"/>
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/UnsignedIntegerEncoding"/>
+        </oneOf>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/IntegerEncodingType"/>
+    </Class>
+    <Class>
+        <oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/PartiallyOrdered"/>
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/TotallyOrdered"/>
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/Unordered"/>
+        </oneOf>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/OrderedType"/>
+    </Class>
+    <Class>
+        <oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/SIGNED"/>
+            <rdf:Description rdf:about="http://qudt.org/schema/qudt/UNSIGNED"/>
+        </oneOf>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/SignednessType"/>
+    </Class>
+    <Class>
+        <oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://qudt.org/vocab/type/BigEndian"/>
+            <rdf:Description rdf:about="http://qudt.org/vocab/type/LittleEndian"/>
+        </oneOf>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/EndianType"/>
+    </Class>
+    <Restriction>
+        <onProperty rdf:resource="http://qudt.org/schema/qudt/belongsToSystemOfQuantities"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://qudt.org/schema/qudt/guidance"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Concept"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://qudt.org/schema/qudt/isUnitOfSystem"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://qudt.org/schema/qudt/omUnit"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://qudt.org/schema/qudt/Unit"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+
