@@ -180,7 +180,7 @@ $R \circ R \sqsubseteq R$,
 $S \sqsubseteq R$, $R \circ S_1 \circ \cdots \circ S_n \sqsubseteq R$,
 $S_1 \circ \cdots \circ S_n \circ R \sqsubseteq R$, or
 $S_1 \circ \cdots \circ S_n \sqsubseteq R$,
-where $r \in N_R$ is a role name and $R$, $S$, $S_1, \cdots, S_n$ are roles such that $S \preceq R$, $S_i \preceq R$, and $R \not\preceq S_i$ for $i = 1, \dots, n$.
+where $r \in N_R$ is a role name, $n > 1$ and $R$, $S$, $S_1, \cdots, S_n$ are roles such that $S \preceq R$, $S_i \preceq R$, and $R \not\preceq S_i$ for $i = 1, \dots, n$.
 
 A \SROIQ ontology $\Omc = \Tmc \cup \Amc \cup \Rmc$ consists of a TBox $\Tmc$, an ABox $\Amc$, and a RBox $\Rmc$, where $\Rmc$ is regular.
 
@@ -382,9 +382,16 @@ Note that the proof works also for weakening axioms in an ontology $\Omc$ as lon
   For every axiom $\phi \in \Omcfull$, if $\phi' \in g_{\Omcref,\Omcfull}(\phi)$ and the role hierarchy of $\Omcfull$ is regular, then the role hierarchy of $\Omcfull \cup \{ \phi' \}$ is also regular.
 \end{lemma}
 
-\begin{proof}(\emph{Sketch})
-  \phantomsection\label{proof:regularity}
+\begin{proof}(\emph{Sketch}) \phantomsection\label{proof:regularity}
+  Let us first argue that if there exists a preorder $\preceq$ that satisfies the constraints necessary for checking regularity, then there exists on such that $S_1 \preceq S_2$, $S \preceq R$ and $R \not\preceq S$ for all simple roles $S, S_1, S_2$ and non-simple roles $R$. Firstly, $S_1 \not\preceq S_2$ and $S \not\preceq R$ can not be required, because absence of a tuple is only required for complex RIAs, where the super role must not be a predecessor of the roles on the left-hand side. Since $S_1$ and $S$ are simple, they do not appear as the super role in a complex RIA. Similarly, $R \prec S$ can not be required. Since $S$ is simple and $R$ non-simple, it can not be required directly through an axiom of the form $R \sqsubseteq S$. By induction, it can not be required through transitivity, since $R \preceq T$ and $T \preceq S$ would have to be required. If $T$ is simple, $R \preceq T$ can not be required, and if $T$ is non-simple, $T \preceq S$ can not be required.
+
+  Since $\Omcfull$ has a regular role hierarchy, there exists such a $\preceq$ for $\Omcfull$. We will show that $\preceq$ is also a witness for regularity of $\Omcfull \cup \{ \phi' \}$. All RIA in $\Omcfull$ are of one of allowed forms for $\preceq$. It is therefore sufficient to verify that $\phi'$ has one of the allowed forms.
+  If $\phi' = \phi$ or $\phi'$ is not a RIA, it does not affect the regularity.
+  Otherwise, if $\phi'$ is a simple RIA $S \sqsubseteq R$, then by definition of the weakening operator $S$ is simple in $\Omcfull$. Given that $S$ is simple, $S \preceq R$ holds for simple and non-simple $R$ by our choice of $\preceq$.
+  If $\phi'$ is a complex RIA $S_1' \circ \cdots \circ S_n' \sqsubseteq R$, then $\phi$ is also a complex RIA $S_1 \circ \cdots \circ S_n \sqsubseteq R$ and $R$ is non-simple in $\Omcfull$. If $S_i \preceq R$ and $S_i \not\preceq R$, then so will $S_i' \preceq R$ and $R \not\preceq S_i'$, either because $S_i = S_i'$ or because $S_i'$ is simple and $R$ is non-simple. Since $\Omcfull$ has a regular role hierarchy, the only case in which $R \preceq S_i$ is if $S_i = R$. In this case, $S_i' \preceq R$ and $R \not\preceq S_i'$ will still hold if $S_i \not= R$. If $S_i = R$, either $i = 0$ or $i = n$ which is allowed. The only delicate case is if $\phi = R \circ R \sqsubseteq R$, which will result in either $\phi' = S_1' \circ R \sqsubseteq R$ or $R \circ S_2' \sqsubseteq R$, both of which are valid.
 \end{proof}
+
+Like for simple roles, also regularity is maintained by repeated addition of weaker axioms. 
 
 \begin{lemma} \label{lemma:global-constraints}
 \end{lemma}
