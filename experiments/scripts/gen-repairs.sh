@@ -5,22 +5,26 @@
 REPAIRS_PER_RUN=50
 
 function repair-mcs() {
-    java -cp target/shaded-ontologyutils-0.0.1.jar -Xmx10G www.ontologyutils.apps.RepairMcs \
+    systemd-run --scope -p MemoryMax=10G --user \
+        java -cp target/shaded-ontologyutils-0.0.1.jar www.ontologyutils.apps.RepairMcs \
         --compute=sample --limit $REPAIRS_PER_RUN -o $2 $1 >$3 2>&1
 }
 
 function repair-weakening() {
-    java -cp target/shaded-ontologyutils-0.0.1.jar -Xmx10G www.ontologyutils.apps.RepairWeakening \
+    systemd-run --scope -p MemoryMax=10G --user \
+        java -cp target/shaded-ontologyutils-0.0.1.jar www.ontologyutils.apps.RepairWeakening \
         --preset=bernard2023 --limit $REPAIRS_PER_RUN -o $2 $1 >$3 2>&1
 }
 
 function make-inconsistent() {
-    java -cp target/shaded-ontologyutils-0.0.1.jar -Xmx10G www.ontologyutils.apps.MakeInconsistent \
+    systemd-run --scope -p MemoryMax=10G --user \
+        java -cp target/shaded-ontologyutils-0.0.1.jar www.ontologyutils.apps.MakeInconsistent \
         --strict-sroiq --strict-simple-roles --simple-ria-weakening -o $2 $1 >$3 2>&1
 }
 
 function classify-ontology() {
-    java -cp target/shaded-ontologyutils-0.0.1.jar www.ontologyutils.apps.ClassifyOntology \
+    systemd-run --scope -p MemoryMax=10G --user \
+        java -cp target/shaded-ontologyutils-0.0.1.jar www.ontologyutils.apps.ClassifyOntology \
         $1 >$2 2>&1
 }
 
@@ -39,6 +43,6 @@ function run-experiment() {
 
 for onto in $@
 do
-    run-experiment $onto &
+    run-experiment $onto
 done
 
