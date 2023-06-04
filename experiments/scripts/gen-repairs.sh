@@ -16,7 +16,7 @@ function repair-weakening() {
 
 function make-inconsistent() {
     java -cp target/shaded-ontologyutils-0.0.1.jar -Xmx10G www.ontologyutils.apps.MakeInconsistent \
-        --strict-sroiq -o $2 $1 >$3 2>&1
+        --strict-sroiq --strict-simple-roles --simple-ria-weakening -o $2 $1 >$3 2>&1
 }
 
 function classify-ontology() {

@@ -164,13 +164,13 @@ We now give a brief description of the DL \SROIQ; for full details see \cite{baa
   &&& \more n S.C \mid \less n S.C \mid \exists S.\self \mid \nominal i \enspace,
 \end{alignat*}
 
-where $A \in N_C$ is a concept name, $r \in N_R$ is a role name, $i \in N_I$ is an individual name and $n \in \mathbb{N}_0$ is a non-negative integer. $U$ and $E$ are respectively the universal role and empty role. $S$ is a \emph{simple role} (see below) in the RBox $\Rmc$. In the following, $\Lmc(N_C, N_R, N_I)$ and $\Lmc(N_R) = N_R \cup \{U, E\} \cup \{r^- \mid r \in N_R\}$ denote respectively the set of concepts and roles that can be built over $N_C$, $N_R$, and $N_I$ in \SROIQ.
+where $A \in N_C$ is a concept name, $r \in N_R$ is a role name, $i \in N_I$ is an individual name and $n \in \mathbb{N}_0$ is a non-negative integer. $U$ and $E$ are respectively the universal role and existential role. $S$ is a \emph{simple role} (see below) in the RBox $\Rmc$. In the following, $\Lmc(N_C, N_R, N_I)$ and $\Lmc(N_R) = N_R \cup \{U, E\} \cup \{r^- \mid r \in N_R\}$ denote respectively the set of concepts and roles that can be built over $N_C$, $N_R$, and $N_I$ in \SROIQ.
 
 % describe the TBox, ABox and RBox statements
 A \emph{TBox} $\Tmc$ is a finite set of concept inclusions (GCIs) of the form $C \sqsubseteq D$ where $C$ and $D$ are concepts. The TBox is used to stores terminological knowledge concerning the relationship between concepts. A \emph{ABox} $\Amc$ is a finite set of statements of the form $R(a)$, $\lnot R (a)$, $a = b$, and $a \not= b$ where $R$ is a role and $a$ and $b$ are individual names. The ABox expresses knowledge regarding individuals in the domain. A \emph{RBox} $\Rmc$ is a finite set of role inclusions (RIAs) of the form $R_1 \circ \cdots \circ R_n \sqsubseteq R$, and disjoint role axioms $\disjoint(S_1, S_2)$ where $R$, $R_1$, $\dots$, $R_n$, $S_1$, and $S_2$ are roles. $S_1$ and $S_2$ are simple (see next) in the RBox $\Rmc$. The special case of $n = 1$ is a simple role inclusion, while we call the cases where $n > 1$ complex role inclusions. The RBox represents knowledge about the relationship between roles.
 
 % describe simple and complex roles since it is relevant
-The set of \emph{non-simple} roles in $\Rmc$ is the smallest set such that: $U$ and $E$ are non-simple; any role $R$ that appears on the right-hand side of a complex RIA $R_1 \circ \cdots \circ R_n \sqsubseteq R$ where $n > 1$ is non-simple; any role $R$ that appears on the right-hand side of a simple RIA $S \sqsubseteq R$ where $S$ is non-simple, is also non-simple; and a role $r$ is non-simple if and only if $r^-$ is non-simple.
+The set of \emph{non-simple} roles in $\Rmc$ is the smallest set such that: $U$ and $E$ are non-simple; any role $R$ that appears as the super role of a complex RIA $R_1 \circ \cdots \circ R_n \sqsubseteq R$ where $n > 1$ is non-simple; any role $R$ that appears on the right-hand side of a simple RIA $S \sqsubseteq R$ where $S$ is non-simple, is also non-simple; and a role $r$ is non-simple if and only if $r^-$ is non-simple.
 All other roles are \emph{simple}.
 
 % describe regularity since it is relevant
@@ -204,14 +204,14 @@ The main difficulties that arise when weakening axioms in \SROIQ ontologies, and
 To prevent these kinds of issues, we restrict how concepts are refined, and RIA can be weakened. To achieve this, we must ensure that only simple roles are used when weakening disjoint role axioms or refining cardinality and self constraints. Further, it must be guaranteed that all roles that are currently used in such context remain simple when adding the weakened axioms to the ontology. Finally, the addition of a weakened axiom must maintain the regularity of the role hierarchy. We discuss now the restrictions we applied in order to satisfy these requirements.
 
 % explain how each of them can be ensured
-Firstly, the covers and refinement operators for roles operate only on roles that are simple. A similar restriction has already been applied in the refinement operator suggested in \cite{confalonieri2020towards}. Restricting the refinement to simple roles guarantees that the new axioms created by weakening will not contain non-simple roles in axioms or concepts where they are not allowed. An important detail to not here is that the roles over which the covers operate must be simple in all ontologies that the weaker axioms are used in. It is therefore not generally sufficient to use the roles that are simple in the reference ontology, since the reference ontology may not contain all RBox axioms, and therefore contain simple roles that are not simple in the full ontology. For this reason we give to the upward and downward cover as an argument not only the reference ontology $\Omcref$, but also the full ontology $\Omcfull$. Both $\Omcref$ and $\Omcfull$ share the same vocabulary $N_I$, $N_C$, and $N_R$. In the context of repairing inconsistent ontologies, $\Omcfull$ can be chosen to be the inconsistent ontology that we want to repair.
+Firstly, the covers and refinement operators for roles operate only on roles that are simple. A similar restriction has already been applied in the refinement operator suggested in \cite{confalonieri2020towards}. Restricting the refinement to simple roles guarantees that the new axioms created by weakening will not contain non-simple roles in axioms or concepts where they are not allowed. An important detail to not here is that the roles over which the covers operate must be simple in all ontologies that the weaker axioms are used in. It is therefore not generally sufficient to use the roles that are simple in the reference ontology, since the reference ontology may not contain all RBox axioms, and therefore contain simple roles that are not simple in the full ontology. For this reason we give to the upward and downward cover as an argument not only the reference ontology $\Omcref$, but also the full ontology $\Omcfull$. Both $\Omcref$ and $\Omcfull$ share the same vocabulary $N_I$, $N_C$, and $N_R$. We assume that $\Omcref \subseteq \Omcfull$. In the context of repairing inconsistent ontologies, $\Omcfull$ can be chosen to be the inconsistent ontology that we want to repair.
 
-Then, to ensure further that by adding weakened axioms we do not cause a constraint violation in existing axioms and concepts, we choose the allowed weakening for RIAs such that all roles that are simple in $\Omcfull$, are also simple after adding to it a weakening of one of its axioms. We observe that for complex RIAs $S_1 \circ \cdots \circ S_n \sqsubseteq R$ we should not refine the role $R$. Since all roles returned by our refinement operator are simple in $\Omcfull$, such a replacement would make a role with was simple in $\Omcfull$ non-simple. A similar argument can be made for refining $R$ in a simple RIA $S \sqsubseteq R$ where the role $S$ is non-simple in $\Omcfull$. So the only way to refine the right-hand side during the weakening of a RIA is when it is a simple RIA and additionally the left-hand side of the axiom is simple in $\Omcfull$.
+Then, to ensure further that by adding weakened axioms we do not cause a constraint violation in existing axioms and concepts, we choose the allowed weakening for RIAs such that all roles that are simple in $\Omcfull$, are also simple after adding to it a weakening of one of its axioms. We observe that for complex RIAs $S_1 \circ \cdots \circ S_n \sqsubseteq R$ we should not refine the role $R$. Since all roles returned by our refinement operator are simple in $\Omcfull$, such a replacement would make a role with was simple in $\Omcfull$ non-simple. A similar argument can be made for refining $R$ in a simple RIA $S \sqsubseteq R$ where the role $S$ is non-simple in $\Omcfull$. So the only way to refine the super role during the weakening of a RIA is when it is a simple RIA and additionally the sub role of the axiom is simple in $\Omcfull$.
 
 When it comes to refining the left-hand side of RIAs, we do not need any special restrictions. The main significant observation is that all roles that are returned by the refinement will be simple. This means that in a simple RIA $R \sqsubseteq S$, even if $S$ is simple, replacing $R$ with another simple role will not cause $S$ to become non-simple. For a complex RIA $S_1 \circ \cdots \circ S_n \sqsubseteq R$ on the other hand, the role $R$ must already have been non-simple in $\Omcfull$, and replacing any $S_i$ with a refinement has no effect on which roles are simple.
 
-A more interesting question is whether such a weakening may still cause a non-regular role hierarchy. The important insight is that simple roles are always allowed on the left-hand side of a RIA. While this is more directly evident in some alternative definitions of regularity (e.g., \cite{rudolph2011foundations}) it is not so apparent form the one presented in this paper. Intuitively, the constraint given above for regularity disallows dependency cycles that contain complex RIAs. Simple roles can not be part of such a cycle, since the cycle must contain at least one complex RIA to be a violation of the constraint, and all roles that depend in this sense on a complex RIA must be non-simple. A more formal justification for this fact is given in the \hyperref[proof:global-constraints]{proof} for \cref{lemma:global-constraints}.
-Since all refinements of the left-hand side of RIAs are performed using simple roles, these can not lead to a non-regular RBox. Further, refinements of the right-hand side of RIAs are only performed on simple RIAs $S \sqsubseteq R$ where $S$ is a simple role. Since $S$ is simple in this case, all refinements of $R$ are allowed, potentially also if the refinement yielded a non-simple role.
+A more interesting question is whether such a weakening may still cause a non-regular role hierarchy. The important insight is that simple roles are always allowed on the left-hand side of a RIA. While this is more directly evident in some alternative definitions of regularity (e.g., \cite{rudolph2011foundations}) it is not so apparent form the one presented in this paper. Intuitively, the constraint given above for regularity disallows dependency cycles that contain complex RIAs. Simple roles can not be part of such a cycle, since the cycle must contain at least one complex RIA to be a violation of the constraint, and all roles that depend in this sense on a complex RIA must be non-simple. A more formal justification for this fact is given in the \hyperref[proof:regularity]{proof} for \cref{lemma:regularity}.
+Since all refinements of the left-hand side of RIAs are performed using simple roles, these can not lead to a non-regular RBox. Further, refinements of the super role of RIAs are only performed on simple RIAs $S \sqsubseteq R$ where $S$ is a simple role. Since $S$ is simple in this case, all refinements of $R$ are allowed, potentially also if the refinement yielded a non-simple role.
 
 \begin{definition}
   Let $\Omc$ be a \SROIQ ontology. The set of \emph{subconcepts} of $\Omc$ is given by 
@@ -237,7 +237,7 @@ Since all refinements of the left-hand side of RIAs are performed using simple r
 We will define now the upward and downward cover sets for concepts and roles. Intuitively, for a given concept the upward cover is the set of the most specific generalizations from the set of subconcepts or roles, while the downward cover set contains the most general specializations from the same set of subconcepts and roles. We define the upward and downward cover additionally also for non-negative integers, as they will be useful in the refinement of cardinality constraints.
 
 \begin{definition}
-  Let $\Omcref$ and $\Omcfull$ be two \SROIQ ontologies that share the same vocabulary $N_C$, $N_R$, and $N_I$. The \emph{upward cover} and \emph{downward cover} for a concept $C$ are given by
+  Let $\Omcfull$ and $\Omcref \subseteq \Omcfull$ be two \SROIQ ontologies that share the same vocabulary $N_C$, $N_R$, and $N_I$. The \emph{upward cover} and \emph{downward cover} for a concept $C$ are given by
   \begin{alignat*}{2}
     \UpC_{\Omcref,\Omcfull}(C) &= \{ &&D \in \sub(\Omcfull) \mid C \sqsubseteq_\Omcref D \text{ and } \\
     &&&\nexists D' \in \sub(\Omcfull) \text{ with } C \sqsubset_\Omcref D' \sqsubset_\Omcref D \} \enspace, \\
@@ -310,7 +310,18 @@ To also capture these omissions, we define generalization and specialization ope
   \end{align*}
 \end{definition}
 
-Revisiting the case in \cref{example:up-cover} we observe that $\gamma_{\Omc,\Omc}(C \sqcup A) = \{ \top, \top \sqcup A, C \sqcup A, C \sqcup B \}$ does contain $C \sqcup B$ as a possible refinement. Similarly, $\gamma_{\Omc,\Omc}(\forall r.A) = \{ \top, \forall r.A, \forall s.A, \forall r.B \}$ contains $\forall r.B$.
+Revisiting the case in \cref{example:up-cover} we observe that $\gamma_{\Omc,\Omc}(C \sqcup A) = \{ \top, \top \sqcup A, C \sqcup A, C \sqcup B \}$ does contain $C \sqcup B$ as a possible refinement. Similarly, $\gamma_{\Omc,\Omc}(\forall r.A) = \{ \top, \forall r.A, \forall s.A, \forall r.B \}$ contains $\forall r.B$. We will show now some basic properties of $\gamma_{\Omcref,\Omcfull}$ and $\rho_{\Omcref,\Omcfull}$ that will prove useful in the remainder of this paper.
+
+\begin{lemma}\label{lemma:basic}
+  For every pair of \SROIQ ontologies $\Omcref, \Omcfull$ and every pair of concepts or roles $X, Y \in \Lmc(N_C, N_R, N_I) \cup \Lmc(N_R)$:
+  \newcommand\litem[1]{\item{\bfseries #1:\enspace }}
+  \begin{enumerate}
+    \litem{generalisation}\label{lemma:generalisation} if $X \in \gamma_{\Omcref,\Omcfull}(Y)$ then $Y \sqsubseteq_{\Omcref} X$ \\
+    \textbf{specialisation:\enspace} if $X \in \rho_{\Omcref,\Omcfull}(Y)$ then $X \sqsubseteq_{\Omcref} Y$
+    \litem{generalisation finiteness} $\gamma_{\Omcref,\Omcfull}(X)$ is finite \\
+    \textbf{specialisation finiteness:\enspace} $\rho_{\Omcref,\Omcfull}(X)$ is finite
+  \end{enumerate}
+\end{lemma}
 
 % define the weakening operator
 We define now the \emph{axiom weakening operator} using these generalization and specialization operators.
@@ -324,6 +335,9 @@ We define now the \emph{axiom weakening operator} using these generalization and
     g_{\Omcref,\Omcfull}(\lnot R(a, b)) &={} && \{ \lnot R'(a, b) \mid R' \in \rho_{\Omcref,\Omcfull}(R) \} \cup \{ \lnot R(a, b), \bot \sqsubseteq \top \} \enspace, \\
     g_{\Omcref,\Omcfull}(a = b) &={} && \{ a = b, \bot \sqsubseteq \top \} \enspace,
     \quad g_{\Omcref,\Omcfull}(a \not= b) = \{ a \not= b, \bot \sqsubseteq \top \} \enspace, \\
+    g_{\Omcref,\Omcfull}(\disjoint(R, S)) &={} &&\{ \disjoint(R', S) \mid R' \in \rho_{\Omcref,\Omcfull} (R) \} \\
+    &&& \cup \{ \disjoint(R, S') \mid S' \in \rho_{\Omcref,\Omcfull}(S) \} \\
+    &&& \cup \{ \disjoint (R, S), \bot \sqsubseteq \top \} \enspace, \\
     g_{\Omcref,\Omcfull}(S_1 \circ \cdots \circ S_n \sqsubseteq R) &={} && \{ S_1 \circ \cdots \circ S_i' \circ \cdots \circ S_n \sqsubseteq R \mid S_i' \in \rho_{\Omcref,\Omcfull}(S_i) \text{ for } i = 1, \dots, n \} \\
     &&& \cup \{ S_1 \sqsubseteq R' \mid R' \in \gamma_{\Omcref,\Omcfull} \text{ and } n = 1 \text{ and } S_1 \text{ is simple in } \Omcfull \} \\
     &&& \cup \{ S_1 \circ \cdots \circ S_n \sqsubseteq R, \bot \sqsubseteq \top \} \enspace.
@@ -334,12 +348,48 @@ We define now the \emph{axiom weakening operator} using these generalization and
 % % give an example of the weakening operator
 % \end{example}
 
+The axioms in the set $g_{\Omcref,\Omcfull}(\phi)$ are indeed weaker that $\phi$ for every axiom $\phi$, in the sense that, given the reference ontology $\Omcref$, $\phi$ entails them and the opposite in not necessarily true.
+
+\begin{lemma} \label{lemma:weaker}
+  For every \SROIQ axiom $\phi$, if $\phi' \in g_{\Omcref,\Omcfull}(\phi)$, then $\phi \models_\Omcref \phi'$
+\end{lemma}
+
+\begin{proof} We will handle each type of axiom separately.
+  \begin{itemize}
+    \item If $\phi = C \sqsubseteq D$, suppose $\phi' = C' \sqsubseteq D'$. From \cref{lemma:basic}.\ref{lemma:generalisation} we know that $C' \sqsubseteq_\Omcref C$ and $D \sqsubseteq_\Omcref D'$. By transitivity of subsumption we conclude that $C \sqsubseteq D \models_\Omcref C' \sqsubseteq D'$.
+    \item If $\phi = C(a)$, suppose $\phi' = C'(a)$. From \cref{lemma:basic}.\ref{lemma:generalisation} we know that $C \sqsubseteq_\Omcref C'$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $a^I \in C^I$. Since $C^I \subseteq C'^I$ in every model of $\Omcref$, $a^I \in C'^I$. We conclude that $C(a) \models_\Omcref C'(a)$.
+    \item If $\phi = C(R(a, b))$, suppose $\phi' = R'(a, b)$. From \cref{lemma:basic}.\ref{lemma:generalisation} we know that $R \sqsubseteq_\Omcref R'$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $\langle a^I, b^I \rangle \in R^I$. Since $R^I \subseteq R'^I$ in every model of $\Omcref$, $\langle a^I, b^I \rangle \in R'^I$. We conclude that $R(a, b) \models_\Omcref R'(a, b)$.
+    \item If $\phi = C(\lnot R(a, b))$, suppose $\phi' = R'(a, b)$. From \cref{lemma:basic}.\ref{lemma:generalisation} we know that $R' \sqsubseteq_\Omcref R$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $\langle a^I, b^I \rangle \not\in R^I$. Since $R'^I \subseteq R^I$ in every model of $\Omcref$, $\langle a^I, b^I \rangle \not\in R'^I$. We conclude that $\lnot R(a, b) \models_\Omcref \lnot R'(a, b)$.
+    \item If $\phi = \disjoint(R, S)$, suppose $\phi' = \disjoint(R', S')$. From \cref{lemma:basic}.\ref{lemma:generalisation} we know that $R' \sqsubseteq_\Omcref R$ and $S' \sqsubseteq_\Omcref S$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $R^I \cap S^I = \emptyset$. Since $R'^I \subseteq R^I$ and $S'^I \subseteq S^I$ in every model of $\Omcref$, $R'^I \cap S'^I = \emptyset$. We conclude that $\disjoint(R, S) \models_\Omcref \disjoint(R', S')$.
+    \item If $\phi = S_1 \circ \cdots \circ S_n \sqsubseteq R$, suppose $\phi' = S_1' \circ \cdots \circ S_n' \sqsubseteq R'$. From \cref{lemma:basic}.\ref{lemma:generalisation} we know that $R \sqsubseteq_\Omcref R'$ and $S_i' \sqsubseteq_\Omcref S_i$ for $i = 1, \dots, n$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $S_1^I \circ \cdots \circ S_n^I \subseteq R^I$. Since $R^I \subseteq R'^I$ and $S_i'^I \subseteq S_i^I$ for $i = 1, \dots, n$ in every model of $\Omcref$, $S_1'^I \circ \cdots \circ S_n'^I \subseteq R'^I$. We conclude that $S_1 \circ \cdots \circ S_n \sqsubseteq R \models_\Omcref S_1' \circ \cdots \circ S_n' \sqsubseteq R'$.
+  \end{itemize}
+\end{proof}
+
+Clearly, replacing an axiom in the full ontology with a weakening can not diminish the ontologies interpretations. However, for the weakening to be useful in practice, we must show additionally that by adding the weakened axioms to the ontology will not violate any of the constraints that ensure the decidability of \SROIQ. To do this, we show first that all roles that are simple in $\Omcfull$ are also simple in the ontology obtained by adding the weakening of any axiom.
+
 % proof that the constrains are retained
+\begin{lemma} \label{lemma:simple-roles}
+  For every axiom $\phi \in \Omcfull$ and role $R$, if $\phi' \in g_{\Omcref,\Omcfull}(\phi)$ and $R$ simple in $\Omcfull$, then $R$ is simple in $\Omcfull \cup \{ \phi' \}$.
+\end{lemma}
+
+\begin{proof}(\emph{Sketch})
+  Assume, by contradiction, that $R$ is a simple role in $\Omcfull$ and non-simple in $\Omcfull \cup \{ \phi' \}$. Since $R$ is simple in $\Omcfull$ it is neither the universal nor the existential role, does not appear as the super role in any complex RIA of $\Omcfull$, and neither on the right-hand side of a simple RIA in $\Omcfull$ where the sub role is non-simple. We conclude that $\phi'$ must be a RIA, that has $R$ as the super role and is either complex, or for which the sub role is non-simple. If $\phi'$ is a complex RIA then, by definition of the weakening operator, $\phi$ must be a complex RIA and $R$ must be the super role in $\phi$, making it non-simple in $\Omcfull$, which contradicts our assumption. Similarly, if $\phi'$ is a simple RIA with a non-simple role as the sub role, the sub role of $\phi$ must be equal to that of $\phi'$ because the refinement operators return only roles simple in $\Omcfull$. Further, since the super role of a RIA is only refined if the sub role is simple, $\phi' = \phi$, which means that $R$ is non-simple in $\Omcfull$, which contradicts the assumptions. It follows that such a role $R$ does not exist.
+\end{proof}
+
+Note that the proof works also for weakening axioms in an ontology $\Omc$ as long as all non-simple roles in $\Omc$ are also non-simple in $\Omcfull$ (or equivalently, that all simple roles in $\Omcfull$ are also simple in $\Omc$). This is an important observation since it means that repeatedly adding weakened axioms is possible.
+
+\begin{lemma} \label{lemma:regularity}
+  For every axiom $\phi \in \Omcfull$, if $\phi' \in g_{\Omcref,\Omcfull}(\phi)$ and the role hierarchy of $\Omcfull$ is regular, then the role hierarchy of $\Omcfull \cup \{ \phi' \}$ is also regular.
+\end{lemma}
+
+\begin{proof}(\emph{Sketch})
+  \phantomsection\label{proof:regularity}
+\end{proof}
+
 \begin{lemma} \label{lemma:global-constraints}
 \end{lemma}
 
 \begin{proof}(\emph{Sketch})
-  \phantomsection\label{proof:global-constraints}
 \end{proof}
 
 \section{Implementing Axiom Weakening for \SROIQ}
