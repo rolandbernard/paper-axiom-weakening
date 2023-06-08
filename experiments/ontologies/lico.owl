@@ -1,0 +1,2835 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasBloodVesselName -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasBloodVesselName"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasFinalDiagnosis -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasFinalDiagnosis"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasGeneticDisease -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasGeneticDisease"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasImage -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasImage"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasLaboratoryResults -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasLaboratoryResults"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasLiver -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasLiver"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasLiverPrediagnosis -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasLiverPrediagnosis"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasNonLiverDisease -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasNonLiverDisease"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasNonRegularDrugs -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasNonRegularDrugs"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasPhysicalExamination -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasPhysicalExamination"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasRegularDrug -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasRegularDrug"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasSerie -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasSerie"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasStudy -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasStudy"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasSurgery -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasSurgery"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasAnteriorBranchOfRightPortalVein -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasAnteriorBranchOfRightPortalVein"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasArea -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasArea"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasHepaticArtery -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasHepaticArtery"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasHepaticPortalVein -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasHepaticPortalVein"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasHepaticVein -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasHepaticVein"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLeftHepaticVein -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLeftHepaticVein"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLeftPortalVein -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLeftPortalVein"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLesionComponent -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLesionComponent"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLesionComposition -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLesionComposition"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLobe -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLobe"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasMiddleHepaticVein -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasMiddleHepaticVein"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasParenchyma -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasParenchyma"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasPosteriorBranchOfRightPortalVein -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasPosteriorBranchOfRightPortalVein"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasRightHepaticVein -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasRightHepaticVein"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasRightPortalVein -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasRightPortalVein"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasVenacavaInferior -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasVenacavaInferior"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isCloseToBloodVessel -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isCloseToBloodVessel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInLobe -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInLobe"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInSegment -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInSegment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy -->
+
+
+    <ObjectProperty rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#BloodVessel -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#BloodVessel"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Disease -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Disease"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Drug -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Drug"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Image -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Image"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#LaboratoryResults -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#LaboratoryResults"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Patient -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Patient"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#PhysicalExamination -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#PhysicalExamination"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Serie -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Serie"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Study -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Study"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Surgery -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Surgery"/>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Abcess -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Abcess">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Cystic"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#AnteriorBranchOfRightPortalVein -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#AnteriorBranchOfRightPortalVein">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightPortalVein"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID38262"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PosteriorBranchOfRightPortalVein"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#AnteriorRegion -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#AnteriorRegion">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LateralRegion"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MedialRegion"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PosteriorRegion"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Parenchyma"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CalcifiableComponent -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CalcifiableComponent">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MultilocularCystic"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Capsule -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Capsule">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CalcifiableComponent"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Pseudocapsule"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CaudateLobe -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CaudateLobe">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID77"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftLobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightLobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentI"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Cystic -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Cystic">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Solid"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SolidCycsticMix"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CysticWithDebris -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CysticWithDebris">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Cystic"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CysticWithSolidComponent -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CysticWithSolidComponent">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Cystic"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticArtery -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticArtery">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID38078"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticPortalVein"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVein"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticPortalVein -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticPortalVein">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID34467"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticArtery"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVein"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID29520"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Parenchyma"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVein -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVein">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID1179"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticArtery"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticPortalVein"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LateralRegion -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LateralRegion">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#AnteriorRegion"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MedialRegion"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PosteriorRegion"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftHepaticVein -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftHepaticVein">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVein"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID1180"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftLobe -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftLobe">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID69"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</minQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CaudateLobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightLobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+                <allValuesFrom>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIV"/>
+                            <Class>
+                                <unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentII"/>
+                                    <rdf:Description rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIII"/>
+                                </unionOf>
+                            </Class>
+                        </unionOf>
+                    </Class>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftPortalVein -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftPortalVein">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticPortalVein"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID34470"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lesion -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lesion">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID38780"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Parenchyma"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Parenchyma"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owll#RID58"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Parenchyma"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLobe"/>
+                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CaudateLobe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLobe"/>
+                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftLobe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLobe"/>
+                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightLobe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID29234"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Parenchyma"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MedialRegion -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MedialRegion">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#AnteriorRegion"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LateralRegion"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PosteriorRegion"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MiddleHepaticVein -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MiddleHepaticVein">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVein"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID1181"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MultilocularCystic -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MultilocularCystic">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CalcifiableComponent"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Parenchyma -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Parenchyma">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID49459"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Polyp -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Polyp">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CalcifiableComponent"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PosteriorBranchOfRightPortalVein -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PosteriorBranchOfRightPortalVein">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightPortalVein"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID38265"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#AnteriorBranchOfRightPortalVein"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PosteriorRegion -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PosteriorRegion">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#AnteriorRegion"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LateralRegion"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MedialRegion"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PredominantCystic -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PredominantCystic">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Cystic"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PredominantSolid -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PredominantSolid">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Solid"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Pseudocapsule -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Pseudocapsule">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CalcifiableComponent"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Capsule"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PureCystic -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PureCystic">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Cystic"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PureSolid -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PureSolid">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Solid"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Parenchyma"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightHepaticVein -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightHepaticVein">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVein"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID1182"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightLobe -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightLobe">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID74"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</minQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CaudateLobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftLobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+                <allValuesFrom>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVIII"/>
+                            <Class>
+                                <unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVII"/>
+                                    <Class>
+                                        <unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentV"/>
+                                            <rdf:Description rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVI"/>
+                                        </unionOf>
+                                    </Class>
+                                </unionOf>
+                            </Class>
+                        </unionOf>
+                    </Class>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightPortalVein -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightPortalVein">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticPortalVein"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID34469"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID29237"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Parenchyma"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentI -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentI">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MedialRegion"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentII -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentII">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID62"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LateralRegion"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIII -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIII">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID63"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LateralRegion"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIV -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIV">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID64"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MedialRegion"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentV -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentV">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID65"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#AnteriorRegion"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVI -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVI">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID66"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PosteriorRegion"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVII -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVII">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID67"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PosteriorRegion"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVIII -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVIII">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID68"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentV"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVI"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVII"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#AnteriorRegion"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Septa -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Septa">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CalcifiableComponent"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Solid -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Solid">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Cystic"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SolidCycsticMix"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SolidComponent -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SolidComponent">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CalcifiableComponent"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SolidCycsticMix -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SolidCycsticMix">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Cystic"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Solid"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SolidWithCystic -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SolidWithCystic">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Solid"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#VenacavaInferior -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#VenacavaInferior">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/Ontology1415135201.owl#RID1178"/>
+    </Class>
+    
+
+
+    <!-- http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Wall -->
+
+
+    <Class rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Wall">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CalcifiableComponent"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID1178 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID1178">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#VenacavaInferior"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID1179 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID1179">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVein"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID1180 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID1180">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftHepaticVein"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID1181 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID1181">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MiddleHepaticVein"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID1182 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID1182">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightHepaticVein"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID29234 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID29234">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID29237 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID29237">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID29520 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID29520">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID34467 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID34467">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticPortalVein"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID34469 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID34469">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightPortalVein"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID34470 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID34470">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftPortalVein"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID38078 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID38078">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticArtery"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID38262 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID38262">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#AnteriorBranchOfRightPortalVein"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID38265 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID38265">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PosteriorBranchOfRightPortalVein"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID38780 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID38780">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lesion"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID49459 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID49459">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Parenchyma"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID62 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID62">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentII"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID63 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID63">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIII"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID64 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID64">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentIV"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID65 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID65">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentV"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID66 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID66">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVI"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID67 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID67">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVII"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID68 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID68">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#SegmentVIII"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID69 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID69">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftLobe"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID74 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID74">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightLobe"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owl#RID77 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owl#RID77">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#CaudateLobe"/>
+    </Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/Ontology1415135201.owll#RID58 -->
+
+
+    <Class rdf:about="http://www.owl-ontologies.com/Ontology1415135201.owll#RID58">
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasBloodVesselName"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVascularity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasFinalDiagnosis"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Disease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasGeneticDisease"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Disease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasImage"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Image"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasLaboratoryResults"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#LaboratoryResults"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasLiver"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasLiverPrediagnosis"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Disease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasNonLiverDisease"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Disease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasNonRegularDrugs"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Drug"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasPhysicalExamination"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#PhysicalExamination"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasRegularDrug"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Drug"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasSerie"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Serie"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasStudy"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Study"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasSurgery"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Surgery"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasAnteriorBranchOfRightPortalVein"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#AnteriorBranchOfRightPortalVein"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasArea"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasHepaticArtery"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticArtery"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasHepaticPortalVein"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticPortalVein"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasHepaticVein"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#HepaticVein"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLeftHepaticVein"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftHepaticVein"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLeftPortalVein"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LeftPortalVein"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLesionComponent"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComponent"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLesionComposition"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#LesionComposition"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLobe"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasMiddleHepaticVein"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#MiddleHepaticVein"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasParenchyma"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Parenchyma"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasPosteriorBranchOfRightPortalVein"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#PosteriorBranchOfRightPortalVein"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasRightHepaticVein"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightHepaticVein"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasRightPortalVein"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#RightPortalVein"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasVenacavaInferior"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#VenacavaInferior"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isCloseToBloodVessel"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#BloodVessel"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInLobe"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInSegment"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+                <allValuesFrom rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasParenchyma"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasBloodVesselName"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#BloodVessel"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasFinalDiagnosis"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Study"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasGeneticDisease"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Patient"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasImage"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Serie"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasLaboratoryResults"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Study"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasLiver"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Image"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasLiverPrediagnosis"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Study"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasNonLiverDisease"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Patient"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasNonRegularDrugs"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Study"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasPhysicalExamination"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Study"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasRegularDrug"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Patient"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasSerie"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Study"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasStudy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Patient"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#hasSurgery"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/khaos/lico.owl#Patient"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasAnteriorBranchOfRightPortalVein"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasArea"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasHepaticArtery"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasHepaticPortalVein"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasHepaticVein"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLeftHepaticVein"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLeftPortalVein"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLesionComponent"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lesion"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLesionComposition"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lesion"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasLobe"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasMiddleHepaticVein"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasParenchyma"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasPosteriorBranchOfRightPortalVein"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasRightHepaticVein"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasRightPortalVein"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#hasVenacavaInferior"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isCloseToBloodVessel"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lesion"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInLobe"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+                    <rdf:Description rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInSegment"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Liver"/>
+                    <rdf:Description rdf:about="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="urn:swrl#area">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#lobe">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#seg">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl#reg">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#area"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Lobe"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#lobe"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInSegment"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#area"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl#seg"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isSegmentedBy"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#lobe"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#seg"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInLobe"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#area"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#lobe"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Area"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#area"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Region"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#reg"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#Segment"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl#seg"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl#seg"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl#reg"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInSegment"/>
+                                                        <swrl:argument1 rdf:resource="urn:swrl#area"/>
+                                                        <swrl:argument2 rdf:resource="urn:swrl#seg"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://vavlab.ee.boun.edu.tr/carera/onlira.owl#isLocatedInRegion"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#area"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#reg"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,2859 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasAssembly -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasAssembly"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasAtom -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasAtom"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasCatalyticActivity -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasCatalyticActivity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasChemicalTransformation -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasChemicalTransformation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasComponent -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasComponent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasFunctionalLocation -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasFunctionalLocation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasInteraction -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasInteraction">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasInteractionTarget -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasInteractionTarget">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasInteractionType -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasInteractionType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasMechanism -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasMechanism">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasPolymer -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasPolymer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasPosition -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasPosition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReaction -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReaction">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionLevel -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionLevel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionScheme -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionScheme">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionType -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasRole -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasRole">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#isActiveInCellularComponent -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#isActiveInCellularComponent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#isPartOfBiologicalProcess -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#isPartOfBiologicalProcess"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasBond -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasBond"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasDirection -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasDirection"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasMechanismClass -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasMechanismClass"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasMechanismType -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasMechanismType"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24433 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24433">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00088"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasAtom"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33250 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33250">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00088"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24433"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33712 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24433"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33713 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33713">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24433"/>
+    </Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/GO#GO:0005575 -->
+
+
+    <Class rdf:about="http://purl.org/obo/owl/GO#GO:0005575"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00001 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00001">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#isActiveInCellularComponent"/>
+                <someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO:0005575"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#isPartOfBiologicalProcess"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00124"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasAssembly"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00126"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasCatalyticActivity"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00002"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00002 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00002">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionScheme"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00128"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00003 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00003">
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionLevel"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00154"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionLevel"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00154"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionType"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00004"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionType"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00004"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasDirection"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00149"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasDirection"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00149"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasChemicalTransformation"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00093"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasMechanism"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00016"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00004 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00004"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00005 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00005">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00004"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00006 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00006">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00004"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00009 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00009">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00129"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00010 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00010">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00094"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00129"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasPosition"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00148"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00011 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00011">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00019"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00028"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00012 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00012">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00019"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00013"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00021"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00026"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00027"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00028"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00138"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00139"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00013 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00013">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00019"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00012"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00021"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00026"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00027"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00028"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00138"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00139"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00014 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00014">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00009"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00015"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00015 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00015">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00009"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00014"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00016 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00016">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasMechanismClass"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00101"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasMechanismType"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00100"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00017 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00017">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00053"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00018 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00018">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00032"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00019 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00019"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00020 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00020">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00022"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00021 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00021">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00019"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00012"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00013"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00026"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00027"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00028"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00139"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00022 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00022"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00023 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00023">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00132"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00133"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00024 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00024">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00022"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00025 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00025">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00053"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00026 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00026">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00019"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00012"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00013"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00021"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00027"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00028"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00139"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00027 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00027">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00019"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00012"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00013"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00021"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00026"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00028"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00138"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00139"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00028 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00028">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00019"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00011"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00012"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00013"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00021"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00026"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00027"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00138"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00139"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00029 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00029">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00024"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00030 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00030">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00029"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00031 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00031">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00029"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00032 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00032">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00024"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00033 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00033">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00032"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00034 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00034">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00032"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00035 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00035">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00032"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00036 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00036">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00032"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00037 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00037">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00032"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00038 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00038">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00024"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00039 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00039">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00159"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00040 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00040">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00159"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00041 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00041">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00158"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00042 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00042">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00158"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00043 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00043">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00159"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00044 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00044">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00159"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00045 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00045">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00157"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00046 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00046">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00157"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00047 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00047">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00053"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00048 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00048">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00129"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00049 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00049">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00022"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00050 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00050">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00020"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00051 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00051">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00020"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00052 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00052">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00020"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00053 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00053">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00020"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00054 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00054">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00050"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00055 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00055">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00050"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00058 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00058">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00050"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00059 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00059">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00050"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00060 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00060">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00050"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00061 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00061">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00050"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00062 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00062">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00052"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00063 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00063">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00052"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00064 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00064">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00052"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00065 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00065">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00052"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00066 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00066">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00062"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00068 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00068">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00062"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00070 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00070">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00062"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00071 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00071">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00063"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00072 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00072">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00063"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00073 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00073">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00063"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00074 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00074">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00064"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00075 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00075">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00064"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00076 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00076">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00064"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00077 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00077">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00065"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00078 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00078">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00065"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00079 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00079">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00065"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00080 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00080">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00051"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00081 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00081">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00051"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00082 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00082">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00025"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00083 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00083">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00025"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00084 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00084">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00025"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00085 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00085">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00047"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00086 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00086">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00047"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00087 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00087">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00047"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00088 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00088"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00089 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24433"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00090 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24433"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00091 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00092 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24433"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00093 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00093">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/hasBond"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00132"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00094 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00094"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00095 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00096"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00096 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00095"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00097 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00097"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00098 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00098">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00097"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00099"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00099 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00099">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00097"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00098"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00100 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00100"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00101 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00101"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00102 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00102">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00100"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00103"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00103 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00103">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00100"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00102"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00104 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00104">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00102"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00105"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00105 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00105">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00102"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00104"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00106 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00106">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00101"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00107"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00108"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00109"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00107 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00107">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00101"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00106"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00108"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00109"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00108 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00108">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00101"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00106"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00107"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00109"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00109 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00109">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00101"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00106"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00107"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00108"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00110 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00110">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00103"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00111"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00111 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00111">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00103"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00110"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00113 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00113">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00114"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00115"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00116"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00117"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00118"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00119"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00120"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00121"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00122"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00114 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00114">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00113"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00115"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00116"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00117"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00118"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00119"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00120"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00121"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00122"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00115 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00115">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00113"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00114"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00116"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00117"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00118"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00119"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00120"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00121"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00122"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00116 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00116">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00113"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00114"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00115"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00117"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00118"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00119"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00120"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00121"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00122"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00117 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00117">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00113"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00114"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00115"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00116"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00118"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00119"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00120"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00121"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00122"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00118 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00118">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00113"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00114"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00115"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00116"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00117"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00119"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00120"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00121"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00122"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00119 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00119">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00113"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00114"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00115"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00116"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00117"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00118"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00120"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00121"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00122"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00120 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00120">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00113"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00114"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00115"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00116"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00117"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00118"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00119"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00121"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00122"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00121 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00121">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00113"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00114"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00115"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00116"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00117"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00118"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00119"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00120"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00122"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00122 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00122">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00113"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00114"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00115"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00116"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00117"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00118"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00119"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00120"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00121"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00123 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00123">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00124 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00124"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00125 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00125">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00062"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00126 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00126">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasPolymer"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00127"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00127 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00127"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00128 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00128">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReaction"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass>
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00003"/>
+                            <Class>
+                                <intersectionOf rdf:parseType="Collection">
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionLevel"/>
+                                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00155"/>
+                                    </Restriction>
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionLevel"/>
+                                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00155"/>
+                                    </Restriction>
+                                </intersectionOf>
+                            </Class>
+                        </intersectionOf>
+                    </Class>
+                </onClass>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00129 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00129">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00094"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00010"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasPosition"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00097"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00130 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00130">
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasInteractionTarget"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00131"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasInteractionTarget"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00131"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasInteractionType"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasInteractionType"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasRole"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00022"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasRole"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00022"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00131 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00131"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00132 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00132"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00133 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00133">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00132"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00023"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00134 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00134">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00132"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00135 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00135">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00132"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00137 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00137">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00101"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00138 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00138">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00019"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00012"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00013"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00027"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00028"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00139 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00139">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00019"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00012"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00013"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00021"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00026"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00027"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00028"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00140 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24433"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00141 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00141">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00100"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00142 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00142">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00101"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00143 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00143">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00142"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00144 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00144">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00142"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00146 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00146">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00112"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00147 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00147">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasCatalyticActivity"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</minQualifiedCardinality>
+                <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00002"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00148 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00148"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00149 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00149"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00150 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00150">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00149"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00151"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00152"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00153"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00151 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00151">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00149"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00150"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00152"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00153"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00152 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00152">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00149"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00150"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00151"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00153"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00153 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00153">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00149"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00150"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00151"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00152"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00154 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00154"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00155 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00155">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00154"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00156"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00156 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00156">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00154"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00155"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00157 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00157">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00038"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00158 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00158">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00038"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00159 -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00159">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00038"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasAssembly"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00126"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasCatalyticActivity"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00002"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasChemicalTransformation"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00093"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasFunctionalLocation"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00088"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasMechanism"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00016"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReaction"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00003"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasReactionType"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00004"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#isActiveInCellularComponent"/>
+                <allValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO:0005575"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#isPartOfBiologicalProcess"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00124"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#isPartOfBiologicalProcess"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasAssembly"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasCatalyticActivity"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#isActiveInCellularComponent"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#isPartOfBiologicalProcess"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasAssembly"/>
+        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00126"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasCatalyticActivity"/>
+        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00002"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasPosition"/>
+        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00097"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00129"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl#hasPosition"/>
+        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+        <onClass rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00148"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2011/1/14/EMO.owl/EMO_00010"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

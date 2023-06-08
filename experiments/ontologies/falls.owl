@@ -1,0 +1,695 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:fall="http://www.semanticweb.org/fall#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDarteTimeFionaNolan -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDarteTimeFionaNolan">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTime -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#InterveningBy"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimeAnneJones -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimeAnneJones">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimeAnneLewis -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimeAnneLewis">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimeDianeBrown -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimeDianeBrown">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimeJennyByrne -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimeJennyByrne">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimeJoanDoyle -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimeJoanDoyle">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimeJohnDunne -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimeJohnDunne">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimeMaryBlack -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimeMaryBlack">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimeMauraSmyth -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimeMauraSmyth">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimeMollyJones -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimeMollyJones">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimePaulaLynch -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimePaulaLynch">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimeRuthONeill -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimeRuthONeill">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimeSheilaWhite -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimeSheilaWhite">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IntervenedByDateTimeSimonAdams -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#IntervenedByDateTimeSimonAdams">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fall#IntervenedByDateTime"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#livesin -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#livesin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#locatedIn -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fall#locatedIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#CarriesOut -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#CarriesOut"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#GivingCare -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#GivingCare"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#InterveningBy -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#InterveningBy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/fall#AlliedHealthcareProfessional -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#AlliedHealthcareProfessional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Ancillarystaff -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#Ancillarystaff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Client -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#Client">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#DecreaseRisk -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#DecreaseRisk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#event"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Doctor -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#Doctor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Employee -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#Employee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Fallsriskassessment -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#Fallsriskassessment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#event"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Foreverautumnprogramme -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#Foreverautumnprogramme">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#abstract_entity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#HealthCareAssistant -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#HealthCareAssistant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#role"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#GivingCare"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/fall#Client"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#HighRiskClient -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#HighRiskClient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#Client"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Highincreasedrisk -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#Highincreasedrisk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#event"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Highrisksymbol -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#Highrisksymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#abstract_entity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#HistoryofFalls -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#HistoryofFalls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#abstract_entity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Householdstaff -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#Householdstaff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#IncreasesRiskClient -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#IncreasesRiskClient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#Client"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#InterventionActionType -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#InterventionActionType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#event"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Nurse -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#Nurse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#role"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#CarriesOut"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/fall#InterventionActionType"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#GivingCare"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/fall#Client"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#NurseSensitiveDiagnosis -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#NurseSensitiveDiagnosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#event"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#NurseSensitiveOutcome -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#NurseSensitiveOutcome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#DecreaseRisk"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#NurseSensitive_OrganisationalLevel_Outcome -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#NurseSensitive_OrganisationalLevel_Outcome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#event"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#NursingHome -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#NursingHome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#organisation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Observationofrisk -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#Observationofrisk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#event"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#StandardRiskClient -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#StandardRiskClient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#Client"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#abstract_entity -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#abstract_entity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#event -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#increaserisksymbol -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#increaserisksymbol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#abstract_entity"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#location -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#organisation -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#organisation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#role -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/fall#role"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#GivingCare"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/fall#Client"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/fall#AnnaLewis -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#AnnaLewis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#Householdstaff"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#AnneJones -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#AnneJones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#HealthCareAssistant"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#DianeBrown -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#DianeBrown">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#Nurse"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Dublin -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#Dublin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#location"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#FionaNolan -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#FionaNolan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#HealthCareAssistant"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#JennyByrne -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#JennyByrne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#Ancillarystaff"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#JoanDoyle -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#JoanDoyle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#AlliedHealthcareProfessional"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#JohnDunne -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#JohnDunne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#HealthCareAssistant"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#MaryBlack -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#MaryBlack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#AlliedHealthcareProfessional"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#SimonAdams"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#MauraSmyth -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#MauraSmyth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#HealthCareAssistant"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#Michael_O_Brien -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#Michael_O_Brien">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#Client"/>
+        <fall:livesin rdf:resource="http://www.semanticweb.org/fall#St._Francis_Residential_Home"/>
+        <fall:locatedIn rdf:resource="http://www.semanticweb.org/fall#Dublin"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#AnnaLewis"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#AnneJones"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#DianeBrown"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#FionaNolan"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#JennyByrne"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#JoanDoyle"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#JohnDunne"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#MaryBlack"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#MauraSmyth"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#MollyJones"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#PaulaLynch"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#RuthONeill"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#SheilaWhite"/>
+        <untitled-ontology-2:InterveningBy rdf:resource="http://www.semanticweb.org/fall#SimonAdams"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#MollyJones -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#MollyJones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#Nurse"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#PaulaLynch -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#PaulaLynch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#Nurse"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#RuthONeill -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#RuthONeill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#Doctor"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#SheilaWhite -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#SheilaWhite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#Nurse"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#SimonAdams -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#SimonAdams">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#Doctor"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/fall#St._Francis_Residential_Home -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/fall#St._Francis_Residential_Home">
+        <rdf:type rdf:resource="http://www.semanticweb.org/fall#NursingHome"/>
+        <fall:locatedIn rdf:resource="http://www.semanticweb.org/fall#Dublin"/>
+    </NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/fallgh/ontologies/2022/0/untitled-ontology-2#GivingCare"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/fall#Nurse"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

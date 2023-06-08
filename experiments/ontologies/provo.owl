@@ -5,175 +5,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <Ontology/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#versionInfo -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#aq -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#aq"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#category -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#category"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#component -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#component"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#constraints -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#constraints"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#definition -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#definition"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#dm -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#dm"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#editorialNote -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#editorialNote"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#editorsDefinition -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#editorsDefinition"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#inverse -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#inverse"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#n -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#n"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#order -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#order"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#qualifiedForm -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#qualifiedForm"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#sharesDefinitionWith -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#sharesDefinitionWith"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#specializationOf -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#specializationOf"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#todo -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#todo"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#unqualifiedForm -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#unqualifiedForm"/>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#wasRevisionOf -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/ns/prov#wasRevisionOf"/>
     
 
 
@@ -468,13 +301,6 @@
     
 
 
-    <!-- http://www.w3.org/ns/prov#specializationOf -->
-
-
-    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#specializationOf"/>
-    
-
-
     <!-- http://www.w3.org/ns/prov#used -->
 
 
@@ -612,13 +438,6 @@
             <rdf:Description rdf:about="http://www.w3.org/ns/prov#entity"/>
         </propertyChainAxiom>
     </ObjectProperty>
-    
-
-
-    <!-- http://www.w3.org/ns/prov#wasRevisionOf -->
-
-
-    <ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasRevisionOf"/>
     
 
 
@@ -1221,25 +1040,6 @@
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#EntityInfluence"/>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#InstantaneousEvent"/>
     </Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    
-
-
-    <!-- http://www.w3.org/ns/prov#EmptyCollection -->
-
-
-    <NamedIndividual rdf:about="http://www.w3.org/ns/prov#EmptyCollection"/>
     
 
 

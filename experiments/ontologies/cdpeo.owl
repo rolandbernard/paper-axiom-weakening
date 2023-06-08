@@ -1,0 +1,2592 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:chronic-diease-patient-education-ontology="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasAge -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasAge">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasAntiHypertensiveDrug -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasAntiHypertensiveDrug">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBG -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBMI -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBMI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBP -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasCHD -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasCHD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasCOPD -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasCOPD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDiabetes -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDiabetes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDiet -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDiet">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDrinking -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDrinking">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasExercise -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasExercise">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasEyeDisease -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasEyeDisease">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasGender -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasGender">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHyperlipidemia -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHyperlipidemia">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypertension -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypertension">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypoglycemicDrug -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypoglycemicDrug">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypolipidemicDrug -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypolipidemicDrug">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasKidneyDisease -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasKidneyDisease">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLipoprotein -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLipoprotein">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLiverDisease -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLiverDisease">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLungDisease -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLungDisease">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasMentality -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasMentality">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasPregnancy -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasPregnancy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasSkinDisease -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasSkinDisease">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasSmoking -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasSmoking">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasStomachDisease -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasStomachDisease">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasStroke -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasStroke">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasTC -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasTC">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasTG -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasTG">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasUA -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasUA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Age -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BodyMassIndex"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Education"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Gender"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Occupation"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Pregnancy"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#AntiHypetensiveDrug -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#AntiHypetensiveDrug">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypoglycemicDrug"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypolipidemicDrug"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodGlucose -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodGlucose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodPressure"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lipoprotein"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#TotalCholesterol"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Triglyceride"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#UricAcid"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodPressure -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodPressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodGlucose"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lipoprotein"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#TotalCholesterol"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Triglyceride"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#UricAcid"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BodyMassIndex -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BodyMassIndex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Age"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Education"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Gender"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Occupation"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Pregnancy"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Disease"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicObstructivePulmonaryDisease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicObstructivePulmonaryDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#CoronaryHeartDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diabetes"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hyperlipidemia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hypertension"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Stroke"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Disease"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#CoronaryHeartDisease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#CoronaryHeartDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicObstructivePulmonaryDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diabetes"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hyperlipidemia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hypertension"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Stroke"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diabetes -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diabetes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicObstructivePulmonaryDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#CoronaryHeartDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hyperlipidemia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hypertension"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Stroke"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diet -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Drinking"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Exercise"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Mentality"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Smoking"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Disease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Disease">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Drinking -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Drinking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diet"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Exercise"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Mentality"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Smoking"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Education -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Age"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BodyMassIndex"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Gender"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Occupation"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Pregnancy"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Exercise -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Exercise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diet"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Drinking"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Mentality"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Smoking"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#EyeDisease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#EyeDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#KidneyDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LiverDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LungDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#SkinDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#StomachDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Gender -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Gender">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Age"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BodyMassIndex"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Education"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Occupation"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Pregnancy"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hyperlipidemia -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hyperlipidemia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicObstructivePulmonaryDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#CoronaryHeartDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diabetes"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hypertension"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Stroke"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hypertension -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hypertension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicObstructivePulmonaryDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#CoronaryHeartDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diabetes"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hyperlipidemia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Stroke"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypoglycemicDrug -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypoglycemicDrug">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#AntiHypetensiveDrug"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypolipidemicDrug"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypolipidemicDrug -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypolipidemicDrug">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#AntiHypetensiveDrug"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypoglycemicDrug"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#KidneyDisease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#KidneyDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#EyeDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LiverDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LungDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#SkinDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#StomachDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lipoprotein -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lipoprotein">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodGlucose"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodPressure"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#TotalCholesterol"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Triglyceride"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#UricAcid"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LiverDisease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LiverDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#EyeDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#KidneyDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LungDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#SkinDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#StomachDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LungDisease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LungDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#EyeDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#KidneyDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LiverDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#SkinDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#StomachDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Mentality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Mentality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diet"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Drinking"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Exercise"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Smoking"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Occupation -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Occupation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Age"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BodyMassIndex"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Education"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Gender"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Pregnancy"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasAge"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Age"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasAntiHypertensiveDrug"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#AntiHypetensiveDrug"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBG"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodGlucose"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBMI"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BodyMassIndex"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBP"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodPressure"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasCHD"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#CoronaryHeartDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasCOPD"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicObstructivePulmonaryDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDiabetes"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diabetes"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDiet"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diet"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDrinking"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Drinking"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasExercise"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Exercise"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasEyeDisease"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#EyeDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasGender"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Gender"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHyperlipidemia"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hyperlipidemia"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypertension"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hypertension"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypoglycemicDrug"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypoglycemicDrug"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypolipidemicDrug"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypolipidemicDrug"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasKidneyDisease"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#KidneyDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLipoprotein"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lipoprotein"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLiverDisease"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LiverDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLungDisease"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LungDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasMentality"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Mentality"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasPregnancy"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Pregnancy"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasSkinDisease"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#SkinDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasSmoking"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Smoking"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasStomachDisease"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#StomachDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasStroke"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Stroke"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasTC"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#TotalCholesterol"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasTG"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Triglyceride"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasUA"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#UricAcid"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Medication"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Pregnancy -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Pregnancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Demographic"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Age"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BodyMassIndex"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Education"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Gender"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Occupation"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#SkinDisease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#SkinDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#EyeDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#KidneyDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LiverDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LungDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#StomachDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Smoking -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Smoking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lifestyle"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diet"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Drinking"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Exercise"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Mentality"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#StomachDisease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#StomachDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Complication"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#EyeDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#KidneyDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LiverDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LungDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#SkinDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Stroke -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Stroke">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicDisease"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicObstructivePulmonaryDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#CoronaryHeartDisease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diabetes"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hyperlipidemia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hypertension"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#TotalCholesterol -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#TotalCholesterol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodGlucose"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodPressure"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lipoprotein"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Triglyceride"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#UricAcid"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Triglyceride -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Triglyceride">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodGlucose"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodPressure"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lipoprotein"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#TotalCholesterol"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#UricAcid"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#UricAcid -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#UricAcid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PhysiologicalIndex"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodGlucose"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodPressure"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lipoprotein"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#TotalCholesterol"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Triglyceride"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasAge"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Age"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasAntiHypertensiveDrug"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#AntiHypetensiveDrug"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBG"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodGlucose"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBMI"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BodyMassIndex"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBP"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodPressure"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasCHD"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#CoronaryHeartDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasCOPD"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicObstructivePulmonaryDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDiabetes"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diabetes"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDiet"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diet"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDrinking"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Drinking"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasExercise"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Exercise"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasEyeDisease"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#EyeDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasGender"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Gender"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHyperlipidemia"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hyperlipidemia"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypertension"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hypertension"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypoglycemicDrug"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypoglycemicDrug"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypolipidemicDrug"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypolipidemicDrug"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasKidneyDisease"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#KidneyDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLipoprotein"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lipoprotein"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLiverDisease"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LiverDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLungDisease"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LungDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasMentality"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Mentality"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasPregnancy"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Pregnancy"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasSkinDisease"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#SkinDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasSmoking"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Smoking"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasStomachDisease"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#StomachDisease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasStroke"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Stroke"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasTC"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#TotalCholesterol"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasTG"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Triglyceride"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasUA"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#UricAcid"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasAge"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasAntiHypertensiveDrug"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBG"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBMI"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBP"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasCHD"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasCOPD"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDiabetes"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDiet"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDrinking"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasExercise"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasEyeDisease"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasGender"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHyperlipidemia"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypertension"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypoglycemicDrug"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypolipidemicDrug"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasKidneyDisease"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLipoprotein"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLiverDisease"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLungDisease"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasMentality"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasPregnancy"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasSkinDisease"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasSmoking"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasStomachDisease"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasStroke"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasTC"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasTG"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasUA"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientAge1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientAge1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Age"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientAntiHypertensiveDrug1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientAntiHypertensiveDrug1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#AntiHypetensiveDrug"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientBG1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientBG1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodGlucose"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientBMI1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientBMI1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BodyMassIndex"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientBP1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientBP1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#BloodPressure"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientCHD1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientCHD1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#CoronaryHeartDisease"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientCOPD1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientCOPD1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#ChronicObstructivePulmonaryDisease"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientData1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientData1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+        <chronic-diease-patient-education-ontology:hasAge rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientAge1"/>
+        <chronic-diease-patient-education-ontology:hasAntiHypertensiveDrug rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientAntiHypertensiveDrug1"/>
+        <chronic-diease-patient-education-ontology:hasBG rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientBG1"/>
+        <chronic-diease-patient-education-ontology:hasBMI rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientBMI1"/>
+        <chronic-diease-patient-education-ontology:hasBP rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientBP1"/>
+        <chronic-diease-patient-education-ontology:hasCHD rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientCHD1"/>
+        <chronic-diease-patient-education-ontology:hasCOPD rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientCOPD1"/>
+        <chronic-diease-patient-education-ontology:hasDiabetes rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientDiabetes1"/>
+        <chronic-diease-patient-education-ontology:hasDiet rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientDiet1"/>
+        <chronic-diease-patient-education-ontology:hasDrinking rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientDrinking1"/>
+        <chronic-diease-patient-education-ontology:hasExercise rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientExercise1"/>
+        <chronic-diease-patient-education-ontology:hasEyeDisease rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientEyeDisease1"/>
+        <chronic-diease-patient-education-ontology:hasGender rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientGender1"/>
+        <chronic-diease-patient-education-ontology:hasHyperlipidemia rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientHyperlipidemia1"/>
+        <chronic-diease-patient-education-ontology:hasHypertension rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientHypertension1"/>
+        <chronic-diease-patient-education-ontology:hasHypoglycemicDrug rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientHypoglycemicDrug1"/>
+        <chronic-diease-patient-education-ontology:hasHypolipidemicDrug rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientHypolipidemicDrug1"/>
+        <chronic-diease-patient-education-ontology:hasKidneyDisease rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientKidneyDisease1"/>
+        <chronic-diease-patient-education-ontology:hasLipoprotein rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientLipoprotein1"/>
+        <chronic-diease-patient-education-ontology:hasLiverDisease rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientLiverDisease1"/>
+        <chronic-diease-patient-education-ontology:hasLungDisease rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientLungDisease1"/>
+        <chronic-diease-patient-education-ontology:hasMentality rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientMentality1"/>
+        <chronic-diease-patient-education-ontology:hasPregnancy rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientPregnancy1"/>
+        <chronic-diease-patient-education-ontology:hasSkinDisease rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientSkinDisease1"/>
+        <chronic-diease-patient-education-ontology:hasSmoking rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientSmoking1"/>
+        <chronic-diease-patient-education-ontology:hasStomachDisease rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientStomachDisease1"/>
+        <chronic-diease-patient-education-ontology:hasStroke rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientStroke1"/>
+        <chronic-diease-patient-education-ontology:hasTC rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientTC1"/>
+        <chronic-diease-patient-education-ontology:hasTG rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientTG1"/>
+        <chronic-diease-patient-education-ontology:hasUA rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientUA1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientDiabetes1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientDiabetes1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diabetes"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientDiet1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientDiet1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Diet"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientDrinking1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientDrinking1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Drinking"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientEducation1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientEducation1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Education"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientExercise1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientExercise1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Exercise"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientEyeDisease1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientEyeDisease1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#EyeDisease"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientGender1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientGender1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Gender"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientHyperlipidemia1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientHyperlipidemia1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hyperlipidemia"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientHypertension1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientHypertension1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Hypertension"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientHypoglycemicDrug1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientHypoglycemicDrug1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypoglycemicDrug"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientHypolipidemicDrug1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientHypolipidemicDrug1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#HypolipidemicDrug"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientKidneyDisease1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientKidneyDisease1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#KidneyDisease"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientLipoprotein1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientLipoprotein1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Lipoprotein"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientLiverDisease1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientLiverDisease1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LiverDisease"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientLungDisease1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientLungDisease1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#LungDisease"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientMentality1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientMentality1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Mentality"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientPregnancy1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientPregnancy1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Pregnancy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientSkinDisease1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientSkinDisease1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#SkinDisease"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientSmoking1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientSmoking1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Smoking"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientStomachDisease1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientStomachDisease1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#StomachDisease"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientStroke1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientStroke1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Stroke"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientTC1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientTC1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#TotalCholesterol"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientTG1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientTG1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#Triglyceride"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientUA1 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientUA1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#UricAcid"/>
+    </NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasAge"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasAntiHypertensiveDrug"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBG"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBMI"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasBP"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasCHD"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasCOPD"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDiabetes"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDiet"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasDrinking"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasExercise"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasEyeDisease"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasGender"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHyperlipidemia"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypertension"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypoglycemicDrug"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasHypolipidemicDrug"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasKidneyDisease"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLipoprotein"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLiverDisease"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasLungDisease"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasMentality"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasPregnancy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasSkinDisease"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasSmoking"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasStomachDisease"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasStroke"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasTC"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasTG"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#hasUA"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/chronic-diease-patient-education-ontology#PatientProfile"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

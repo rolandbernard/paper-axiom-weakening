@@ -1,0 +1,1270 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000027 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000027"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000027"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000035"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000029 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000029">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000033"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000029"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000031 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000031">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000033"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000031"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000032 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000032"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000033 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000033">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000033"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000033"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000033"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000045"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000034 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000034">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000033"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000034"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000035 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000035">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000027"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000036 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000036"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000037 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000037">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000031"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000044"/>
+        </propertyChainAxiom>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000033"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000037"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000038 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000038">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000041"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000031"/>
+        </propertyChainAxiom>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0002_000003"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000038"/>
+        </propertyChainAxiom>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000007"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000038"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000039 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000039">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000041"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000034"/>
+        </propertyChainAxiom>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0002_000003"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000039"/>
+        </propertyChainAxiom>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000007"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000039"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000040 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000040">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000041"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000037"/>
+        </propertyChainAxiom>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0002_000003"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000040"/>
+        </propertyChainAxiom>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000007"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000040"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000041 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000041">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0002_000003"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000041"/>
+        </propertyChainAxiom>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000007"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000041"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000042 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000042">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000041"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0002_000003"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000042"/>
+        </propertyChainAxiom>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000007"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000042"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000043 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000043">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000041"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0002_000003"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000043"/>
+        </propertyChainAxiom>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000007"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000043"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000044 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000044"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000045 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000045">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000033"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000045"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000045"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000046 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000046"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000048 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000048">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000045"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000048"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000048"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000049"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000049 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000049">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000048"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000049"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000033"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000050 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000050"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000061 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0000_000061">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000041"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000029"/>
+        </propertyChainAxiom>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0002_000003"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000061"/>
+        </propertyChainAxiom>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000007"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0000_000061"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0002_000003 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0002_000003">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000010"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000003"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000004"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0002_000004 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0002_000004">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000009"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000003"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0003_000005 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0003_000005"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000005"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000006"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0003_000006 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0003_000006">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000005"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000006"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000006"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0003_000007 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0003_000007">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000010"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0002_000003"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000007"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000007"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000008"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0003_000008 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0003_000008">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000009"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000007"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000008"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0002_000004"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0003_000009 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0003_000009">
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000009"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000009"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000009"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000010"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0003_000010 -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/ahso#AHSO_0003_000010">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000009"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000010"/>
+            <rdf:Description rdf:about="https://w3id.org/ahso#AHSO_0003_000010"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000027"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000029"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000013"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000031"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000019"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000032"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000007"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000033"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000034"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000020"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000035"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000003"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000036"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000021"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000037"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000025"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000038"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000019"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000039"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000020"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000040"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000025"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000041"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000042"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000010"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000043"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000011"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000044"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000025"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000045"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000046"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000005"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000048"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000008"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000049"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000050"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000005"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000061"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000013"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0002_000003"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0002_000004"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000005"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000006"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000007"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0003_000004"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000008"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000008"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000009"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000009"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000010"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000010"/>
+                <allValuesFrom rdf:resource="https://w3id.org/ahso#AHSO_0003_000004"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000035"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000044"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000001 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000001"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000002 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000002"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000003 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000003"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000004 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000004"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000005 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000005"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000007 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000007"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000008 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000008">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000005"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000009 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000009">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000005"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000010 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000010">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000011 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000011">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000013 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000013">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000002"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000019 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000019">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000002"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000020 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000020">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000002"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000021 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000021">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000002"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000022 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000022">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000021"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000023 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000023">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000021"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000024 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000024">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000023"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0000_000025 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0000_000025">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000002"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0001_000001 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0001_000001">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0001_000002 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0001_000002">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0001_000003 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0001_000003">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0001_000002"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0001_000004 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0001_000004">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0001_000003"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0001_000005 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0001_000005">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0001_000003"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0001_000006 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0001_000006">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0001_000007 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0001_000007">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0001_000008 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0001_000008">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0001_000007"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0001_000009 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0001_000009">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0001_000010 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0001_000010">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000003"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0001_000011 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0001_000011">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0002_000001 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0002_000001"/>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0002_000002 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0002_000002">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0002_000005 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0002_000005">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0002_000006 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0002_000006">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000005"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0002_000007 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0002_000007">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000005"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0003_000002 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0003_000002">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0003_000003 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0003_000003">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/ahso#AHSO_0003_000004 -->
+
+
+    <Class rdf:about="https://w3id.org/ahso#AHSO_0003_000004"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000027"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000003"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000029"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000031"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000032"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000032"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000032"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000005"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000033"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000034"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000035"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000036"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000010"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000037"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000038"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000038"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000038"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000039"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000039"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000039"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000040"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000040"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000040"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000041"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000041"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000041"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000042"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000042"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000042"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000043"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000043"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000043"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000044"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000019"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000045"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000046"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000048"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000049"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000008"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000050"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000061"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000061"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0000_000061"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0002_000003"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0002_000004"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000005"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000006"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000007"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000007"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000008"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000009"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000009"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0003_000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000010"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0000_000001"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/ahso#AHSO_0003_000010"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/ahso#AHSO_0002_000001"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

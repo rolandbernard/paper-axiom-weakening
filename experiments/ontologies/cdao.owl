@@ -1,0 +1,3570 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000142 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000142">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000143 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000143">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000146"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000143"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000209"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000144 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000144">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000144"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000144"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000144"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000174"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000145 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000145">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000184"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000146 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000146">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000190"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000147 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000147">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000190"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000148 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000148">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000203"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000149 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000149">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000174"/>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000177"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000209"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000149"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000179"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000150 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000150">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000151 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000151">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000152 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000152">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000205"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000153 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000153">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000154 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000154">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000183"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000155 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000155"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000156 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000156">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000184"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000157 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000157">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000193"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000158 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000158">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000206"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000159 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000159">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000182"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000161 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000161"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000162 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000162">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000163 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000163"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000164 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000164"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000165 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000165"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000166 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000166">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000205"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000167 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000167">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000167"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000167"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000167"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000168 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000168">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000206"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000169 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000169"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000170 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000170">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000183"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000171 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000171">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000172 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000172"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000173 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000173">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000205"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000174 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000174">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000144"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000174"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000174"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000175 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000175">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000184"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000176 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000176">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000177 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000177">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000146"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000177"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000201"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000178 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000178">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000194"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000179 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000179">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000144"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000149"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000143"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000201"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000180 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000180">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000205"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000181 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000181"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000182 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000182">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000183 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000183">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000153"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000184 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000184">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000185 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000185">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000182"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000186 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000186">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000182"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000187 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000187">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000196"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000188 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000188">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000161"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000189 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000189">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000184"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000190 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000190">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000194"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000191 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000191">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000190"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000192 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000192">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000190"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000193 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000193">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000193"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000157"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000194 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000194">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000190"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000194"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000195 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000195">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000206"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000196 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000196"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000196"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000187"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000197 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000197">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000198 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000198">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000199 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000199">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000161"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000200 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000200">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000190"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000201 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000201">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000162"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000177"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000202 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000202">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000203 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000203">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000190"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000203"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000148"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000204 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000204">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000205 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000205">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000190"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000206 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000206">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000183"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000207 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000207">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000153"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000208 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000208">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000209 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000209">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000162"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000143"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000210 -->
+
+
+    <ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CDAO_0000210">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000182"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000002 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000050"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000019"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000112"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000003 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000022"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000004 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000012"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000202"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000005 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000074"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000006 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000006">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+                <allValuesFrom>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000099"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                        </unionOf>
+                    </Class>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000007 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000040"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000008 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000089"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000009 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000063"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000010 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000009"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000011 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000074"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000012 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000148"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000148"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000088"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000155"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000012"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+                <allValuesFrom>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000139"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                        </unionOf>
+                    </Class>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000013 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000020"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000014 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000044"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000015 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000039"/>
+        <rdfs:subClassOf>
+            <Class>
+                <oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000221"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000222"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000223"/>
+                </oneOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000016 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000070"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000017 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000018 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000130"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000019 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000098"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000002"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000112"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000020 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000007"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000021 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000020"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000022 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000022">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000165"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000104"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000165"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000104"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000023 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000017"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000024 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000099"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000025 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000025">
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000040"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000157"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000056"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000026 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000174"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000027 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000017"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000088"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000029 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000030 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000172"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</minQualifiedCardinality>
+                <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000031 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000032 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000025"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000033 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000124"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000042"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000034 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000039"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000035 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000009"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000039 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000040 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000041 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000041">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000190"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000097"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000042 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000026"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000033"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000124"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000177"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000043 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000044 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000044">
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000040"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000157"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000045 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000039"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000046 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000101"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000176"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000063"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000047 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000034"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000048 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000129"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000049 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000100"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000050 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000089"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000051 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000006"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000127"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000188"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000052 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000107"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000053 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000026"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000177"/>
+                <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</minCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000055 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000039"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000056 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000056">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000142"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000025"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000208"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000057 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000050"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000058 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000063"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000059 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000059">
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000118"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000198"/>
+                        <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000060 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000080"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000163"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000118"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000061 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000107"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000062 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000065"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000097"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000159"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000159"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000169"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000169"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000186"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000186"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000063 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000063">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000064 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000097"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000065 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000062"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000097"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000066 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000066">
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000040"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000157"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000067 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000074"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000068 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000094"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000131"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000207"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000019"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000153"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000019"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000069 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000074"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000070 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000155"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000071 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000071">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000153"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000098"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000072 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000006"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000073 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000074 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000044"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000075 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000111"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000076 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000034"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000077 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000064"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000078 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000111"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000142"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000170"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000136"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000153"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000136"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000079 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000074"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000080 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000026"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000053"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000174"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000053"/>
+                    </Restriction>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000081 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000074"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000082 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000063"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000083 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000100"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000084 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000012"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000149"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000108"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000085 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000088"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000086 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000127"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000129"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000199"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000070"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000087 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000041"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000088 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000012"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000089 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000098"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000090 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000100"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000091 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000092 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000022"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000093 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000020"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000094 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000115"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000068"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000131"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000195"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000002"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000153"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000002"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000095 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000022"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000096 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000006"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000097 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000097">
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000159"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000159"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000169"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000169"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000186"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000186"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000098 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000098">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000191"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000191"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000205"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000205"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000099 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000024"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000162"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000162"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000193"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000101"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000100 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000063"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000101 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000101">
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000040"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000157"/>
+                        <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000099"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000102 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000018"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+                <allValuesFrom>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000108"/>
+                            <Class>
+                                <unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000033"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000099"/>
+                                </unionOf>
+                            </Class>
+                        </unionOf>
+                    </Class>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000103 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000063"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000104 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000104">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000105 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000107"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000107 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000025"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000108 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000149"/>
+                        <allValuesFrom>
+                            <Class>
+                                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                            </Class>
+                        </allValuesFrom>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000109 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000115"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000153"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000057"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000110 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000006"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000111 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000112 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000050"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000002"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000019"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000113 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000107"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000114 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000009"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000115 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000111"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000116 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000116">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000190"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000097"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000117 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000117">
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000118"/>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000198"/>
+                        <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000118 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000120 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000120">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000098"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000178"/>
+                <allValuesFrom>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000151"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000022"/>
+                    </Restriction>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000121 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000122"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000122 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000121"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000124 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000033"/>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000177"/>
+                        <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</minCardinality>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000177"/>
+                        <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</maxCardinality>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000042"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000125 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000100"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000126 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000066"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000127 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000006"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000051"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000128 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000132"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000129 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000127"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000086"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000130 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000131 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000115"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000068"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000094"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000168"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000112"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000153"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000112"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000132 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000087"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000133 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000034"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000134 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000070"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000136 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000089"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000137 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000007"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000138 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000138">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000139 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000139">
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000099"/>
+                            <Class>
+                                <intersectionOf rdf:parseType="Collection">
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000201"/>
+                                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                                    </Restriction>
+                                    <Restriction>
+                                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000201"/>
+                                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                                    </Restriction>
+                                </intersectionOf>
+                            </Class>
+                        </intersectionOf>
+                    </Class>
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000209"/>
+                                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                                <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000209"/>
+                                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                                <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                            </Restriction>
+                        </intersectionOf>
+                    </Class>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000140 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000140">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000143"/>
+                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000139"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000141 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CDAO_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000009"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000142"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000143"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000139"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000144"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000145"/>
+                <allValuesFrom>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000015"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000133"/>
+                        </unionOf>
+                    </Class>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000146"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000099"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000147"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000056"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000148"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000149"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000150"/>
+                <allValuesFrom>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000003"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000095"/>
+                        </unionOf>
+                    </Class>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000151"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000022"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000152"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000068"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000153"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000098"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000154"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000008"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000155"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000006"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000156"/>
+                <allValuesFrom>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000015"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000076"/>
+                        </unionOf>
+                    </Class>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000157"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000159"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000162"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000163"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000059"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000164"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000165"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000104"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000166"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000094"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000168"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000112"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000169"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000170"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000136"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000171"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000059"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000172"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000173"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000131"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000174"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000175"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000031"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000177"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000139"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000179"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000180"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000078"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000181"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000098"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000184"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000185"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000186"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000091"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000187"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000188"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000189"/>
+                <allValuesFrom>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000015"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000055"/>
+                        </unionOf>
+                    </Class>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000190"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000191"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000192"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000006"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000193"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000040"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000195"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000002"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000196"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000197"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000092"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000199"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000070"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000200"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000201"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000202"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000203"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000110"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000204"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000097"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000205"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000206"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000050"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000207"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000019"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000208"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000209"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000210"/>
+                <allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000148"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000152"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000166"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000173"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000187"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000191"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000201"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000205"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000209"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000220 -->
+
+
+    <Thing rdf:about="http://purl.obolibrary.org/obo/CDAO_0000220">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000133"/>
+    </Thing>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000221 -->
+
+
+    <Thing rdf:about="http://purl.obolibrary.org/obo/CDAO_0000221">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000015"/>
+    </Thing>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000222 -->
+
+
+    <Thing rdf:about="http://purl.obolibrary.org/obo/CDAO_0000222">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000015"/>
+    </Thing>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000223 -->
+
+
+    <Thing rdf:about="http://purl.obolibrary.org/obo/CDAO_0000223">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000015"/>
+    </Thing>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000224 -->
+
+
+    <Thing rdf:about="http://purl.obolibrary.org/obo/CDAO_0000224">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000133"/>
+    </Thing>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000225 -->
+
+
+    <Thing rdf:about="http://purl.obolibrary.org/obo/CDAO_0000225">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000057"/>
+    </Thing>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000226 -->
+
+
+    <Thing rdf:about="http://purl.obolibrary.org/obo/CDAO_0000226">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000133"/>
+    </Thing>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CDAO_0000227 -->
+
+
+    <Thing rdf:about="http://purl.obolibrary.org/obo/CDAO_0000227">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000133"/>
+    </Thing>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000149"/>
+                <allValuesFrom>
+                    <Class>
+                        <complementOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                    </Class>
+                </allValuesFrom>
+            </Restriction>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000108"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000099"/>
+                    <Class>
+                        <intersectionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000201"/>
+                                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                                <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000201"/>
+                                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                                <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                            </Restriction>
+                        </intersectionOf>
+                    </Class>
+                </intersectionOf>
+            </Class>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000209"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000209"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000139"/>
+    </Class>
+    <Class>
+        <oneOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000221"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000222"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000223"/>
+        </oneOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000015"/>
+    </Class>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000142"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000056"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000143"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000144"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000145"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000002"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000146"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000147"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000148"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000012"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000149"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000150"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000092"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000151"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000098"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000152"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000019"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000153"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000071"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000154"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000075"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000155"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000006"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000156"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000112"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000157"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000040"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000159"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000097"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000162"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000099"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000163"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000164"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000165"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000022"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000166"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000002"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000168"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000131"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000170"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000078"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000171"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000080"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000172"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000030"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000173"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000112"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000174"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000175"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000019"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000177"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000179"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000180"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000136"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000181"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000098"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000182"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000097"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000184"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000098"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000185"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000097"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000186"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000097"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000187"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000189"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000136"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000190"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000191"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000098"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000192"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000099"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000193"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000195"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000094"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000196"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000197"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000092"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000198"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000118"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000200"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000099"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000201"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000139"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000202"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000004"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000203"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000140"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000204"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000099"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000205"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000098"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000206"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000115"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000207"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000068"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CDAO_0000138"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000208"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000056"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000209"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000139"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000210"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000097"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000177"/>
+        <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</minCardinality>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000053"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000177"/>
+        <minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</minCardinality>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CDAO_0000042"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

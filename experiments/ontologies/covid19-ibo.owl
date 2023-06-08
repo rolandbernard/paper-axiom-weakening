@@ -1,0 +1,2091 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#country_wise_statistics -->
+
+
+    <ObjectProperty rdf:about="http://www.isibang.ac.in/ns/codo#country_wise_statistics">
+        <rdfs:subPropertyOf rdf:resource="http://www.isibang.ac.in/ns/codo#hasStatistics"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#hasDiagnosis -->
+
+
+    <ObjectProperty rdf:about="http://www.isibang.ac.in/ns/codo#hasDiagnosis"/>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#hasStatistics -->
+
+
+    <ObjectProperty rdf:about="http://www.isibang.ac.in/ns/codo#hasStatistics"/>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#state_wise_statistics -->
+
+
+    <ObjectProperty rdf:about="http://www.isibang.ac.in/ns/codo#state_wise_statistics">
+        <rdfs:subPropertyOf rdf:resource="http://www.isibang.ac.in/ns/codo#hasStatistics"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Return -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Return"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#black_fungus -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#black_fungus">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_cause"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#city_wise_statistics -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#city_wise_statistics">
+        <rdfs:subPropertyOf rdf:resource="http://www.isibang.ac.in/ns/codo#hasStatistics"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#cluster_wise_statistics -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#cluster_wise_statistics">
+        <rdfs:subPropertyOf rdf:resource="http://www.isibang.ac.in/ns/codo#hasStatistics"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_cause -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_cause"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_close -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_close"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_nationality -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_nationality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_open -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_open"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_bank -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_bank">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_branch -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_branch">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_city -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_city">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_cluster -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_cluster">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_country -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_country">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_state -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_state">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_town -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_town">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_village -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_village">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_zone -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_zone">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#negative_return -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#negative_return">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Return"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#positive_return -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#positive_return">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Return"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#type_of_relationship -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#type_of_relationship"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_account -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_account">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#type_of_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_card -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_card">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#type_of_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_insurance -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_insurance">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#type_of_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_loan -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_loan">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#type_of_relationship"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#white_fungus -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#white_fungus">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_cause"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#yellow_fungus -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#yellow_fungus">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_cause"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#zone_wise_statistics -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#zone_wise_statistics">
+        <rdfs:subPropertyOf rdf:resource="http://www.isibang.ac.in/ns/codo#hasStatistics"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://pending.schema.org/has_gender -->
+
+
+    <ObjectProperty rdf:about="https://pending.schema.org/has_gender"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#COVID-19 -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo#COVID-19">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#coronavirus_disease"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#coronavirus_disease -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo#coronavirus_disease">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#viral_disease"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#disease -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo#disease"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#infectious_disease -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo#infectious_disease">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#disease"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#viral_disease -->
+
+
+    <Class rdf:about="http://purl.obolibrary.org/obo#viral_disease">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo#infectious_disease"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#Anniversary -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#Anniversary">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Gathering"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#COVID-19_Diagnosis -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#COVID-19_Diagnosis"/>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#COVID-19_dedicated_facility -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#COVID-19_dedicated_facility"/>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#Close_contact -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#Close_contact">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Exposure_to_COVID-19"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#Country -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#Country">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Statistics"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#ExposureViaCongregation -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#ExposureViaCongregation">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Gathering"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#Exposure_to_COVID-19 -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#Exposure_to_COVID-19"/>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#Gathering -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#Gathering">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Exposure_to_COVID-19"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedBrother -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedBrother">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#InfectedFamilyMember"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedCo-Customer -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedCo-Customer">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Exposure_to_COVID-19"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedCousin -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedCousin">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#InfectedFamilyMember"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedDaughter -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedDaughter">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#InfectedFamilyMember"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedDomesticHelp -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedDomesticHelp">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Exposure_to_COVID-19"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedFamilyMember -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedFamilyMember">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Exposure_to_COVID-19"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedFather -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedFather">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#InfectedFamilyMember"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedMother -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedMother">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#InfectedFamilyMember"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedNeighbor -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedNeighbor">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Exposure_to_COVID-19"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedNephew -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedNephew">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#InfectedFamilyMember"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedNiece -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedNiece">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#InfectedFamilyMember"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedSister -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedSister">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#InfectedFamilyMember"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedSon -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedSon">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#InfectedFamilyMember"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedSpouse -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedSpouse">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#InfectedFamilyMember"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#InfectedViaJob -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#InfectedViaJob">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Exposure_to_COVID-19"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#Mild_and_very_mild_COVID-19 -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#Mild_and_very_mild_COVID-19">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#COVID-19_Diagnosis"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#Moderate_COVID-19 -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#Moderate_COVID-19">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#COVID-19_Diagnosis"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#SecondaryContact -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#SecondaryContact">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Exposure_to_COVID-19"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#Severe_COVID-19 -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#Severe_COVID-19">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#COVID-19_Diagnosis"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#State -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#State">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Statistics"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#Statistics -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#Statistics"/>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#Covid_Care_Centre_(CCC) -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#Covid_Care_Centre_(CCC)">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#COVID-19_dedicated_facility"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#Dedicated_Covid_Health_Centre_(DCHC) -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#Dedicated_Covid_Health_Centre_(DCHC)">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#COVID-19_dedicated_facility"/>
+    </Class>
+    
+
+
+    <!-- http://www.isibang.ac.in/ns/codo#Dedicated_Covid_Hospital_(DCH) -->
+
+
+    <Class rdf:about="http://www.isibang.ac.in/ns/codo#Dedicated_Covid_Hospital_(DCH)">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#COVID-19_dedicated_facility"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Advanced_ATMs -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Advanced_ATMs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Contactless_banking_options"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#AtmNirbhor -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#AtmNirbhor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Lending"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank_Audit -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank_Audit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Precautionary_measures"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bankers -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bankers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Employee"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#BankingRelationShip -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#BankingRelationShip"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#BankingRetailCenters -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#BankingRetailCenters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Premises"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Black_Fungus -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Black_Fungus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid19_fungal_infection"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Business -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Business">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Loan"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Car -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Car">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Retail"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#CashCredit -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#CashCredit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Loan"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Chinese -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Chinese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Others"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#City -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#City">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Statistics"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Cluster -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Cluster">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Statistics"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Commercial_Banks -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Commercial_Banks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#ContactWithInfactedBankingStaff -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#ContactWithInfactedBankingStaff">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Exposure_to_COVID-19"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Contactless_banking_options -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Contactless_banking_options">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Profit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Contactless_customer_service -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Contactless_customer_service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current_Challenging_conditions_of_banking_industry"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Cooperative_Banks -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Cooperative_Banks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#CorporateCurrentAccount -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#CorporateCurrentAccount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Corporate_Lending -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Corporate_Lending">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Lending"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covaxin -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covaxin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid_Vaccine"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid-19_Impacted -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid-19_Impacted">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Financial"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid-19_not_Impacted -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid-19_not_Impacted">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Financial"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid19_fungal_infection -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid19_fungal_infection"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid_Vaccine -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid_Vaccine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covishield -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covishield">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid_Vaccine"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Credit -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Credit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#RiskLossFactors"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current_Challenging_conditions_of_banking_industry -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current_Challenging_conditions_of_banking_industry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Deposit -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Deposit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Detect_probable_defaults_in_early_phase -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Detect_probable_defaults_in_early_phase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Precautionary_measures"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Digital_optimization -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Digital_optimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current_Challenging_conditions_of_banking_industry"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Doctor -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Doctor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Health_Care_Professional"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Doorstep_banking -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Doorstep_banking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Contactless_banking_options"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Doubtfull -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Doubtfull">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#NPA"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#ETB -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#ETB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#BankingRelationShip"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Education -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#PSL"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Employee -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Employee">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#ExchangeRate -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#ExchangeRate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#RiskLossFactors"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Female -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Female">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Person_gender"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Financial -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Financial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Impact"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Foreign_Banks -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Foreign_Banks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Scheduled_Banks"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Former -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Former">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#PSL"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#German -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#German">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Others"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Govt_Schemes -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Govt_Schemes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Lending"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Health_Care_Professional -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Health_Care_Professional">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#High_credit_risk -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#High_credit_risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current_Challenging_conditions_of_banking_industry"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Home -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Home">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Retail"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Impact -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Impact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Indian -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Indian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Nationality"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Indian_Bank -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Indian_Bank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Scheduled_Banks"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#IndividualCurrentAccount -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#IndividualCurrentAccount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#International -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#International">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#KishanCreditCard -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#KishanCreditCard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Govt_Schemes"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#LAP -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#LAP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Retail"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Lending -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Lending"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Limit -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Limit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Loan"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Liquidity_infusion -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Liquidity_infusion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current_Challenging_conditions_of_banking_industry"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Loan -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Loan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Loan_repayment -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Loan_repayment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current_Challenging_conditions_of_banking_industry"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Loss -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Loss"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#MSME -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#MSME">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#PSL"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#MUDRA -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#MUDRA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#AtmNirbhor"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Male -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Male">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Person_gender"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Market -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Market">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#RiskLossFactors"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#NPA -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#NPA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Credit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#NRE -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#NRE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#NTB -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#NTB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#BankingRelationShip"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#National -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#National">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Nationality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Nationality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Nationalized_Bank -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Nationalized_Bank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Public_Sector"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#New_Assets_Quality_Review -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#New_Assets_Quality_Review">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Precautionary_measures"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Non_Scheduled_Banks -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Non_Scheduled_Banks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Commercial_Banks"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#NormalSavingAccount -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#NormalSavingAccount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Saving"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Nurse -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Nurse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Health_Care_Professional"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#OffRoll -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#OffRoll">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bankers"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#OnHuman -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#OnHuman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Impact"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#OnRoll -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#OnRoll">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bankers"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Operational -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Operational">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#RiskLossFactors"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Others -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Others">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Nationality"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#OverDraft -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#OverDraft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Loan"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#PM_Swanidhi -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#PM_Swanidhi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#AtmNirbhor"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#PSL -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#PSL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Lending"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#PartnershipCurrentAccount -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#PartnershipCurrentAccount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Patient -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Patient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Health_Care_Professional"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Person_gender -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Person_gender"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Personal -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Personal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Retail"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Police_Person -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Police_Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Health_Care_Professional"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Political -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Political">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#RiskLossFactors"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Precautionary_measures -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Precautionary_measures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Loss"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Premises -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Premises">
+        <rdfs:subClassOf rdf:resource="https://schema.org/Place"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#PriorityAccount -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#PriorityAccount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Saving"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Private_Sector -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Private_Sector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Indian_Bank"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Profit -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Profit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Public_Sector -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Public_Sector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Indian_Bank"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Recurring -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Recurring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Deposit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Regional_Rural_Banks -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Regional_Rural_Banks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Retail -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Retail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Lending"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#RiskLossFactors -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#RiskLossFactors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Robust_digital_channels -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Robust_digital_channels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Contactless_banking_options"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#SalaryAccount -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#SalaryAccount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Saving"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Saving -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Saving">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Scheduled_Banks -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Scheduled_Banks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Commercial_Banks"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Security_Guard -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Security_Guard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Health_Care_Professional"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Sputnik_Lite -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Sputnik_Lite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid_Vaccine"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Sputnik_V -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Sputnik_V">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid_Vaccine"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Standard -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Standard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#NPA"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#State_Bank_of_India -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#State_Bank_of_India">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Public_Sector"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#SubStandard -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#SubStandard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#NPA"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#TermDeposit -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#TermDeposit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Deposit"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#ThridParty -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#ThridParty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Employee"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Transgender -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Transgender">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Person_gender"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#White_Fungus -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#White_Fungus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid19_fungal_infection"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Women -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Women">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#PSL"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Yellow_Fungus -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Yellow_Fungus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid19_fungal_infection"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Zone -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Zone">
+        <rdfs:subClassOf rdf:resource="http://www.isibang.ac.in/ns/codo#Statistics"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#time_instability -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#time_instability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Current_Challenging_conditions_of_banking_industry"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.isibang.ac.in/ns/codo#country_wise_statistics"/>
+                <allValuesFrom rdf:resource="http://www.isibang.ac.in/ns/codo#Country"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.isibang.ac.in/ns/codo#hasDiagnosis"/>
+                <allValuesFrom rdf:resource="http://www.isibang.ac.in/ns/codo#COVID-19_Diagnosis"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.isibang.ac.in/ns/codo#hasStatistics"/>
+                <allValuesFrom rdf:resource="http://www.isibang.ac.in/ns/codo#Statistics"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.isibang.ac.in/ns/codo#state_wise_statistics"/>
+                <allValuesFrom rdf:resource="http://www.isibang.ac.in/ns/codo#State"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Return"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#black_fungus"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Black_Fungus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#city_wise_statistics"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#City"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#cluster_wise_statistics"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Cluster"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_cause"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Covid19_fungal_infection"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_close"/>
+                <allValuesFrom rdf:resource="http://www.isibang.ac.in/ns/codo#Exposure_to_COVID-19"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_nationality"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Nationality"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_open"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_bank"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_branch"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_city"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_cluster"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_country"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_state"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_town"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_village"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_zone"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#negative_return"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#positive_return"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#type_of_relationship"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_account"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_card"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_insurance"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_loan"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Loan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#white_fungus"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#White_Fungus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#yellow_fungus"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Yellow_Fungus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#zone_wise_statistics"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Zone"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://pending.schema.org/has_gender"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Person_gender"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+
+    <Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- https://schema.org/Place -->
+
+
+    <Class rdf:about="https://schema.org/Place"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="http://www.isibang.ac.in/ns/codo#country_wise_statistics"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.isibang.ac.in/ns/codo#hasDiagnosis"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.isibang.ac.in/ns/codo#hasStatistics"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.isibang.ac.in/ns/codo#state_wise_statistics"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Return"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#black_fungus"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#city_wise_statistics"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#cluster_wise_statistics"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#customer_relationship"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_cause"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_close"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_nationality"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#has_open"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_bank"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_branch"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_city"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_cluster"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_country"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_state"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_town"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_village"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#in_zone"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Customer"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#negative_return"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#positive_return"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Account"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#type_of_relationship"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_account"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_card"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_insurance"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#via_loan"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#white_fungus"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#yellow_fungus"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#zone_wise_statistics"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/archana/ontologies/2021/5/untitled-ontology-6#Bank"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://pending.schema.org/has_gender"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

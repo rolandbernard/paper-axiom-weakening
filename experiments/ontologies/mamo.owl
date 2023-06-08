@@ -1,0 +1,1718 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://identifiers.org/mamo#hasFeature -->
+
+
+    <ObjectProperty rdf:about="http://identifiers.org/mamo#hasFeature">
+        <propertyDisjointWith rdf:resource="http://identifiers.org/mamo#lacksFeature"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://identifiers.org/mamo#isUsedToModel -->
+
+
+    <ObjectProperty rdf:about="http://identifiers.org/mamo#isUsedToModel"/>
+    
+
+
+    <!-- http://identifiers.org/mamo#lacksFeature -->
+
+
+    <ObjectProperty rdf:about="http://identifiers.org/mamo#lacksFeature"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://identifiers.org/mamo#MAMO_0000206 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo#MAMO_0000206">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000028"/>
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000180"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000064"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo#MAMO_0000207 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo#MAMO_0000207">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo#MAMO_0000206"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo#MAMO_0000208"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo#MAMO_0000209"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo#MAMO_0000210"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo#MAMO_0000208 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo#MAMO_0000208">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo#MAMO_0000206"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo#MAMO_0000207"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo#MAMO_0000209"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo#MAMO_0000210"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo#MAMO_0000209 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo#MAMO_0000209">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo#MAMO_0000206"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo#MAMO_0000207"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo#MAMO_0000208"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo#MAMO_0000210"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo#MAMO_0000210 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo#MAMO_0000210">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo#MAMO_0000206"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo#MAMO_0000207"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo#MAMO_0000208"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo#MAMO_0000209"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo#MAMO_0000211 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo#MAMO_0000211">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000181"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo#continuous_variable -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo#continuous_variable">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000086"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo#ordinal_variable -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo#ordinal_variable">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000086"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000003 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000003">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000037"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000004 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000004">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000008 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000008">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000008"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000056"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000009 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000009">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000008"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000010 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000010">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000027"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000037"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000054"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000017 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000017">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000010"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000018"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000018 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000018">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000010"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000017"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000019 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000019">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000181"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000020"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000020 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000020">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000181"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000019"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000021 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000021">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000180"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000022 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000022">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf>
+                    <Restriction>
+                        <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                        <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+                    </Restriction>
+                </complementOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000064"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000023 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000023">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000024 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000024">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000023"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000059"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000064"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000025 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000025">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000057"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000026 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000026">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000180"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000056"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000027 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000027">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000010"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000037"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000054"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000028 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000028">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000029 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000029">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000028"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000030 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000030">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf>
+                    <Restriction>
+                        <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                        <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+                    </Restriction>
+                </complementOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000031 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000031">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000027"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000032 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000032">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000054"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000033 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000033">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000180"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000056"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000034 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000034">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000033"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000035 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000035">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000180"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000036 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000036">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000035"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000037 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000037">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000010"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000027"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000054"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000038 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000038">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000036"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000039"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000040"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000202"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000039 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000039">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000036"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000038"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000040"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000202"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000040 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000040">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000036"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000038"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000039"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000202"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000041 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000041">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf>
+                    <Restriction>
+                        <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                        <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+                    </Restriction>
+                </complementOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000064"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#isUsedToModel"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000038"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#isUsedToModel"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000039"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000043 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000043">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000041"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000056"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000044 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000044">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf>
+                    <Restriction>
+                        <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                        <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+                    </Restriction>
+                </complementOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000064"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000045 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000045">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000060"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#isUsedToModel"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000038"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#isUsedToModel"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000039"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#isUsedToModel"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000040"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000046 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000046">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000047"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000048"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000063"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000047 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000047">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000046"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000048"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000064"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000048 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000048">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000046"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000047"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000063"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000049 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000049">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000056"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000059"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000064"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#isUsedToModel"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000038"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000050 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000050">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000023"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000059"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#isUsedToModel"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000038"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#isUsedToModel"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000039"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#isUsedToModel"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000040"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000051 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000051">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000050"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000056"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000052 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000052">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000050"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000064"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000053 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000053">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000030"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#isUsedToModel"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000039"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000054 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000054">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000010"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000027"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000037"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000055 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000055">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000054"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000061"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000062"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000056 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000056">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000055"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000057"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000057 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000057">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000055"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000056"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000058 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000058">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000054"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000055"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000061"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000062"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000059 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000059">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000060"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000060 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000060">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000059"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000061 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000061">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000054"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000055"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000062"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000062 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000062">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000054"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000055"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000058"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000061"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000063 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000063">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000062"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000064"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000064 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000064">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000062"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000063"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000069 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000069">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000025"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000070 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000070">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000025"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000060"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000071 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000071">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000025"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000072 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000072">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000071"/>
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000073"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000073 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000073">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000025"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000074 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000074">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000025"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000059"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000064"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000075 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000075">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000004"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000076 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000076">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000004"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000063"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000064"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000077 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000077">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000004"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000078 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000078">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000004"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000080 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000080">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000086"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000059"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000081 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000081">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000086"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000059"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000082 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000082">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000086"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000059"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000083 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000083">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000086"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000084 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000084">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000027"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000085 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000085">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000027"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000086 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000086">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000010"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000087 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000087">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000019"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000088 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000088">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000180"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000089 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000089">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000090 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000090">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000180 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000180">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000037"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000181 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000181">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000180"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000182 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000182">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000030"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000183 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000183">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000050"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000184 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000184">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000183"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000185 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000185">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000184"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000186 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000186">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000030"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000187 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000187">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000182"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000188 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000188">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000046"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000189 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000189">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000019"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000191"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000190 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000190">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000189"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000191 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000191">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000019"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000189"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000192 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000192">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000191"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000193 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000193">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000064"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000194 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000194">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000193"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000195 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000195">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000193"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000196 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000196">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000193"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000197 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000197">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000193"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000198 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000198">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000045"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000199 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000199">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000198"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <someValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000059"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000200 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000200">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000198"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000202 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000202">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000036"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000038"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000039"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://identifiers.org/mamo/MAMO_0000040"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000203 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000203">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000019"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000204 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000204">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000185"/>
+    </Class>
+    
+
+
+    <!-- http://identifiers.org/mamo/MAMO_0000205 -->
+
+
+    <Class rdf:about="http://identifiers.org/mamo/MAMO_0000205">
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000180"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#hasFeature"/>
+                <allValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000054"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#isUsedToModel"/>
+                <allValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000180"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://identifiers.org/mamo#lacksFeature"/>
+                <allValuesFrom rdf:resource="http://identifiers.org/mamo/MAMO_0000054"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="http://identifiers.org/mamo#isUsedToModel"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://identifiers.org/mamo/MAMO_0000003"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

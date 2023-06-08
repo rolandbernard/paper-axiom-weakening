@@ -1,0 +1,1863 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#AdheresTo -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#AdheresTo">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#AdheresTo"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Dispenses -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#Dispenses">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Dispenses"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#HasA -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#HasA"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#IsA -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#IsA"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#adjustsCare -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#adjustsCare"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#alerts -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#alerts">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#alerts"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#alters -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#alters"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#assessesPatient -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#assessesPatient"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#caresFor -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#caresFor">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#caresFor"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#communicates -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#communicates"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#communicates"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#communicates"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#inputs -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#inputs"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#liaisesWith -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#liaisesWith"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#mustHave -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#mustHave"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#provides -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#provides">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#provides"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#reads -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#reads"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#receives -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#receives">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#receives"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#refersTo -->
+
+
+    <ObjectProperty rdf:about="http://www.cablesat.com.au/research/transitional.owl#refersTo"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#addsTo -->
+
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#addsTo"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#confersWith -->
+
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#confersWith"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#has -->
+
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#has"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#monitors -->
+
+
+    <ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#monitors"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#ACAS -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#ACAS">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Hospital"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#ACAT -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#ACAT">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Hospital"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Bed_Occupancy_Indicator -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Bed_Occupancy_Indicator"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Care_Plan -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Care_Plan">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Case_Conference -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Case_Conference">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Community_in_the_Home -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Community_in_the_Home">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Transitional_Care"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Residential_in_Facility"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Doctor -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Doctor">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#External_Agencies -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#External_Agencies">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Hospital -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Hospital">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Community_in_the_Home"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Residential_in_Facility"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Nurse -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Nurse">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Doctor"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Nurse_Education_Level -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Nurse_Education_Level">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Nurse_Registration -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Nurse_Registration">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Community_in_the_Home"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Residential_in_Facility"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Community_in_the_Home"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Residential_in_Facility"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Community_in_the_Home"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Residential_in_Facility"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Patient -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Community_in_the_Home"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Residential_in_Facility"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Residential_in_Facility -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Residential_in_Facility">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Transitional_Care"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Community_in_the_Home"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Transitional_Care -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Transitional_Care">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#My_facility"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#WH&amp;S -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#WH&amp;S">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Allied_Health -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Allied_Health">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Community_Nurses -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Community_Nurses">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Hospital"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Diagnosis -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Diagnosis">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Dietician -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Dietician">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Allied_Health"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Emergency -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Emergency">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Hospital"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Home_Care -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Home_Care">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Hostels -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Hostels">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Lutheran -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Lutheran">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Medications -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Medications">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Mental_Health -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Mental_Health">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Hospital"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#My_facility -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#My_facility">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Nurse_Designation -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Nurse_Designation">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Occupational_Therapy -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Occupational_Therapy">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Allied_Health"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Packages -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Packages">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Pharmacy -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Pharmacy">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Physiotherapy -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Physiotherapy">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Allied_Health"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Podiatry -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Podiatry">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Allied_Health"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Private_Nurses -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Private_Nurses">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Referrals -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Referrals"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Social_Work -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Social_Work">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Allied_Health"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Telecross -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Telecross">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+    </Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#UPA -->
+
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#UPA">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#AdheresTo"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Dispenses"/>
+                <allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Medications"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#HasA"/>
+                <allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Medications"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#HasA"/>
+                <allValuesFrom>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#HasA"/>
+                        <allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Diagnosis"/>
+                    </Restriction>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IsA"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#adjustsCare"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#alerts"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#alters"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Care_Plan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#assessesPatient"/>
+                <allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Referrals"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#caresFor"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#communicates"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Doctor"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#inputs"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Case_Conference"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#mustHave"/>
+                <allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Nurse_Designation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#mustHave"/>
+                <allValuesFrom>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#mustHave"/>
+                        <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse_Education_Level"/>
+                    </Restriction>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#mustHave"/>
+                <allValuesFrom>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#mustHave"/>
+                        <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse_Registration"/>
+                    </Restriction>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#provides"/>
+                <allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Packages"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#reads"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Bed_Occupancy_Indicator"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#receives"/>
+                <allValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Packages"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#refersTo"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#WH&amp;S"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#addsTo"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Bed_Occupancy_Indicator"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#confersWith"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Hospital"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#has"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#has"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#has"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#monitors"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#AdheresTo"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Dispenses"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#HasA"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IsA"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#adjustsCare"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#alerts"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#alters"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#assessesPatient"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#caresFor"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#communicates"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#inputs"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#liaisesWith"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#mustHave"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#provides"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#reads"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#receives"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#refersTo"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#addsTo"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#has"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#monitors"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Ipratropium_bromide/salbutamol -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Ipratropium_bromide/salbutamol">
+        <sameAs rdf:resource="http://www.cablesat.com.au/research/Hyoscine_Butylbromide"/>
+        <sameAs rdf:resource="http://www.cablesat.com.au/research/Salbutamol"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/70944005 -->
+
+
+    <NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/70944005">
+        <sameAs rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Insufficient_Gas_Exchange"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Agency -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Agency">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Bachelor_of_Nursing -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Bachelor_of_Nursing">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse_Education_Level"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Bachelor_of_Nursing_Honours -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Bachelor_of_Nursing_Honours">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse_Education_Level"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Blart_Versenwald -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Blart_Versenwald">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Case_Management -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Case_Management">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Casual -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Casual">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Cetirizine_Hydrochloride -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Cetirizine_Hydrochloride">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Clinical_Nurse_Consultant -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Clinical_Nurse_Consultant">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Clinical_Nurse_Specialist -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Clinical_Nurse_Specialist">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Clinical_Symptom_Control -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Clinical_Symptom_Control">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Coordination_of_Care -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Coordination_of_Care">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Dan_Streetmentioner -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Dan_Streetmentioner">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Disease_Education -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Disease_Education">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Eccentrica_Gallumbits -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Eccentrica_Gallumbits">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Emergency -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Emergency">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Enalapril -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Enalapril">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Enrolled_Nurse -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Enrolled_Nurse">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Esomeprazole -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Esomeprazole">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Execution_of_medical_orders -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Execution_of_medical_orders">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Ford_Prefect -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Ford_Prefect">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Freedom_From_Complication -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Freedom_From_Complication">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Full_Time -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Full_Time">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Functional_Status -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Functional_Status">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Gag_Halfrunt -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Gag_Halfrunt">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Gastric_reflux -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Gastric_reflux">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Gogrilla_Mincefriend -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Gogrilla_Mincefriend">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Googleplex_Starthinker -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Googleplex_Starthinker">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Gout -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Gout">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Graduate_RN -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Graduate_RN">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/High_Blood_Pressure -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/High_Blood_Pressure">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Hyoscine_Butylbromide -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Hyoscine_Butylbromide">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Jane_Arkleseizure -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Jane_Arkleseizure">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Joe_Bleu -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Joe_Bleu">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/John_Smith -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/John_Smith">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Masters_degree -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Masters_degree">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse_Education_Level"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Mavis_Garkbit -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Mavis_Garkbit">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Medical -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Medical">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nosocomial_Infection -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nosocomial_Infection">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nurse_Administrator -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nurse_Administrator">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nurse_Assessment -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nurse_Assessment">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nurse_Educator -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nurse_Educator">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nurse_Follow_up_Care -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nurse_Follow_up_Care">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nurse_Intervention -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nurse_Intervention">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nurse_Researcher -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nurse_Researcher">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nursing_Certificate -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nursing_Certificate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse_Education_Level"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nursing_Diagnosis -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nursing_Diagnosis">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nursing_Diploma -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nursing_Diploma">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse_Education_Level"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/PhD -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/PhD">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse_Education_Level"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Physician_initiated_Treatment -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Physician_initiated_Treatment">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Post_graduate_diploma -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Post_graduate_diploma">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse_Education_Level"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Registered_Nurse -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Registered_Nurse">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Salbutamol -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Salbutamol">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Slarty_Bartfast -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Slarty_Bartfast">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Surgical -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Surgical">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Ulcer -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Ulcer">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/fall -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/fall">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/hypothetical_ward.owl -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/hypothetical_ward.owl">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/interdisciplinary_communications -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/interdisciplinary_communications">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Zaphod_Beeblebrox/Zaphod_Beeblebrox.rdf -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Zaphod_Beeblebrox/Zaphod_Beeblebrox.rdf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Insufficient_Gas_Exchange -->
+
+
+    <NamedIndividual rdf:about="http://www.cablesat.com.au/research/transitional.owl#Insufficient_Gas_Exchange"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#AdheresTo"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Dispenses"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Pharmacy"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#HasA"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IsA"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Medications"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#adjustsCare"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Care_Plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#alerts"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#alters"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Case_Conference"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#assessesPatient"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#ACAS"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#assessesPatient"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#ACAT"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#caresFor"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#communicates"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#inputs"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Doctor"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#inputs"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#inputs"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#inputs"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#liaisesWith"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Case_Conference"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#mustHave"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurse"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#provides"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Lutheran"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#provides"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#My_facility"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#provides"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#UPA"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#reads"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#receives"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.cablesat.com.au/research/transitional.owl#refersTo"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#addsTo"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Referrals"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#confersWith"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#has"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Transitional_Care"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#monitors"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Doctor"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

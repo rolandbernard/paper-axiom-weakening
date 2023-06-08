@@ -1,0 +1,3758 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#confounded_by -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#confounded_by"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_SI_unit -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_SI_unit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_at_event -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_at_event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_cessation -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_cessation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_maximal_severity -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_maximal_severity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_onset -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_onset"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_anatomic_location -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_anatomic_location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_assessment -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_assessment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_associated_disorder -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_associated_disorder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_conventional_unit -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_conventional_unit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_demographic_characteristic -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_demographic_characteristic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_dimension -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_dimension"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_dosage -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_dosage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_event -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_finding -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_finding"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_identifier -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_identifier"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_last_event -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_last_event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_predisposition -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_predisposition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_prerequisite -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_prerequisite"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_range -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_range"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_relative_position -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_relative_position"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_severity -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_severity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_status -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_status"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_timing -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_timing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_treatment -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_treatment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_volume -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_volume"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#influenced_by_major_abo_blood_type -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#influenced_by_major_abo_blood_type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDhDgib4q2pnZNfUcxtsaYO -->
+
+
+    <Class rdf:about="http://webprotege.stanford.edu/RDhDgib4q2pnZNfUcxtsaYO">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDuDJsY0l36QJUqGX5Tf0c9 -->
+
+
+    <Class rdf:about="http://webprotege.stanford.edu/RDuDJsY0l36QJUqGX5Tf0c9">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RizslBkOdWGiRWZZLIIuJ8 -->
+
+
+    <Class rdf:about="http://webprotege.stanford.edu/RizslBkOdWGiRWZZLIIuJ8">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abdomen_gi_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abdomen_gi_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abnormal_connective_tissue -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abnormal_connective_tissue">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#autoimmune_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#obstetrical_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#african_american -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#african_american">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#race"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#asian"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#caucasian"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#native_hawaiian_pacific_islander"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#age -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#age">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#demographic_characteristics"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ethnicity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#race"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sex"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angiodysplasia -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angiodysplasia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#diverticular_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastritis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_neoplasm"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hemorrhoids"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#inflammatory_bowel_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ulcer"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#asian -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#asian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#race"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#african_american"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#caucasian"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#native_hawaiian_pacific_islander"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#autoimmune_disorder -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#autoimmune_disorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abnormal_connective_tissue"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#obstetrical_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#back_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#back_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bacterial_infection -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bacterial_infection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#fungal_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#tuberculosis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#viral_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bladder_disease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bladder_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#kidney_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#stone"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urinary_tract_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_malignancy"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bronchiectasis -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bronchiectasis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bronchitis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#emphysema"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_malignancy"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bronchitis -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bronchitis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bronchiectasis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#emphysema"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_malignancy"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#male"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cardiovascular_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cardiovascular_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#caucasian -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#caucasian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#race"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#african_american"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#asian"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#native_hawaiian_pacific_islander"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cerebral_aneurysm -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cerebral_aneurysm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#stroke"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#chest_breast_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#chest_breast_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cirrhosis -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cirrhosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#colon_polyp -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#colon_polyp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_neoplasm"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_malignancy"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#constitutional -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#constitutional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#coordination_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#coordination_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cranial_nerves_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cranial_nerves_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abnormal_connective_tissue"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#autoimmune_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#obstetrical_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#demographic_characteristics -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#demographic_characteristics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#diverticular_disease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#diverticular_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angiodysplasia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastritis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_neoplasm"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hemorrhoids"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#inflammatory_bowel_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ulcer"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#duodenal_ulcer -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#duodenal_ulcer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ulcer"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastric_ulcer"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ear_nose_mouth_throat_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ear_nose_mouth_throat_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#emphysema -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#emphysema">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bronchiectasis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bronchitis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_malignancy"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_disease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angiodysplasia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#diverticular_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastritis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_neoplasm"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hemorrhoids"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#inflammatory_bowel_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ulcer"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_tear -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_tear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_disease"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_varix"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_varix -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_varix">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_disease"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_tear"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_prerequisite"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ethnicity -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ethnicity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#demographic_characteristics"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#age"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#race"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sex"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#extremities_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#extremities_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#eye_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#eye_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#family -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#family">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#history"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#male"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sex"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#male"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#fungal_infection -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#fungal_infection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bacterial_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#tuberculosis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#viral_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gait_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gait_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastric_ulcer -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastric_ulcer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ulcer"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#duodenal_ulcer"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastritis -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastritis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angiodysplasia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#diverticular_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_neoplasm"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hemorrhoids"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#inflammatory_bowel_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ulcer"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abnormal_connective_tissue"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#autoimmune_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#obstetrical_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_malignancy -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_malignancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_neoplasm"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#colon_polyp"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_neoplasm -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_neoplasm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angiodysplasia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#diverticular_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastritis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hemorrhoids"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#inflammatory_bowel_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ulcer"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#genitourinary_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#genitourinary_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#glioblastoma -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#glioblastoma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abnormal_connective_tissue"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#autoimmune_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#obstetrical_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#head_appearance -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#head_appearance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#healthcare_professional -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#healthcare_professional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hemorrhoids -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hemorrhoids">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angiodysplasia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#diverticular_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastritis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_neoplasm"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#inflammatory_bowel_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ulcer"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hispanic -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hispanic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ethnicity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#not_hispanic"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#history -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#history"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abnormal_connective_tissue"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#autoimmune_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#obstetrical_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#inflammatory_bowel_disease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#inflammatory_bowel_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angiodysplasia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#diverticular_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastritis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_neoplasm"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hemorrhoids"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ulcer"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#kidney_disease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#kidney_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bladder_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#stone"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urinary_tract_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_malignancy"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angiodysplasia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#diverticular_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastritis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_neoplasm"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hemorrhoids"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#inflammatory_bowel_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ulcer"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#lymphatic_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#lymphatic_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#male -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#male">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sex"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#male"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#medical_surgical -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#medical_surgical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#history"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mental_status -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mental_status">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#motor_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#motor_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#native_hawaiian_pacific_islander -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#native_hawaiian_pacific_islander">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#race"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#african_american"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#asian"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#caucasian"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neck_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neck_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#male"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abnormal_connective_tissue"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#autoimmune_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#obstetrical_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#not_hispanic -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#not_hispanic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ethnicity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hispanic"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#obstetrical_disorder -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#obstetrical_disorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abnormal_connective_tissue"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#autoimmune_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#glioblastoma"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#male"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#psychiatric_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#psychiatric_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abnormal_connective_tissue"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#autoimmune_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#obstetrical_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_malignancy -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_malignancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bronchiectasis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bronchitis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#emphysema"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#race -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#race">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#demographic_characteristics"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#age"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ethnicity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sex"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#reflexes_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#reflexes_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#healthcare_professional"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_associated_disorder"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#glioblastoma"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#respiratory_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#respiratory_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sensation_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sensation_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sex -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sex">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#demographic_characteristics"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#age"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ethnicity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#race"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#female"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#skin_abnormality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#skin_abnormality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#social_history -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#social_history">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#history"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#male"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#stone -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#stone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bladder_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#kidney_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urinary_tract_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_malignancy"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#stroke -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#stroke">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cerebral_aneurysm"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#study_subject -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#study_subject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#tuberculosis -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#tuberculosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bacterial_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#fungal_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#viral_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ulcer -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#ulcer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#angiodysplasia"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#diverticular_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#esophageal_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastritis"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_neoplasm"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#hemorrhoids"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#inflammatory_bowel_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uncle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#relative"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#aunt"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#brother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#daughter"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#father"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#maternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#mother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#nephew"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#niece"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandfather"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#paternal_grandmother"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sister"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#son"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#male"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urinary_tract_infection -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urinary_tract_infection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bladder_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#kidney_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#stone"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_malignancy"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_predisposition"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#other_disease_or_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#abnormal_connective_tissue"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#autoimmune_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#cushings_syndrome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gastrointestinal_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#neurologic_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#obstetrical_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#pulmonary_disorder"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_malignancy -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_malignancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urologic_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bladder_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#kidney_disease"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#stone"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#urinary_tract_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uterine_fibroid -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uterine_fibroid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uterine_polyp"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uterine_polyp -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uterine_polyp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#gynecologic_disorder"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#uterine_fibroid"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2010/10/BPO.owl#viral_infection -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#viral_infection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#infection"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#bacterial_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#fungal_infection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#tuberculosis"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_associated_disorder"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_demographic_characteristic"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#demographic_characteristics"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_finding"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_predisposition"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_prerequisite"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#sex"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_SI_unit"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_at_event"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_cessation"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_maximal_severity"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_onset"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_conventional_unit"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_dimension"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_dosage"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_identifier"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_last_event"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_range"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_relative_position"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_status"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_timing"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_volume"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#influenced_by_major_abo_blood_type"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty>
+                    <rdf:Description>
+                        <inverseOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_identifier"/>
+                    </rdf:Description>
+                </onProperty>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#confounded_by"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#confounded_by"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_at_event"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_at_event"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_cessation"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_maximal_severity"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_maximal_severity"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_onset"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_age_of_onset"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_anatomic_location"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_anatomic_location"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_assessment"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_assessment"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_associated_disorder"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_demographic_characteristic"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_dimension"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_event"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_event"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_finding"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_predisposition"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_severity"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_severity"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_sex"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#person"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_status"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_status"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_treatment"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#disease_or_disorder"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#has_treatment"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2010/10/BPO.owl#physical_finding"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

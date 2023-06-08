@@ -1,0 +1,1868 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#adjusts -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#adjusts"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#adjusts"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isAdjustedBy"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#advises -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#advises"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#affects -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#affects">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#hasAffect"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#attend -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#attend">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#careFor -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#careFor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#chairs -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#chairs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#communicateWith -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#communicateWith"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#determines -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#determines"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#determines"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isDeterminedBy"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#fills -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#fills"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#guides -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#guides">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isGuidedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#hasARole -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#hasARole"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#hasAffect -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#hasAffect">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#affects"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#hasAffect"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#affects"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#initiates -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#initiates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#inputsTo -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#inputsTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isAdjustedBy -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isAdjustedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#adjusts"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#adjusts"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isDeterminedBy -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isDeterminedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#determines"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#determines"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isGuidedBy -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isGuidedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#guides"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isGuidedBy"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#guides"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isSubjectOf -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isSubjectOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#liaisesWith -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#liaisesWith"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#makes -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#makes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#manages -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#manages"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#measures -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#measures"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#reports -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#reports"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#shapes -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#shapes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#suggestsTo -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#suggestsTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#templates -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#templates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#toMeet -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#toMeet"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#ultimatelyAffects -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#ultimatelyAffects"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#ACAS -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#ACAS">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Hospital"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#ACAT -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#ACAT">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Hospital"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Care_Plan -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Care_Plan">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Case_Conference"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Case_Conference -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Case_Conference">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Multi_Disciplinary_Teams"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Doctor -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Doctor">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#External_Agencies -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#External_Agencies">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Hospital -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Hospital">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Patient -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#WH&amp;S -->
+
+
+    <Class rdf:about="http://www.cablesat.com.au/research/transitional.owl#WH&amp;S">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Audit -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Audit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Bed_Occupancy -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Bed_Occupancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Budget -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Budget">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Hand_Over -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Hand_Over">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Risk"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Risk -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Commonwealth_Health -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Commonwealth_Health">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Drug_Theraputics -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Drug_Theraputics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Risk"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Falls -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Falls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Risk"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Family_Meeting -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Family_Meeting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Full_time_Equivalent -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Full_time_Equivalent">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Health_District -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Health_District">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#KPI -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#KPI">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Manual_handeling -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Manual_handeling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Risk"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Medicare -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Medicare">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Models_of_Care -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Models_of_Care"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Multi_Disciplinary_Teams -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Multi_Disciplinary_Teams">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#NSW_Health -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#NSW_Health">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Nurse_Administrator -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Nurse_Administrator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Nutrition -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Nutrition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Risk"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Occupancy -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Occupancy">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Operational_Manager -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Operational_Manager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Planning -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Planning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Quality -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Quality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Recruitment -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Recruitment">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Rosters -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Rosters">
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Staff_Meetings -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Staff_Meetings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#adjusts"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#KPI"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#adjusts"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Rosters"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#advises"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Drug_Theraputics"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#advises"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Falls"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#advises"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Manual_handeling"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#advises"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Quality"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#affects"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Bed_Occupancy"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#affects"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Occupancy"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#affects"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Rosters"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#careFor"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#chairs"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#communicateWith"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#determines"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Full_time_Equivalent"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#determines"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#KPI"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#determines"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Recruitment"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#fills"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Occupancy"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#guides"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#guides"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Models_of_Care"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#hasARole"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#hasARole"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#hasARole"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#inputsTo"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Case_Conference"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#inputsTo"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#inputsTo"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Bed_Occupancy"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#inputsTo"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Hand_Over"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#inputsTo"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Risk"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#inputsTo"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Falls"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#inputsTo"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Manual_handeling"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#inputsTo"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Quality"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#inputsTo"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Staff_Meetings"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isDeterminedBy"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Full_time_Equivalent"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isSubjectOf"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isSubjectOf"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#liaisesWith"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#External_Agencies"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#manages"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Budget"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#manages"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Planning"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#measures"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#IIMS_Reporting"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#measures"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Risk"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#measures"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Falls"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#measures"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#KPI"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#measures"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Planning"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#measures"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Quality"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#reports"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Bed_Occupancy"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#shapes"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#templates"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Models_of_Care"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#toMeet"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#KPI"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#ultimatelyAffects"/>
+                <allValuesFrom rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#ultimatelyAffects"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Meetings"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#ultimatelyAffects"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Models_of_Care"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#adjusts"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#advises"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#affects"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#attend"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#careFor"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#chairs"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#communicateWith"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#determines"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#fills"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#guides"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#hasARole"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#hasAffect"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#initiates"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#inputsTo"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isAdjustedBy"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isGuidedBy"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isSubjectOf"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#liaisesWith"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#makes"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#manages"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#measures"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#reports"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#shapes"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#suggestsTo"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#templates"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#toMeet"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#ultimatelyAffects"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Ipratropium_bromide/salbutamol -->
+
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Ipratropium_bromide/salbutamol">
+        <sameAs rdf:resource="http://www.cablesat.com.au/research/Hyoscine_Butylbromide"/>
+        <sameAs rdf:resource="http://www.cablesat.com.au/research/Salbutamol"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/70944005 -->
+
+
+    <NamedIndividual rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/70944005">
+        <sameAs rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Insufficient_Gas_Exchange"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Agency -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Agency">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Bachelor_of_Nursing -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Bachelor_of_Nursing">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Bachelor_of_Nursing_Honours -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Bachelor_of_Nursing_Honours">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Blart_Versenwald -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Blart_Versenwald">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Case_Management -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Case_Management">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Casual -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Casual">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Cetirizine_Hydrochloride -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Cetirizine_Hydrochloride">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Clinical_Nurse_Consultant -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Clinical_Nurse_Consultant">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Clinical_Nurse_Specialist -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Clinical_Nurse_Specialist">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Clinical_Symptom_Control -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Clinical_Symptom_Control">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Coordination_of_Care -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Coordination_of_Care">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Dan_Streetmentioner -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Dan_Streetmentioner">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Disease_Education -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Disease_Education">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Eccentrica_Gallumbits -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Eccentrica_Gallumbits">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Emergency -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Emergency">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Enalapril -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Enalapril">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Enrolled_Nurse -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Enrolled_Nurse">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Esomeprazole -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Esomeprazole">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Execution_of_medical_orders -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Execution_of_medical_orders">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Ford_Prefect -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Ford_Prefect">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Freedom_From_Complication -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Freedom_From_Complication">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Full_Time -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Full_Time">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Functional_Status -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Functional_Status">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Gag_Halfrunt -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Gag_Halfrunt">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Gastric_reflux -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Gastric_reflux">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Gogrilla_Mincefriend -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Gogrilla_Mincefriend">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Googleplex_Starthinker -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Googleplex_Starthinker">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Gout -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Gout">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Graduate_RN -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Graduate_RN">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/High_Blood_Pressure -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/High_Blood_Pressure">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Hyoscine_Butylbromide -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Hyoscine_Butylbromide">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Jane_Arkleseizure -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Jane_Arkleseizure">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Joe_Bleu -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Joe_Bleu">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/John_Smith -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/John_Smith">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Masters_degree -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Masters_degree">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Mavis_Garkbit -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Mavis_Garkbit">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Medical -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Medical">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nosocomial_Infection -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nosocomial_Infection">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nurse_Administrator -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nurse_Administrator">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nurse_Assessment -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nurse_Assessment">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nurse_Educator -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nurse_Educator">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nurse_Follow_up_Care -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nurse_Follow_up_Care">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nurse_Intervention -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nurse_Intervention">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nurse_Researcher -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nurse_Researcher">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nursing_Certificate -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nursing_Certificate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nursing_Diagnosis -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nursing_Diagnosis">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Nursing_Diploma -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Nursing_Diploma">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/PhD -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/PhD">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Physician_initiated_Treatment -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Physician_initiated_Treatment">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Dependent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Post_graduate_diploma -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Post_graduate_diploma">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Registered_Nurse -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Registered_Nurse">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Salbutamol -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Salbutamol">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Slarty_Bartfast -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Slarty_Bartfast">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Surgical -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Surgical">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Ulcer -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Ulcer">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/fall -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/fall">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/hypothetical_ward.owl -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/hypothetical_ward.owl">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/interdisciplinary_communications -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/interdisciplinary_communications">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/Zaphod_Beeblebrox/Zaphod_Beeblebrox.rdf -->
+
+
+    <Thing rdf:about="http://www.cablesat.com.au/research/Zaphod_Beeblebrox/Zaphod_Beeblebrox.rdf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </Thing>
+    
+
+
+    <!-- http://www.cablesat.com.au/research/transitional.owl#Insufficient_Gas_Exchange -->
+
+
+    <NamedIndividual rdf:about="http://www.cablesat.com.au/research/transitional.owl#Insufficient_Gas_Exchange"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#adjusts"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Occupancy"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#advises"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Risk"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#affects"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Budget"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#chairs"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_interdependent_Role"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#communicateWith"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Doctor"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#determines"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Budget"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#fills"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#guides"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Planning"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#hasARole"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Nurse_Administrator"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#initiates"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Rosters"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isDeterminedBy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Recruitment"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#isSubjectOf"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Patient"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#liaisesWith"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#makes"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Recruitment"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#manages"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Nurses_Independent_Role"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#measures"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Audit"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#reports"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Occupancy"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#shapes"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Clinical_Risk"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#shapes"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Falls"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#shapes"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Health_District"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#shapes"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Manual_handeling"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#shapes"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#NSW_Health"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#shapes"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Quality"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#suggestsTo"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Multi_Disciplinary_Teams"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#templates"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Commonwealth_Health"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#toMeet"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#Recruitment"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/Administrator.owl#ultimatelyAffects"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.cablesat.com.au/research/transitional.owl#Policies_and_Procedures"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

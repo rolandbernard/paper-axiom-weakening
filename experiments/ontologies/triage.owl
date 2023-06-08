@@ -1,0 +1,1115 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#EDMO_Review -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#EDMO_Review">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#PatientTo -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#PatientTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#activateTraumaLevel -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#activateTraumaLevel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#activates -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#activates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#admission -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#admission"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#assesses -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#assesses"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#authorises -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#authorises"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#availableBeds -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#availableBeds"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#fastTrack -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#fastTrack"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#formulates -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#formulates"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#has -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#has">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#headsUp -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#headsUp"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#ifRequiresMoreThanPanadol -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#ifRequiresMoreThanPanadol"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#initialPresentation -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#initialPresentation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#isDiagnosed -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#isDiagnosed"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#just -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#just"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#leavesAgainstMedicalAdvice -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#leavesAgainstMedicalAdvice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#liaiseWithTreatmentPlan -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#liaiseWithTreatmentPlan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#liaisesWith -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#liaisesWith"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#makesDecision -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#makesDecision">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#mustHave -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#mustHave"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#notifies -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#notifies">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#outsideScopeOfPractice -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#outsideScopeOfPractice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#paeds_ortho_distal_limbs -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#paeds_ortho_distal_limbs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#pathways -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#pathways"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#phoneReport -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#phoneReport"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#requests -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#requests"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#results -->
+
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#results"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Analgesia -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Analgesia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Dependent_Nursing_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Clinical_Initiatives_Nurse -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Clinical_Initiatives_Nurse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Independent_Nursing_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Dependent_Nursing_Role -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Dependent_Nursing_Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Triage_Nurse"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Diagnosis -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Diagnosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Patient"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Doctor -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Doctor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Dependent_Nursing_Role"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Does_Not_Wait -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Does_Not_Wait">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Patient"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#High_Probability_Of_Admission -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#High_Probability_Of_Admission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Independent_Nursing_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Home -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Home">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Patient"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Hospital_Units -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Hospital_Units">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse_Supervisor"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Independent_Nursing_Role -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Independent_Nursing_Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Triage_Nurse"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Interdependent_Nursing_Role -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Interdependent_Nursing_Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Triage_Nurse"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Medical -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Medical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Registrar"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Mental_Health_Team -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Mental_Health_Team">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Doctor"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Patient"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse_Practitioner -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse_Practitioner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Independent_Nursing_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse_Supervisor -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse_Supervisor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Ortho -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Ortho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Registrar"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Outside_Scope_Of_Practice -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Outside_Scope_Of_Practice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Dependent_Nursing_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Pathology -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Pathology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Patient"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Patient -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Patient">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Radiology -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Radiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Patient"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Registrar -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Registrar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Doctor"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Requires_Bed -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Requires_Bed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Independent_Nursing_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Independent_Nursing_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Short_Stay_Unit -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Short_Stay_Unit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Surgical -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Surgical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Registrar"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Trauma -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Trauma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Trauma_Team -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Trauma_Team">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Trauma"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Triage -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Triage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Independent_Nursing_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Triage_Nurse -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Triage_Nurse"/>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Waiting_room -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Waiting_room">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Independent_Nursing_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Initial_Treatment/Investigation -->
+
+
+    <Class rdf:about="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Initial_Treatment/Investigation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Independent_Nursing_Role"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#EDMO_Review"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Registrar"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#PatientTo"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Short_Stay_Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#activateTraumaLevel"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Trauma"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#activates"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Trauma_Team"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#admission"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Hospital_Units"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#assesses"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#High_Probability_Of_Admission"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#assesses"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Requires_Bed"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#assesses"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Waiting_room"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#authorises"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Analgesia"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#availableBeds"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Hospital_Units"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#fastTrack"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Clinical_Initiatives_Nurse"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#fastTrack"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse_Practitioner"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#fastTrack"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Outside_Scope_Of_Practice"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#fastTrack"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Pathology"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#fastTrack"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Radiology"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#formulates"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Diagnosis"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#has"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Dependent_Nursing_Role"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#has"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Independent_Nursing_Role"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#has"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Interdependent_Nursing_Role"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#headsUp"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse_Supervisor"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#ifRequiresMoreThanPanadol"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Doctor"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#initialPresentation"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Triage"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#isDiagnosed"/>
+                <allValuesFrom>
+                    <Restriction>
+                        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#isDiagnosed"/>
+                        <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Diagnosis"/>
+                    </Restriction>
+                </allValuesFrom>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#just"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Does_Not_Wait"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#leavesAgainstMedicalAdvice"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Home"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#liaiseWithTreatmentPlan"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Doctor"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#liaisesWith"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#makesDecision"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Does_Not_Wait"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#notifies"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse_Supervisor"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#outsideScopeOfPractice"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Doctor"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#paeds_ortho_distal_limbs"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Outside_Scope_Of_Practice"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#pathways"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Mental_Health_Team"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#pathways"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Short_Stay_Unit"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#phoneReport"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Registrar"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#requests"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Pathology"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#requests"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Radiology"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#results"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Registrar"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#EDMO_Review"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#PatientTo"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#activateTraumaLevel"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#activates"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#admission"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#assesses"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#authorises"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#availableBeds"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#fastTrack"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#has"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#headsUp"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#ifRequiresMoreThanPanadol"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#initialPresentation"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#isDiagnosed"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#leavesAgainstMedicalAdvice"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#liaiseWithTreatmentPlan"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#liaisesWith"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#makesDecision"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#mustHave"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#notifies"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#outsideScopeOfPractice"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#paeds_ortho_distal_limbs"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#pathways"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#phoneReport"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#requests"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#results"/>
+                <maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#EDMO_Review"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#PatientTo"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#activateTraumaLevel"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#activates"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Trauma"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#admission"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Registrar"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#assesses"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Triage"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#authorises"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Doctor"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#availableBeds"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse_Supervisor"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#fastTrack"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Doctor"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#fastTrack"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Initial_Treatment/Investigation"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#formulates"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Doctor"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#has"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Triage_Nurse"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#headsUp"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#High_Probability_Of_Admission"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#ifRequiresMoreThanPanadol"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Initial_Treatment/Investigation"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#initialPresentation"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Independent_Nursing_Role"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#isDiagnosed"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Patient"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#just"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Waiting_room"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#leavesAgainstMedicalAdvice"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Does_Not_Wait"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#liaiseWithTreatmentPlan"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#liaisesWith"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Requires_Bed"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#makesDecision"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Waiting_room"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#mustHave"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#notifies"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#outsideScopeOfPractice"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Initial_Treatment/Investigation"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#paeds_ortho_distal_limbs"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Dependent_Nursing_Role"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#pathways"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Shift_in_charge_nurse"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#phoneReport"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Initial_Treatment/Investigation"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#requests"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Clinical_Initiatives_Nurse"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#requests"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Nurse_Practitioner"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#results"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Pathology"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#results"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/philshields/ontologies/2015/4/untitled-ontology-59#Radiology"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

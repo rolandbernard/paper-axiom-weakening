@@ -1,0 +1,1103 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/EVI#associateFor -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#associateFor">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#directlySupports"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#associateFor"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#associatedWith"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#associatedWith -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#associatedWith">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#directlySupportedBy"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#associateFor"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#challengedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#challengedBy"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#challengedBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#challenges"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#challenges -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#challenges">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#challengedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#containedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#containedBy"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#containedBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#contains"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#contains -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#contains">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#containedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/EVI#contains"/>
+            <rdf:Description rdf:about="https://w3id.org/EVI#contains"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#contentUrl -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#contentUrl"/>
+    
+
+
+    <!-- https://w3id.org/EVI#created -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#created">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#directlySupports"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#created"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#createdBy"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#createdBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#createdBy">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#directlySupportedBy"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#created"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#dataSchema -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#dataSchema"/>
+    
+
+
+    <!-- https://w3id.org/EVI#datasetUsedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#datasetUsedBy">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#usedBy"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#datasetUsedBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#usedDataset"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#derivedFrom -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#derivedFrom">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#directlySupportedBy"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#derivedFrom"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#derivedTo"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#derivedTo -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#derivedTo">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#directlySupports"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#derivedFrom"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#describedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#describedBy"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#describedBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#describes"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#describes -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#describes">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#describedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#directlyChallengedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#directlyChallengedBy">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#challengedBy"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#directlyChallengedBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#directlyChallenges"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#directlyChallenges -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#directlyChallenges">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#challenges"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#directlyChallengedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#directlySupportedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#directlySupportedBy">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#supportedBy"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#directlySupportedBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#directlySupports"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#directlySupports -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#directlySupports">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#supports"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#directlySupportedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#distributedFrom -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#distributedFrom"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#distributedFrom"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#hasDistribution"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#generated -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#generated">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#directlySupports"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#generated"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#generatedBy"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#generatedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#generatedBy">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#directlySupportedBy"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#generated"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#hasDistribution -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#hasDistribution">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#distributedFrom"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#indirectlyChallengedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#indirectlyChallengedBy">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#challengedBy"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#indirectlyChallengedBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#indirectlyChallenges"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#indirectlyChallenges -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#indirectlyChallenges">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#challenges"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#indirectlyChallengedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/EVI#directlyChallenges"/>
+            <rdf:Description rdf:about="https://w3id.org/EVI#supports"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#packagedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#packagedBy"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#packagedBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#packages"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#packages -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#packages">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#packagedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#representedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#representedBy"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#representedBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#represents"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#represents -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#represents">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#representedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#serviceUsedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#serviceUsedBy">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#usedBy"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#serviceUsedBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#usedService"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#softwareUsedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#softwareUsedBy">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#usedBy"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#softwareUsedBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#usedSoftware"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#supportedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#supportedBy"/>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#supportedBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#supports"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#supports -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#supports">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#supportedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/EVI#supports"/>
+            <rdf:Description rdf:about="https://w3id.org/EVI#supports"/>
+        </propertyChainAxiom>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#used -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#used">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#directlySupports"/>
+    </ObjectProperty>
+    <rdf:Description>
+        <inverseOf rdf:resource="https://w3id.org/EVI#used"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#usedBy"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/EVI#usedBy -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#usedBy">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#directlySupportedBy"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#used"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#usedDataset -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#usedDataset">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#used"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#datasetUsedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#usedService -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#usedService">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#used"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#serviceUsedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/EVI#usedSoftware -->
+
+
+    <ObjectProperty rdf:about="https://w3id.org/EVI#usedSoftware">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/EVI#used"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <inverseOf rdf:resource="https://w3id.org/EVI#softwareUsedBy"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://schema.org/Article -->
+
+
+    <Class rdf:about="http://schema.org/Article">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Article"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Class>
+    
+
+
+    <!-- http://schema.org/Claim -->
+
+
+    <Class rdf:about="http://schema.org/Claim">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Claim"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Class>
+    
+
+
+    <!-- http://schema.org/Dataset -->
+
+
+    <Class rdf:about="http://schema.org/Dataset">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Dataset"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Class>
+    
+
+
+    <!-- http://schema.org/Organization -->
+
+
+    <Class rdf:about="http://schema.org/Organization">
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Agent"/>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Organization"/>
+    </Class>
+    
+
+
+    <!-- http://schema.org/Person -->
+
+
+    <Class rdf:about="http://schema.org/Person">
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Agent"/>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Person"/>
+    </Class>
+    
+
+
+    <!-- http://schema.org/Service -->
+
+
+    <Class rdf:about="http://schema.org/Service">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Service"/>
+    </Class>
+    
+
+
+    <!-- http://schema.org/SoftwareApplication -->
+
+
+    <Class rdf:about="http://schema.org/SoftwareApplication">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Software"/>
+    </Class>
+    
+
+
+    <!-- http://schema.org/SoftwareSourceCode -->
+
+
+    <Class rdf:about="http://schema.org/SoftwareSourceCode">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Software"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#associatedWith"/>
+                <allValuesFrom rdf:resource="https://www.w3.org/ns/prov#Agent"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#challenges"/>
+                <allValuesFrom rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#contains"/>
+                <allValuesFrom rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#contentUrl"/>
+                <allValuesFrom rdf:resource="https://w3id.org/EVI#DigitalContent"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#createdBy"/>
+                <allValuesFrom rdf:resource="https://www.w3.org/ns/prov#Agent"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#dataSchema"/>
+                <allValuesFrom rdf:resource="https://w3id.org/EVI#Schema"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#derivedFrom"/>
+                <allValuesFrom rdf:resource="https://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#describes"/>
+                <allValuesFrom rdf:resource="https://www.w3.org/ns/prov#Activity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#directlyChallenges"/>
+                <allValuesFrom rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#generatedBy"/>
+                <allValuesFrom rdf:resource="https://www.w3.org/ns/prov#Activity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#hasDistribution"/>
+                <allValuesFrom rdf:resource="https://w3id.org/EVI#Distribution"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#indirectlyChallenges"/>
+                <allValuesFrom rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#packages"/>
+                <allValuesFrom rdf:resource="https://w3id.org/EVI#Software"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#represents"/>
+                <allValuesFrom rdf:resource="https://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#supports"/>
+                <allValuesFrom rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#used"/>
+                <allValuesFrom rdf:resource="https://www.w3.org/ns/prov#Entity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#usedDataset"/>
+                <allValuesFrom rdf:resource="https://w3id.org/EVI#Dataset"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#usedService"/>
+                <allValuesFrom rdf:resource="https://w3id.org/EVI#Service"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://w3id.org/EVI#usedSoftware"/>
+                <allValuesFrom rdf:resource="https://w3id.org/EVI#Software"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#SoftwareAgent -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/prov#SoftwareAgent">
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Agent"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#Article -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#Article">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Article"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#Claim -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#Claim">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Claim"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#Computation -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#Computation">
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Activity"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#Container -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#Container">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#Dataset -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#Dataset">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Dataset"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#DigitalContent -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#DigitalContent"/>
+    
+
+
+    <!-- https://w3id.org/EVI#DigitalObject -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#DigitalObject">
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Entity"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#Distribution -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#Distribution">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#EvidenceGraph -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#EvidenceGraph">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#Image -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#Image">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Dataset"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#Method -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#Method">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#Reference -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#Reference">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#Schema -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#Schema">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Dataset"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#Service -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#Service">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Service"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+    </Class>
+    
+
+
+    <!-- https://w3id.org/EVI#Software -->
+
+
+    <Class rdf:about="https://w3id.org/EVI#Software">
+        <rdfs:subClassOf rdf:resource="http://schema.org/SoftwareApplication"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/SoftwareSourceCode"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Class>
+    
+
+
+    <!-- https://www.w3.org/ns/prov#Activity -->
+
+
+    <Class rdf:about="https://www.w3.org/ns/prov#Activity"/>
+    
+
+
+    <!-- https://www.w3.org/ns/prov#Agent -->
+
+
+    <Class rdf:about="https://www.w3.org/ns/prov#Agent">
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Entity"/>
+    </Class>
+    
+
+
+    <!-- https://www.w3.org/ns/prov#Entity -->
+
+
+    <Class rdf:about="https://www.w3.org/ns/prov#Entity"/>
+    
+
+
+    <!-- https://www.w3.org/ns/prov#Organization -->
+
+
+    <Class rdf:about="https://www.w3.org/ns/prov#Organization">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Organization"/>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Agent"/>
+    </Class>
+    
+
+
+    <!-- https://www.w3.org/ns/prov#Person -->
+
+
+    <Class rdf:about="https://www.w3.org/ns/prov#Person">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Person"/>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Agent"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#associatedWith"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#challenges"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#contains"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#contentUrl"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Distribution"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#createdBy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#createdBy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#dataSchema"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Distribution"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#derivedFrom"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#describes"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Method"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#directlyChallenges"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#generatedBy"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Entity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#hasDistribution"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#indirectlyChallenges"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#packages"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Container"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#represents"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#supports"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#DigitalObject"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#used"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://www.w3.org/ns/prov#Activity"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#usedDataset"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Computation"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#usedService"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Computation"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="https://w3id.org/EVI#usedSoftware"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/EVI#Computation"/>
+    </Restriction>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://w3id.org/EVI#computation">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/EVI#data1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/EVI#data2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://w3id.org/EVI#usedDataset"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/EVI#computation"/>
+                        <swrl:argument2 rdf:resource="https://w3id.org/EVI#data1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://w3id.org/EVI#generatedBy"/>
+                                <swrl:argument1 rdf:resource="https://w3id.org/EVI#data2"/>
+                                <swrl:argument2 rdf:resource="https://w3id.org/EVI#computation"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://w3id.org/EVI#supports"/>
+                        <swrl:argument1 rdf:resource="https://w3id.org/EVI#data1"/>
+                        <swrl:argument2 rdf:resource="https://w3id.org/EVI#data2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

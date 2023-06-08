@@ -1,0 +1,1074 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_deviation_reason -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_deviation_reason">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_deviation_reason"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_genre -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_genre">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_genre"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_outcome -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_outcome">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_outcome"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_quality_of_evidence -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_quality_of_evidence">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_quality_of_evidence"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_related_health_issue -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_related_health_issue">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_related_health_issue"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_source_file -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_source_file">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_source_file"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_strength_of_recommendation -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_strength_of_recommendation">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_strength_of_recommendation"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_type -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_type">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_type"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_a_deviation_of -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_a_deviation_of">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_a_deviation_of"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_endorsed_by -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_endorsed_by">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_endorsed_by"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_initiated_by -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_initiated_by">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_initiated_by"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_issued_by -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_issued_by">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_issued_by"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_part_of -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_part_of"/>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#requires_resource -->
+
+
+    <ObjectProperty rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#requires_resource">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#requires_resource"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <ObjectProperty rdf:about="http://purl.org/dc/terms/description">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.org/dc/terms/description"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <ObjectProperty rdf:about="http://purl.org/dc/terms/license">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.org/dc/terms/license"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <ObjectProperty rdf:about="http://purl.org/dc/terms/title">
+        <propertyDisjointWith>
+            <rdf:Description>
+                <inverseOf rdf:resource="http://purl.org/dc/terms/title"/>
+            </rdf:Description>
+        </propertyDisjointWith>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://carre.kmi.open.ac.uk/ontology/risk.owl#observable -->
+
+
+    <Class rdf:about="http://carre.kmi.open.ac.uk/ontology/risk.owl#observable">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_part_of"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#observable_condition"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://carre.kmi.open.ac.uk/ontology/risk.owl#observable_expression -->
+
+
+    <Class rdf:about="http://carre.kmi.open.ac.uk/ontology/risk.owl#observable_expression">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#observable_condition"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_genre -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_genre">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_type -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_type">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#deviation_reason -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#deviation_reason">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#drug -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#drug">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#resource"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T200"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#evidence_source -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#evidence_source">
+        <rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Document"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan">
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_genre"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_genre"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_genre"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_genre"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_issued_by"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#issuing_body"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_issued_by"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#issuing_body"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.org/dc/terms/title"/>
+                        <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                        <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_title"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="http://purl.org/dc/terms/title"/>
+                        <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                        <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_title"/>
+                    </Restriction>
+                </intersectionOf>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_outcome"/>
+                <someValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_outcome"/>
+                <someValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#health_issue"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_outcome"/>
+                <someValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#instruction"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_type"/>
+                <someValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_type"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_a_deviation_of"/>
+                <someValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#requires_resource"/>
+                <someValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#drug"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#requires_resource"/>
+                <someValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#human"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#requires_resource"/>
+                <someValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#infrastructure"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_related_health_issue"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#related_health_issue"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_source_file"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#source_file"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_endorsed_by"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#evidence_source"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_initiated_by"/>
+                <minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</minQualifiedCardinality>
+                <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#observable_condition"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_deviation_reason"/>
+                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#deviation_reason"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_quality_of_evidence"/>
+                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#quality_of_evidence"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_strength_of_recommendation"/>
+                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#strength_of_recommendation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.org/dc/terms/description"/>
+                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                <onClass rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_description"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_description -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_description">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_information"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_information -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_information">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_title -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_title">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_information"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#health_issue -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#health_issue">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#outcome"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1137110"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#human -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#human">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#resource"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T090"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#infrastructure -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#infrastructure">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#resource"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/STY/T074"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#instruction -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#instruction">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#outcome"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#issuing_body -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#issuing_body">
+        <rdfs:subClassOf rdf:resource="http://swrc.ontoware.org/ontology#Organization"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#observable_condition -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#observable_condition">
+        <rdfs:subClassOf rdf:resource="http://carre.kmi.open.ac.uk/ontology/risk.owl#observable_expression"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#outcome -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#outcome">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#quality_and_level_of_recommendation -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#quality_and_level_of_recommendation">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#quality_of_evidence -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#quality_of_evidence">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#quality_and_level_of_recommendation"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#related_health_issue -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#related_health_issue">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/HL7/C1137110"/>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#resource -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#resource"/>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#source_file -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#source_file">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.org/dc/terms/license"/>
+                <maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</maxQualifiedCardinality>
+                <onClass rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#strength_of_recommendation -->
+
+
+    <Class rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#strength_of_recommendation">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#quality_and_level_of_recommendation"/>
+    </Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/HL7/C1137110 -->
+
+
+    <Class rdf:about="http://purl.bioontology.org/ontology/HL7/C1137110">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#health_issue"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#related_health_issue"/>
+    </Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/STY/T074 -->
+
+
+    <Class rdf:about="http://purl.bioontology.org/ontology/STY/T074">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#infrastructure"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#resource"/>
+    </Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/STY/T090 -->
+
+
+    <Class rdf:about="http://purl.bioontology.org/ontology/STY/T090">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#human"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#resource"/>
+    </Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/STY/T200 -->
+
+
+    <Class rdf:about="http://purl.bioontology.org/ontology/STY/T200">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#drug"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#resource"/>
+    </Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/LicenseDocument -->
+
+
+    <Class rdf:about="http://purl.org/dc/terms/LicenseDocument"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Document -->
+
+
+    <Class rdf:about="http://purl.org/ontology/bibo/Document">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#evidence_source"/>
+    </Class>
+    
+
+
+    <!-- http://swrc.ontoware.org/ontology#Organization -->
+
+
+    <Class rdf:about="http://swrc.ontoware.org/ontology#Organization">
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#issuing_body"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_deviation_reason"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#deviation_reason"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_genre"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_genre"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_outcome"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_outcome"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#health_issue"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_outcome"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#instruction"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_quality_of_evidence"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#quality_of_evidence"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_related_health_issue"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#related_health_issue"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_source_file"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#source_file"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_strength_of_recommendation"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#strength_of_recommendation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_type"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_type"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_a_deviation_of"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_endorsed_by"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#evidence_source"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_initiated_by"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#observable_condition"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_issued_by"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#issuing_body"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_part_of"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#observable_condition"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#requires_resource"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#drug"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#requires_resource"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#human"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#requires_resource"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#infrastructure"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.org/dc/terms/description"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_description"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.org/dc/terms/license"/>
+                <allValuesFrom rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.org/dc/terms/title"/>
+                <allValuesFrom rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#general_title"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#clinical_guideline -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#clinical_guideline">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_genre"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#clinical_pathway -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#clinical_pathway">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_genre"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#clinical_protocol -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#clinical_protocol">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_genre"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#high_quality_of_evidence -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#high_quality_of_evidence">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#quality_of_evidence"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#low_quality_of_evidence -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#low_quality_of_evidence">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#quality_of_evidence"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#moderate_quality_of_evidence -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#moderate_quality_of_evidence">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#quality_of_evidence"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#strong_strength_of_recommendation -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#strong_strength_of_recommendation">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#strength_of_recommendation"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#type_diagnostic -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#type_diagnostic">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#type_management -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#type_management">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#type_preventive -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#type_preventive">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#type_treatment -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#type_treatment">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#classification_type"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#very_low_quality_of_evidence -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#very_low_quality_of_evidence">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#quality_of_evidence"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#weak_strength_of_recommendation -->
+
+
+    <NamedIndividual rdf:about="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#weak_strength_of_recommendation">
+        <rdf:type rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#strength_of_recommendation"/>
+    </NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_deviation_reason"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_genre"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_outcome"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_quality_of_evidence"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_related_health_issue"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_source_file"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_strength_of_recommendation"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#has_type"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_a_deviation_of"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_endorsed_by"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_initiated_by"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_issued_by"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#is_part_of"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://carre.kmi.open.ac.uk/ontology/risk.owl#observable"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#requires_resource"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.org/dc/terms/description"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.org/dc/terms/license"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#source_file"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://purl.org/dc/terms/title"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf rdf:resource="http://iris.med.duth.gr/research/ecp/ontology/eCP.owl#formal_care_plan"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+

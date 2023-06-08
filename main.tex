@@ -411,8 +411,15 @@ Like for simple roles, also regularity is maintained by repeated addition of wea
 \section{Weakening makes you strong: evaluation aspects}
 
 % explain how different repairs are compared
-% explain how inconsistent ontologies were generated
-% explain that the OWL 2 ontologies were normalized to only use SROIQ axioms
+To experimentally evaluate the proposed axiom weakening and repair approach, we need some way to compare the quality of repair. As has already been discussed in \cite{troquard2018repairing}, the problem of deciding which of two possible repaired ontologies $\Omc_1$ or $\Omc_2$ is preferable is not generally well-defined. Similar to what has been proposed in \cite{troquard2018repairing} we will base the evaluation of the repairs on the size of the \emph{inferred class hierarchy}. The \emph{inferred class hierarchy} of an ontology $\Omc$ is given by
+\begin{align*}
+  \Inf(\Omc) = \{ A \sqsubseteq B \mid A, B \in N_C \text{ and } \Omc \models A \sqsubseteq B \} \enspace.
+\end{align*}
+
+
+
+% explain which ontologies where chosen and from where (BioPortal)
+% explain how inconsistent ontologies were generated from them
 % show results of the evaluation
 
 \section{Outlook}

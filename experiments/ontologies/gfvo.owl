@@ -1,0 +1,2271 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#describes -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#describes"/>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasAnnotation -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasAnnotation">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#hasAttribute"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasAttribute -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasAttribute"/>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasEvidence -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasEvidence">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#references"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasFirstPart -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasFirstPart">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#hasOrderedPart"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasIdentifier -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasIdentifier">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#hasAttribute"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasInput -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasInput">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#isSpatiotemporallyRelatedTo"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasLastPart -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasLastPart">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#hasOrderedPart"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasMember -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasMember">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#hasAttribute"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasOrderedPart -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasOrderedPart">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#hasPart"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasOutput -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasOutput">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#isSpatiotemporallyRelatedTo"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasPart -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasPart">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#isSpatiotemporallyRelatedTo"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasParticipant -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasParticipant">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#isSpatiotemporallyRelatedTo"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasQuality -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasQuality">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#hasAttribute"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#hasSource -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#hasSource">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#hasAttribute"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isAbout -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isAbout">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#describes"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isAffectedBy -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isAffectedBy">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#isParticipantIn"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isAfter -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isAfter"/>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isAttributeOf -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isAttributeOf"/>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isBefore -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isBefore"/>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isLocatedOn -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isLocatedOn">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#isSpatiotemporallyRelatedTo"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isPartOf -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isPartOf">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#isLocatedOn"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isParticipantIn -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isParticipantIn">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#isSpatiotemporallyRelatedTo"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isRefutedBy -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isRefutedBy">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#hasEvidence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isSourceOf -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isSourceOf">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#isAttributeOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isSpatiotemporallyRelatedTo -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isSpatiotemporallyRelatedTo"/>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isSupportedBy -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isSupportedBy">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#hasEvidence"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#isTemporarilyPartOf -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#isTemporarilyPartOf">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#isPartOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#references -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#references">
+        <rdfs:subPropertyOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#refersTo"/>
+    </ObjectProperty>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#refersTo -->
+
+
+    <ObjectProperty rdf:about="https://www.codamono.com/biointerchange/gfvo#refersTo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Alias -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Alias">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Name"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#AlleleCount -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#AlleleCount">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quantity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleFrequency"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Coverage"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Likelihood"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#NumberOfReads"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleMixture"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Span"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#AlleleFrequency -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#AlleleFrequency">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quantity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Coverage"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Likelihood"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#NumberOfReads"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleMixture"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Span"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#AminoAcid -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#AminoAcid">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ChemicalEntity"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#AncestralSequence -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#AncestralSequence">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ReferenceSequence"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#ArrayComparativeGenomicHybridization -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#ArrayComparativeGenomicHybridization">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#GenomicAscertainingMethod"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#BiopolymerSequencing"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#DNAMicroarray"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Attribute -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Attribute">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Object"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Process"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#AverageCoverage -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#AverageCoverage">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Coverage"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#BaseQuality -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#BaseQuality">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Score"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#MappingQuality"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#PhredScore"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#BiologicalEntity -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#BiologicalEntity">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#MaterialEntity"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#BiopolymerSequencing -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#BiopolymerSequencing">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#GenomicAscertainingMethod"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ArrayComparativeGenomicHybridization"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#DNAMicroarray"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Breakpoint -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Breakpoint">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Locus"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Catalog -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Catalog">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Collection"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Cell -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Cell">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#BiologicalEntity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Exome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Proteome"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#ChemicalEntity -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#ChemicalEntity">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#MaterialEntity"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Chromosome -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Chromosome">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ChemicalEntity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Contig"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genotype"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Haplotype"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Scaffold"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#CircularHelix -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#CircularHelix">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#HelixStructure"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#WatsonCrickHelix"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#CodingFrameOffset -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#CodingFrameOffset">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quality"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#CodonSequence -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#CodonSequence">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#DNASequence"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Collection -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Collection">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ExternalReference"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Feature"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#FunctionalSpecification"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Label"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Locus"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Comment -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Comment">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#InformationContentEntity"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#ConditionalGenotypeQuality -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#ConditionalGenotypeQuality">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#PhredScore"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Contig -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Contig">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Collection"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Chromosome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genotype"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Haplotype"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Scaffold"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Coverage -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Coverage">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quantity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleFrequency"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Likelihood"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#NumberOfReads"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleMixture"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Span"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#DNAMicroarray -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#DNAMicroarray">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#GenomicAscertainingMethod"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ArrayComparativeGenomicHybridization"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#BiopolymerSequencing"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#DNASequence -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#DNASequence">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Sequence"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#PeptideSequence"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#DNASequencing -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#DNASequencing">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#BiopolymerSequencing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#RNASequencing"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Exome -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Exome">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#BiologicalEntity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Cell"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Proteome"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#ExperimentalMethod -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#ExperimentalMethod">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Process"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#ExternalReference -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#ExternalReference">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Collection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Feature"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#FunctionalSpecification"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Label"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Locus"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Feature -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Feature">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Collection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ExternalReference"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#FunctionalSpecification"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Label"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Locus"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Female -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Female">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Sex"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Hermaphrodite"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Male"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#File -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#File">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Collection"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#ForwardReferenceSequenceFrameshift -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#ForwardReferenceSequenceFrameshift">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequenceAlignmentOperation"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Match"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ReferenceSequenceGap"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ReverseReferenceSequenceFrameshift"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#TargetSequenceGap"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#FragmentReadPlatform -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#FragmentReadPlatform">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequencingTechnologyPlatform"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#PairedEndReadPlatform"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#FunctionalSpecification -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#FunctionalSpecification">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Collection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ExternalReference"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Feature"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Label"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Locus"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#GameticPhase -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#GameticPhase">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quality"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Genome -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Genome">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#BiologicalEntity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Cell"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Chromosome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Contig"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Exome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genotype"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Haplotype"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Proteome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Scaffold"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#GenomeAnalysis -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#GenomeAnalysis">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ExperimentalMethod"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#GenomicAscertainingMethod -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#GenomicAscertainingMethod">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ExperimentalMethod"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Genotype -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Genotype">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#FunctionalSpecification"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Chromosome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Contig"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Haplotype"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Scaffold"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Genotyping -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Genotyping">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#GenomeAnalysis"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#VariantCalling"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#GermlineCell -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#GermlineCell">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Cell"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#PrenatalCell"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SomaticCell"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Haplotype -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Haplotype">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Catalog"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Chromosome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Contig"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genotype"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Scaffold"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#HelixStructure -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#HelixStructure">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quality"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Hemizygous -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Hemizygous">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Zygosity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Heterozygous"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Homozygous"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Heritage -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Heritage">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quality"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Hermaphrodite -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Hermaphrodite">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Sex"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Female"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Male"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Heterozygous -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Heterozygous">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Zygosity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Hemizygous"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Homozygous"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Homozygous -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Homozygous">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Zygosity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Hemizygous"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Heterozygous"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Identifier -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Identifier">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Label"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#InformationContentEntity -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#InformationContentEntity">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Object"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Label -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Label">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Collection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ExternalReference"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Feature"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#FunctionalSpecification"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Locus"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Landmark -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Landmark">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Identifier"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Likelihood -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Likelihood">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quantity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleFrequency"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Coverage"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#NumberOfReads"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleMixture"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Span"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#LikelihoodOfHeterogeneousPloidy -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#LikelihoodOfHeterogeneousPloidy">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Likelihood"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Locus -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Locus">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#InformationContentEntity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Collection"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ExternalReference"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Feature"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#FunctionalSpecification"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Label"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Male -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Male">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Sex"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Female"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Hermaphrodite"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#MappingQuality -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#MappingQuality">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Score"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#BaseQuality"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#PhredScore"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Match -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Match">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequenceAlignmentOperation"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ForwardReferenceSequenceFrameshift"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ReferenceSequenceGap"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ReverseReferenceSequenceFrameshift"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#TargetSequenceGap"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#MaterialEntity -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#MaterialEntity">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Object"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quantity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Score"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequenceAlignment"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#MaternalHeritage -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#MaternalHeritage">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Heritage"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#PaternalHeritage"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Name -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Name">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Label"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Note -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Note">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#InformationContentEntity"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#NumberOfReads -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#NumberOfReads">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quantity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleFrequency"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Coverage"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Likelihood"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleMixture"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Span"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Object -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Object">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Attribute"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Process"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#PairedEndReadPlatform -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#PairedEndReadPlatform">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequencingTechnologyPlatform"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#FragmentReadPlatform"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#PaternalHeritage -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#PaternalHeritage">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Heritage"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#MaternalHeritage"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#PeptideSequence -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#PeptideSequence">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Sequence"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#DNASequence"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Phenotype -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Phenotype">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quality"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#PhredScore -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#PhredScore">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Score"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#BaseQuality"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#MappingQuality"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#PrenatalCell -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#PrenatalCell">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Cell"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#GermlineCell"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SomaticCell"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Process -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Process">
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Attribute"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Object"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#ProteinSequence -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#ProteinSequence">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#PeptideSequence"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Proteome -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Proteome">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#BiologicalEntity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Cell"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Exome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genome"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Quality -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Quality">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Attribute"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Quantity -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Quantity">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Object"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#MaterialEntity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Score"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequenceAlignment"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#RNASequencing -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#RNASequencing">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#BiopolymerSequencing"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#DNASequencing"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#ReferenceSequence -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#ReferenceSequence">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#DNASequence"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#ReferenceSequenceGap -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#ReferenceSequenceGap">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequenceAlignmentOperation"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ForwardReferenceSequenceFrameshift"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Match"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ReverseReferenceSequenceFrameshift"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#TargetSequenceGap"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#ReverseReferenceSequenceFrameshift -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#ReverseReferenceSequenceFrameshift">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequenceAlignmentOperation"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ForwardReferenceSequenceFrameshift"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Match"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ReferenceSequenceGap"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#TargetSequenceGap"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Sample -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Sample">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ChemicalEntity"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#SampleCount -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#SampleCount">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quantity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleFrequency"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Coverage"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Likelihood"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#NumberOfReads"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleMixture"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Span"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#SampleMixture -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#SampleMixture">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quantity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleFrequency"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Coverage"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Likelihood"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#NumberOfReads"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Span"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Scaffold -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Scaffold">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Collection"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Chromosome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Contig"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genome"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genotype"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Haplotype"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Score -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Score">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Object"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#MaterialEntity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quantity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequenceAlignment"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Sequence -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Sequence">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ChemicalEntity"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#SequenceAlignment -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#SequenceAlignment">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Object"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#MaterialEntity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quantity"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Score"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="https://www.codamono.com/biointerchange/gfvo#isParticipantIn"/>
+                <someValuesFrom rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequenceAlignmentOperation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#SequenceAlignmentOperation -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#SequenceAlignmentOperation">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ExperimentalMethod"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <Restriction>
+                        <onProperty rdf:resource="https://www.codamono.com/biointerchange/gfvo#isAfter"/>
+                        <someValuesFrom rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequenceAlignmentOperation"/>
+                    </Restriction>
+                    <Restriction>
+                        <onProperty rdf:resource="https://www.codamono.com/biointerchange/gfvo#isBefore"/>
+                        <someValuesFrom rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequenceAlignmentOperation"/>
+                    </Restriction>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#SequenceVariant -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#SequenceVariant">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#DNASequence"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#SequencedIndividual -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#SequencedIndividual">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#BiologicalEntity"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#SequencingTechnologyPlatform -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#SequencingTechnologyPlatform">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#GenomicAscertainingMethod"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Sex -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Sex">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quality"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#SomaticCell -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#SomaticCell">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Cell"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#GermlineCell"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#PrenatalCell"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Span -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Span">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quantity"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleFrequency"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Coverage"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Likelihood"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#NumberOfReads"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleCount"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SampleMixture"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#TargetSequenceGap -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#TargetSequenceGap">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#SequenceAlignmentOperation"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ForwardReferenceSequenceFrameshift"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Match"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ReferenceSequenceGap"/>
+            </Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#ReverseReferenceSequenceFrameshift"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#TotalNumberOfAlleles -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#TotalNumberOfAlleles">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#AlleleCount"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#TotalNumberOfReads -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#TotalNumberOfReads">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#NumberOfReads"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#VariantCalling -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#VariantCalling">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#GenomeAnalysis"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Genotyping"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Version -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Version">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Identifier"/>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#WatsonCrickHelix -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#WatsonCrickHelix">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#HelixStructure"/>
+        <rdfs:subClassOf>
+            <Class>
+                <complementOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#CircularHelix"/>
+            </Class>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- https://www.codamono.com/biointerchange/gfvo#Zygosity -->
+
+
+    <Class rdf:about="https://www.codamono.com/biointerchange/gfvo#Zygosity">
+        <rdfs:subClassOf rdf:resource="https://www.codamono.com/biointerchange/gfvo#Quality"/>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/ -->
+
+
