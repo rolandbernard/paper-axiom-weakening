@@ -1,5 +1,7 @@
 
 experiments/repairs/
+experiments/cache/
+experiments/inf-dist/
 target/
 tmp.*
 notes-tex

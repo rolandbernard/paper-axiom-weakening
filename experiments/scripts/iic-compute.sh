@@ -1,8 +1,6 @@
 #!/bin/bash
 # Given the repaired ontologies compute the iic.
 
-RUN=$(date --iso-8601=seconds)
-REPAIRS_PER_RUN=100
 REASONER=fact++
 REASONER_FALLBACK=hermit
 

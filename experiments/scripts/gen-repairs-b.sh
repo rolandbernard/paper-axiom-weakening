@@ -2,7 +2,6 @@
 # Given the ontologies as input, make each of them inconsistent and the repair the again using
 # maximal consistent sets and iterated weakening. Save the results of all repairs in subfolders.
 
-RUN=$(date --iso-8601=seconds)
 REPAIRS_PER_RUN=100
 REASONER=fact++
 
@@ -51,44 +50,51 @@ function classify-ontology() {
 function run-experiment() {
     onto=$1
     onto_name=$(basename $onto .owl)
-    out_dir=experiments/repairs/$RUN/$onto_name/
+    out_dir=experiments/repairs/$onto_name/
     success=0
+    total=0
     iter=0
     mkdir -p $out_dir/.failed
-    mkdir -p experiments/repairs/$RUN/.failed/
-    while [ $success -lt $REPAIRS_PER_RUN -a $iter -lt $(expr 4 \* $success + 4) ]
+    while [ $success -lt $REPAIRS_PER_RUN -a $total -lt $(expr 4 \* $success + 4) ]
     do
-        ok=0
         out_dir_iter=$out_dir/$iter
-        mkdir -p $out_dir_iter
-        if make-inconsistent $onto $out_dir_iter/inconsistent.owl $out_dir_iter/make-inconsistent.log
+        echo $out_dir_iter
+        if ! [ -e $out_dir_iter -o -e $out_dir/.failed/$iter ]
         then
-            classify-ontology $out_dir_iter/inconsistent.owl $out_dir_iter/ontology-info.txt
-            if repair-mcs $out_dir_iter/inconsistent.owl $out_dir_iter/repair-mcs.owl $out_dir_iter/repair-mcs.log
+            ok=0
+            mkdir -p $out_dir_iter
+            if make-inconsistent $onto $out_dir_iter/inconsistent.owl $out_dir_iter/make-inconsistent.log
             then
-                if repair-weakening $out_dir_iter/inconsistent.owl $out_dir_iter/repair-weakening.owl $out_dir_iter/repair-weakening.log
+                classify-ontology $out_dir_iter/inconsistent.owl $out_dir_iter/ontology-info.txt
+                if repair-mcs $out_dir_iter/inconsistent.owl $out_dir_iter/repair-mcs.owl $out_dir_iter/repair-mcs.log
                 then
-                    success=$(expr $success + 1)
-                    ok=1
+                    if repair-weakening $out_dir_iter/inconsistent.owl $out_dir_iter/repair-weakening.owl $out_dir_iter/repair-weakening.log
+                    then
+                        success=$(expr $success + 1)
+                        ok=1
+                    fi
                 fi
             fi
-        fi
-        if [ $ok == 0 ]
-        then
-            mv $out_dir_iter $out_dir/.failed
+            if [ $ok == 0 ]
+            then
+                mv $out_dir_iter $out_dir/.failed
+            fi
+            total=$(expr $total + 1)
         fi
         iter=$(expr $iter + 1)
     done
     if [ $success -lt $REPAIRS_PER_RUN ]
     then
-        mv $out_dir experiments/repairs/$RUN/.failed/
+        mv $out_dir experiments/repairs/.failed/
         return 1
     else
         return 0
     fi
 }
 
-for onto in $@
+ontos=$@
+mkdir -p experiments/repairs/.failed/
+for onto in $ontos
 do
     run-experiment $onto
 done

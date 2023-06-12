@@ -2,7 +2,6 @@
 # Given the ontologies as input, make each of them inconsistent and the repair the again using
 # maximal consistent sets and iterated weakening. Save the results of all repairs in subfolders.
 
-RUN=$(date --iso-8601=seconds)
 REPAIRS_PER_RUN=100
 REASONER=fact++
 
@@ -51,31 +50,35 @@ function classify-ontology() {
 function run-experiment() {
     onto=$1
     onto_name=$(basename $onto .owl)
-    out_dir=experiments/repairs/$RUN/$onto_name/
+    out_dir=experiments/repairs/$onto_name/
     success=0
-    mkdir -p $out_dir/{mcs,weakening}
-    mkdir -p experiments/repairs/$RUN/.failed/
-    if make-inconsistent $onto $out_dir/inconsistent.owl $out_dir/make-inconsistent.log
+    if ! [ -e $out_dir ]
     then
-        classify-ontology $out_dir/inconsistent.owl $out_dir/ontology-info.txt
-        if repair-mcs $out_dir/inconsistent.owl $out_dir/mcs/repair.owl $out_dir/repair-mcs.log
+        mkdir -p $out_dir/{mcs,weakening}
+        if make-inconsistent $onto $out_dir/inconsistent.owl $out_dir/make-inconsistent.log
         then
-            if repair-weakening $out_dir/inconsistent.owl $out_dir/weakening/repair.owl $out_dir/repair-weakening.log
+            classify-ontology $out_dir/inconsistent.owl $out_dir/ontology-info.txt
+            if repair-mcs $out_dir/inconsistent.owl $out_dir/mcs/repair.owl $out_dir/repair-mcs.log
             then
-                success=1
+                if repair-weakening $out_dir/inconsistent.owl $out_dir/weakening/repair.owl $out_dir/repair-weakening.log
+                then
+                    success=1
+                fi
             fi
         fi
-    fi
-    if [ $success == 0 ]
-    then
-        mv $out_dir experiments/repairs/$RUN/.failed/
-        return 1
-    else
-        return 0
+        if [ $success == 0 ]
+        then
+            mv $out_dir experiments/repairs/.failed/
+            return 1
+        else
+            return 0
+        fi
     fi
 }
 
+
 todo=$@
+mkdir -p experiments/repairs/.failed/
 while [ "$todo" ]
 do
     redo=$todo
