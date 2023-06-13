@@ -15,9 +15,11 @@ repair_data = {
     'steps': [],
     'time': [],
     'calls': [],
-    'iic': [],
+    'iic_mcs': [],
+    'iic_remove': [],
     'inf_mcs': [],
     'inf_weakening': [],
+    'inf_remove': [],
 }
 
 def read_run_info(onto: str, dir: str, failed: bool):
@@ -28,9 +30,11 @@ def read_run_info(onto: str, dir: str, failed: bool):
         repair_data['steps'].append(None)
         repair_data['time'].append(None)
         repair_data['calls'].append(None)
-        repair_data['iic'].append(None)
+        repair_data['iic_mcs'].append(None)
+        repair_data['iic_remove'].append(None)
         repair_data['inf_mcs'].append(None)
         repair_data['inf_weakening'].append(None)
+        repair_data['inf_remove'].append(None)
     else:
         with open(f'{dir}/repair-weakening.log') as log:
             text = log.read()
@@ -47,13 +51,25 @@ def read_run_info(onto: str, dir: str, failed: bool):
                 assert matched is not None
                 iic = float(matched.group(3))
                 assert 0 <= iic and iic <= 1
-                repair_data['iic'].append(iic)
+                repair_data['iic_mcs'].append(iic)
                 repair_data['inf_mcs'].append(int(matched.group(2)))
                 repair_data['inf_weakening'].append(int(matched.group(1)))
         else:
-            repair_data['iic'].append(None)
+            repair_data['iic_mcs'].append(None)
             repair_data['inf_mcs'].append(None)
             repair_data['inf_weakening'].append(None)
+        if exists(f'{dir}/reval.txt'):
+            with open(f'{dir}/reval.txt') as eval:
+                text = eval.read()
+                matched = re.search('[^;]+/repair-weakening.owl;([0-9]+);[^;]+/repair-remove.owl;([0-9]+);([.0-9eE+-]+)', text)
+                assert matched is not None
+                iic = float(matched.group(3))
+                assert 0 <= iic and iic <= 1
+                repair_data['iic_remove'].append(iic)
+                repair_data['inf_remove'].append(int(matched.group(2)))
+        else:
+            repair_data['iic_remove'].append(None)
+            repair_data['inf_remove'].append(None)
 
 for onto in listdir(repairs):
     if not onto.startswith('.'):
