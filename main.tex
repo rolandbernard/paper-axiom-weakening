@@ -127,30 +127,27 @@ Axiom weakening is a technique that allows for a fine-grained repair of inconsis
 % briefly describe refinement operators
 % briefly describe what we have done
 
-\section{Axiom Weakening for \ALC}
+% \section{Axiom Weakening for \ALC}
 
-% describe the ALC syntax and semantics
-Formally, an ontology is a set of statements expressed in a suitable logical language and with the purpose of describing a specific domain of interest. 
+% % describe the ALC syntax and semantics
+% % define sub concepts
+% % define upward and downward covers
 
-% define sub concepts
+% \begin{example}
+% % give an example of some cover applications
+% \end{example}
 
-% define upward and downward covers
+% % define the abstract and concrete refinement operators
 
-\begin{example}
-% give an example of some cover applications
-\end{example}
+% \begin{example}
+% % give an example of the concrete refinement operators
+% \end{example}
 
-% define the abstract and concrete refinement operators
+% % define the weakening operator
 
-\begin{example}
-% give an example of the concrete refinement operators
-\end{example}
-
-% define the weakening operator
-
-\begin{example}
-% give an example of the weakening operator
-\end{example}
+% \begin{example}
+% % give an example of the weakening operator
+% \end{example}
 
 \section{Extending Weakening to \SROIQ}
 
@@ -202,7 +199,7 @@ The main difficulties that arise when weakening axioms in \SROIQ ontologies, and
 To prevent these kinds of issues, we restrict how concepts are refined and RIAs weakened. In \cite{confalonieri2020towards} the refinement of RIAs was not considered at all to avoid these problems. In this paper, however, we have extended the axiom weakening operator to handle also RIAs. To achieve this, we must ensure that only simple roles are used when weakening disjoint role axioms or refining cardinality and self constraints. Further, it must be guaranteed that all roles that are currently used in such context remain simple when adding the weakened axioms to the ontology. Finally, the addition of a weakened axiom must maintain the regularity of the role hierarchy. We discuss now the restrictions we applied in order to satisfy these requirements.
 
 % explain how each of them can be ensured
-Firstly, the covers and refinement operators for roles operate only on roles that are simple. A similar restriction has already been applied in the refinement operator suggested in \cite{confalonieri2020towards}. Restricting the refinement to simple roles guarantees that the new axioms created by weakening will not contain non-simple roles in axioms or concepts where they are not allowed. An important detail that was overlooked in \cite{confalonieri2020towards} is that the roles over which the covers operate must be simple in all ontologies that the weaker axioms are used in. It is therefore not generally sufficient to use the roles that are simple in the reference ontology, since the reference ontology may not contain all RBox axioms, and therefore contain simple roles that are not simple in the full ontology. For this reason, we give to the upward and downward cover as an argument not only the reference ontology $\Omcref$, but also the full ontology $\Omcfull$. Both $\Omcref$ and $\Omcfull$ share the same vocabulary $N_I$, $N_C$, and $N_R$. We assume that $\Omcref \subseteq \Omcfull$. In the context of repairing inconsistent ontologies, $\Omcfull$ can be chosen to be the inconsistent ontology that we want to repair.
+Firstly, the covers and refinement operators for roles operate only on roles that are simple. A similar restriction has already been applied in the refinement operator suggested in \cite{confalonieri2020towards}. Restricting the refinement to simple roles guarantees that the new axioms created by weakening will not contain non-simple roles in axioms or concepts where they are not allowed. An important detail that was not considered in \cite{confalonieri2020towards} is that the roles over which the covers operate must be simple in all ontologies that the weaker axioms are used in. It is therefore not generally sufficient to use the roles that are simple in the reference ontology, since the reference ontology may not contain all RBox axioms, and therefore contain simple roles that are not simple in the full ontology. For this reason, we give to the upward and downward cover as an argument not only the reference ontology $\Omcref$, but also the full ontology $\Omcfull$. Both $\Omcref$ and $\Omcfull$ share the same vocabulary $N_I$, $N_C$, and $N_R$. We assume that $\Omcref \subseteq \Omcfull$. In the context of repairing inconsistent ontologies, $\Omcfull$ can be chosen to be the inconsistent ontology that we want to repair.
 
 Then, to ensure further that by adding weakened axioms we do not cause a constraint violation in existing axioms and concepts, we choose the allowed weakening for RIAs such that all roles that are simple in $\Omcfull$, are also simple after adding to it a weakening of one of its axioms. We observe that for complex RIAs $S_1 \circ \cdots \circ S_n \sqsubseteq R$ we should not refine the role $R$. Since all roles returned by our refinement operator are simple in $\Omcfull$, such a replacement would make a role with was simple in $\Omcfull$ non-simple. A similar argument can be made for refining $R$ in a simple RIA $S \sqsubseteq R$ where the role $S$ is non-simple in $\Omcfull$. So the only way to refine the super role during the weakening of a RIA is when it is a simple RIA and additionally the sub role of the axiom is simple in $\Omcfull$.
 
@@ -356,14 +353,14 @@ The axioms in the set $g_{\Omcref,\Omcfull}(\phi)$ are indeed weaker than $\phi$
   \begin{itemize}
     \item If $\phi = C \sqsubseteq D$, suppose $\phi' = C' \sqsubseteq D'$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $C' \sqsubseteq_\Omcref C$ and $D \sqsubseteq_\Omcref D'$. By transitivity of subsumption, we conclude that $C \sqsubseteq D \models_\Omcref C' \sqsubseteq D'$.
     \item If $\phi = C(a)$, suppose $\phi' = C'(a)$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $C \sqsubseteq_\Omcref C'$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $a^I \in C^I$. Since $C^I \subseteq C'^I$ in every model of $\Omcref$, $a^I \in C'^I$. We conclude that $C(a) \models_\Omcref C'(a)$.
-    \item If $\phi = C(R(a, b))$, suppose $\phi' = R'(a, b)$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $R \sqsubseteq_\Omcref R'$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $\langle a^I, b^I \rangle \in R^I$. Since $R^I \subseteq R'^I$ in every model of $\Omcref$, $\langle a^I, b^I \rangle \in R'^I$. We conclude that $R(a, b) \models_\Omcref R'(a, b)$.
-    \item If $\phi = C(\lnot R(a, b))$, suppose $\phi' = R'(a, b)$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $R' \sqsubseteq_\Omcref R$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $\langle a^I, b^I \rangle \not\in R^I$. Since $R'^I \subseteq R^I$ in every model of $\Omcref$, $\langle a^I, b^I \rangle \not\in R'^I$. We conclude that $\lnot R(a, b) \models_\Omcref \lnot R'(a, b)$.
+    \item If $\phi = R(a, b)$, suppose $\phi' = R'(a, b)$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $R \sqsubseteq_\Omcref R'$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $\langle a^I, b^I \rangle \in R^I$. Since $R^I \subseteq R'^I$ in every model of $\Omcref$, $\langle a^I, b^I \rangle \in R'^I$. We conclude that $R(a, b) \models_\Omcref R'(a, b)$.
+    \item If $\phi = \lnot R(a, b)$, suppose $\phi' = R'(a, b)$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $R' \sqsubseteq_\Omcref R$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $\langle a^I, b^I \rangle \not\in R^I$. Since $R'^I \subseteq R^I$ in every model of $\Omcref$, $\langle a^I, b^I \rangle \not\in R'^I$. We conclude that $\lnot R(a, b) \models_\Omcref \lnot R'(a, b)$.
     \item If $\phi = \disjoint(R, S)$, suppose $\phi' = \disjoint(R', S')$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $R' \sqsubseteq_\Omcref R$ and $S' \sqsubseteq_\Omcref S$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $R^I \cap S^I = \emptyset$. Since $R'^I \subseteq R^I$ and $S'^I \subseteq S^I$ in every model of $\Omcref$, $R'^I \cap S'^I = \emptyset$. We conclude that $\disjoint(R, S) \models_\Omcref \disjoint(R', S')$.
     \item If $\phi = S_1 \circ \cdots \circ S_n \sqsubseteq R$, suppose $\phi' = S_1' \circ \cdots \circ S_n' \sqsubseteq R'$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $R \sqsubseteq_\Omcref R'$ and $S_i' \sqsubseteq_\Omcref S_i$ for $i = 1, \dots, n$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $S_1^I \circ \cdots \circ S_n^I \subseteq R^I$. Since $R^I \subseteq R'^I$ and $S_i'^I \subseteq S_i^I$ for $i = 1, \dots, n$ in every model of $\Omcref$, $S_1'^I \circ \cdots \circ S_n'^I \subseteq R'^I$. We conclude that $S_1 \circ \cdots \circ S_n \sqsubseteq R \models_\Omcref S_1' \circ \cdots \circ S_n' \sqsubseteq R'$.
   \end{itemize}
 \end{proof}
 
-Clearly, replacing an axiom in the full ontology with a weakening can not diminish the ontologies interpretations. However, for the weakening to be useful in practice, we must show additionally that by adding the weakened axioms to the ontology will not violate any of the constraints that ensure the decidability of \SROIQ. To do this, we show first that all roles that are simple in $\Omcfull$ are also simple in the ontology obtained by adding the weakening of any axiom.
+Clearly, replacing an axiom in the full ontology with a weakening can not reduce the number of  models of the ontology. However, for the weakening to be useful in practice, we must show additionally that by adding the weakened axioms to the ontology will not violate any of the constraints that ensure the decidability of \SROIQ. To do this, we show first that all roles that are simple in $\Omcfull$ are also simple in the ontology obtained by adding the weakening of any axiom.
 
 % proof that the constrains are retained
 \begin{lemma} \label{lem:simple-roles}
@@ -414,18 +411,18 @@ To experimentally evaluate the proposed axiom weakening and repair approach, we 
   \Inf(\Omc) = \{ A \sqsubseteq B \mid A, B \in N_C \text{ and } \Omc \models A \sqsubseteq B \} \enspace.
 \end{align*}
 
-
-
 % explain which ontologies where chosen and from where (BioPortal)
 % explain how inconsistent ontologies were generated from them
 % show results of the evaluation
+% explain why the results may be worse
 
 \section{Outlook}
 
+% better measures for comparing ontologies
+% better heuristics to steer the algorithm
 % complex roles in up and down covers
 % more permissive refinement of role inclusions
 % working directly with OWL 2 axioms
-% how to steer the repair process
 
 %%
 %% Define the bibliography file to be used
