@@ -174,7 +174,7 @@ $R \circ R \sqsubseteq R$,
 $S \sqsubseteq R$, $R \circ S_1 \circ \cdots \circ S_n \sqsubseteq R$,
 $S_1 \circ \cdots \circ S_n \circ R \sqsubseteq R$, or
 $S_1 \circ \cdots \circ S_n \sqsubseteq R$,
-where $r \in N_R$ is a role name, $n > 1$ and $R$, $S$, $S_1, \cdots, S_n$ are roles such that $S \preceq R$, $S_i \preceq R$, and $R \not\preceq S_i$ for $i = 1, \dots, n$.
+where $r \in N_R$ is a role name, $n > 1$ and $R$, $S$, $S_1, \cdots, S_n$ are roles such that $S \preceq R$, $S_i \preceq R$, and $R \not\preceq S_i$ for $i = 1, \dots, n$.\footnote{The definitions for simple roles and regularity used here conform to the global restrictions in OWL 2 DL \cite{motik2009owl}.}
 
 A \SROIQ ontology $\Omc = \Tmc \cup \Amc \cup \Rmc$ consists of a TBox $\Tmc$, an ABox $\Amc$, and a RBox $\Rmc$, where $\Rmc$ is regular.
 
@@ -204,7 +204,7 @@ Then, to ensure further that by adding weakened axioms we do not cause a constra
 
 When it comes to refining the left-hand side of RIAs, we do not need any special restrictions. The main significant observation is that all roles that are returned by the refinement will be simple. This means that in a simple RIA $R \sqsubseteq S$, even if $S$ is simple, replacing $R$ with another simple role will not cause $S$ to become non-simple. For a complex RIA $S_1 \circ \cdots \circ S_n \sqsubseteq R$ on the other hand, the role $R$ must already have been non-simple in $\Omcfull$, and replacing any $S_i$ with a refinement has no effect on which roles are simple.
 
-A more interesting question is whether such a weakening may still cause a non-regular role hierarchy. The important insight is that simple roles are always allowed on the left-hand side of a RIA. While this is more directly evident in some alternative definitions of regularity (e.g., \cite{rudolph2011foundations}) it is not so apparent from the one presented in this paper. Intuitively, the constraint given above for regularity disallows dependency cycles that contain complex RIAs. Simple roles can not be part of such a cycle, since the cycle must contain at least one complex RIA to be a violation of the constraint, and all roles that depend in this sense on a complex RIA must be non-simple. A more formal justification for this fact is given in the \hyperref[proof:regularity]{proof} for \cref{lem:regularity}.
+A more interesting question is whether such a weakening may still cause a non-regular role hierarchy. The important insight is that simple roles are always allowed on the left-hand side of a RIA. While this is more directly evident in some alternative definitions of regularity (e.g., \cite{rudolph2011foundations}) it is not so apparent from the one presented in this paper. Intuitively, the constraint given above for regularity disallows dependency cycles that contain complex RIAs. Simple roles can not be part of such a cycle, since the cycle must contain at least one complex RIA to be a violation of the constraint, and all roles that depend in this sense on a complex RIA must be non-simple. A more formal justification for this fact is given in the \hyperref[proof:regularity]{proof} for \Cref{lem:regularity}.
 Since all refinements of the left-hand side of RIAs are performed using simple roles, these can not lead to a non-regular RBox. Further, refinements of the super role of RIAs are only performed on simple RIAs $S \sqsubseteq R$ where $S$ is a simple role. Since $S$ is simple in this case, all refinements of $R$ are allowed, potentially also if the refinement yielded a non-simple role.
 
 \begin{definition}
@@ -303,7 +303,7 @@ To also capture these omissions, we define generalization and specialization ope
   \end{align*}
 \end{definition}
 
-Revisiting the case in \cref{exa:up-cover} we observe that $\gamma_{\Omc,\Omc}(C \sqcup A) = \{ \top, \top \sqcup A, C \sqcup A, C \sqcup B \}$ does contain $C \sqcup B$ as a possible refinement. Similarly, $\gamma_{\Omc,\Omc}(\forall r.A) = \{ \top, \forall r.A, \forall s.A, \forall r.B \}$ contains $\forall r.B$. We will show now some basic properties of $\gamma_{\Omcref,\Omcfull}$ and $\rho_{\Omcref,\Omcfull}$ that will prove useful in the remainder of this paper.
+Revisiting the case in \Cref{exa:up-cover} we observe that $\gamma_{\Omc,\Omc}(C \sqcup A) = \{ \top, \top \sqcup A, C \sqcup A, C \sqcup B \}$ does contain $C \sqcup B$ as a possible refinement. Similarly, $\gamma_{\Omc,\Omc}(\forall r.A) = \{ \top, \forall r.A, \forall s.A, \forall r.B \}$ contains $\forall r.B$. We will show now some basic properties of $\gamma_{\Omcref,\Omcfull}$ and $\rho_{\Omcref,\Omcfull}$ that will prove useful in the remainder of this paper.
 
 \begin{lemma}\label{lem:basic}
   For every pair of \SROIQ ontologies $\Omcref, \Omcfull$ and every pair of concepts or roles $X, Y \in \Lmc(N_C, N_R, N_I) \cup \Lmc(N_R)$:
@@ -319,7 +319,7 @@ Revisiting the case in \cref{exa:up-cover} we observe that $\gamma_{\Omc,\Omc}(C
 % define the weakening operator
 We define now the \emph{axiom weakening operator} using these generalization and specialization operators.
 
-\begin{definition}
+\begin{definition} \label{def:weakening}
   Given an axiom $\phi$, the set of \emph{weakenings} with respect to the reference ontology $\Omcref$ and full ontology $\Omcfull$, written $g_{\Omcref,\Omcfull}(\phi)$ is defined such that
   \begin{alignat*}{2}
     g_{\Omcref,\Omcfull}(C \sqsubseteq D) &={} &&\{ C' \sqsubseteq D \mid C' \in \rho_{\Omcref,\Omcfull} (C) \} \cup \{ C \sqsubseteq D' \mid D' \in \gamma_{\Omcref,\Omcfull}(D) \} \enspace, \\
@@ -350,12 +350,12 @@ The axioms in the set $g_{\Omcref,\Omcfull}(\phi)$ are indeed weaker than $\phi$
 
 \begin{proof} We will handle each type of axiom separately.
   \begin{itemize}
-    \item If $\phi = C \sqsubseteq D$, suppose $\phi' = C' \sqsubseteq D'$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $C' \sqsubseteq_\Omcref C$ and $D \sqsubseteq_\Omcref D'$. By transitivity of subsumption, we conclude that $C \sqsubseteq D \models_\Omcref C' \sqsubseteq D'$.
-    \item If $\phi = C(a)$, suppose $\phi' = C'(a)$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $C \sqsubseteq_\Omcref C'$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $a^I \in C^I$. Since $C^I \subseteq C'^I$ in every model of $\Omcref$, $a^I \in C'^I$. We conclude that $C(a) \models_\Omcref C'(a)$.
-    \item If $\phi = R(a, b)$, suppose $\phi' = R'(a, b)$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $R \sqsubseteq_\Omcref R'$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $\langle a^I, b^I \rangle \in R^I$. Since $R^I \subseteq R'^I$ in every model of $\Omcref$, $\langle a^I, b^I \rangle \in R'^I$. We conclude that $R(a, b) \models_\Omcref R'(a, b)$.
-    \item If $\phi = \lnot R(a, b)$, suppose $\phi' = R'(a, b)$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $R' \sqsubseteq_\Omcref R$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $\langle a^I, b^I \rangle \not\in R^I$. Since $R'^I \subseteq R^I$ in every model of $\Omcref$, $\langle a^I, b^I \rangle \not\in R'^I$. We conclude that $\lnot R(a, b) \models_\Omcref \lnot R'(a, b)$.
-    \item If $\phi = \disjoint(R, S)$, suppose $\phi' = \disjoint(R', S')$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $R' \sqsubseteq_\Omcref R$ and $S' \sqsubseteq_\Omcref S$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $R^I \cap S^I = \emptyset$. Since $R'^I \subseteq R^I$ and $S'^I \subseteq S^I$ in every model of $\Omcref$, $R'^I \cap S'^I = \emptyset$. We conclude that $\disjoint(R, S) \models_\Omcref \disjoint(R', S')$.
-    \item If $\phi = S_1 \circ \cdots \circ S_n \sqsubseteq R$, suppose $\phi' = S_1' \circ \cdots \circ S_n' \sqsubseteq R'$. From \cref{lem:basic}.\ref{lem:generalisation} we know that $R \sqsubseteq_\Omcref R'$ and $S_i' \sqsubseteq_\Omcref S_i$ for $i = 1, \dots, n$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $S_1^I \circ \cdots \circ S_n^I \subseteq R^I$. Since $R^I \subseteq R'^I$ and $S_i'^I \subseteq S_i^I$ for $i = 1, \dots, n$ in every model of $\Omcref$, $S_1'^I \circ \cdots \circ S_n'^I \subseteq R'^I$. We conclude that $S_1 \circ \cdots \circ S_n \sqsubseteq R \models_\Omcref S_1' \circ \cdots \circ S_n' \sqsubseteq R'$.
+    \item If $\phi = C \sqsubseteq D$, suppose $\phi' = C' \sqsubseteq D'$. From \Cref{lem:basic}.\ref{lem:generalisation} we know that $C' \sqsubseteq_\Omcref C$ and $D \sqsubseteq_\Omcref D'$. By transitivity of subsumption, we conclude that $C \sqsubseteq D \models_\Omcref C' \sqsubseteq D'$.
+    \item If $\phi = C(a)$, suppose $\phi' = C'(a)$. From \Cref{lem:basic}.\ref{lem:generalisation} we know that $C \sqsubseteq_\Omcref C'$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $a^I \in C^I$. Since $C^I \subseteq C'^I$ in every model of $\Omcref$, $a^I \in C'^I$. We conclude that $C(a) \models_\Omcref C'(a)$.
+    \item If $\phi = R(a, b)$, suppose $\phi' = R'(a, b)$. From \Cref{lem:basic}.\ref{lem:generalisation} we know that $R \sqsubseteq_\Omcref R'$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $\langle a^I, b^I \rangle \in R^I$. Since $R^I \subseteq R'^I$ in every model of $\Omcref$, $\langle a^I, b^I \rangle \in R'^I$. We conclude that $R(a, b) \models_\Omcref R'(a, b)$.
+    \item If $\phi = \lnot R(a, b)$, suppose $\phi' = R'(a, b)$. From \Cref{lem:basic}.\ref{lem:generalisation} we know that $R' \sqsubseteq_\Omcref R$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $\langle a^I, b^I \rangle \not\in R^I$. Since $R'^I \subseteq R^I$ in every model of $\Omcref$, $\langle a^I, b^I \rangle \not\in R'^I$. We conclude that $\lnot R(a, b) \models_\Omcref \lnot R'(a, b)$.
+    \item If $\phi = \disjoint(R, S)$, suppose $\phi' = \disjoint(R', S')$. From \Cref{lem:basic}.\ref{lem:generalisation} we know that $R' \sqsubseteq_\Omcref R$ and $S' \sqsubseteq_\Omcref S$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $R^I \cap S^I = \emptyset$. Since $R'^I \subseteq R^I$ and $S'^I \subseteq S^I$ in every model of $\Omcref$, $R'^I \cap S'^I = \emptyset$. We conclude that $\disjoint(R, S) \models_\Omcref \disjoint(R', S')$.
+    \item If $\phi = S_1 \circ \cdots \circ S_n \sqsubseteq R$, suppose $\phi' = S_1' \circ \cdots \circ S_n' \sqsubseteq R'$. From \Cref{lem:basic}.\ref{lem:generalisation} we know that $R \sqsubseteq_\Omcref R'$ and $S_i' \sqsubseteq_\Omcref S_i$ for $i = 1, \dots, n$. Given any model $I$ of $\Omcref \cup \{ \phi \}$, $S_1^I \circ \cdots \circ S_n^I \subseteq R^I$. Since $R^I \subseteq R'^I$ and $S_i'^I \subseteq S_i^I$ for $i = 1, \dots, n$ in every model of $\Omcref$, $S_1'^I \circ \cdots \circ S_n'^I \subseteq R'^I$. We conclude that $S_1 \circ \cdots \circ S_n \sqsubseteq R \models_\Omcref S_1' \circ \cdots \circ S_n' \sqsubseteq R'$.
   \end{itemize}
 \end{proof}
 
@@ -385,15 +385,15 @@ Note that the proof works also for weakening axioms in an ontology $\Omc$ as lon
   If $\phi'$ is a complex RIA $S_1' \circ \cdots \circ S_n' \sqsubseteq R$, then $\phi$ is also a complex RIA $S_1 \circ \cdots \circ S_n \sqsubseteq R$ and $R$ is non-simple in $\Omcfull$. If $S_i \preceq R$ and $S_i \not\preceq R$, then so will $S_i' \preceq R$ and $R \not\preceq S_i'$, either because $S_i = S_i'$ or because $S_i'$ is simple and $R$ is non-simple. Since $\Omcfull$ has a regular role hierarchy, the only case in which $R \preceq S_i$ is if $S_i = R$. In this case, $S_i' \preceq R$ and $R \not\preceq S_i'$ will still hold if $S_i \not= R$. If $S_i = R$, either $i = 0$ or $i = n$ which is allowed. The only delicate case is if $\phi = R \circ R \sqsubseteq R$, which will result in either $\phi' = S_1' \circ R \sqsubseteq R$ or $R \circ S_2' \sqsubseteq R$, both of which are valid.
 \end{proof}
 
-Like for simple roles, also regularity is maintained by repeated addition of weaker axioms. With the help of \cref{lem:simple-roles} and \cref{lem:regularity} we will now sketch a proof showing that adding weakened axioms to a \SROIQ ontology will yield another valid \SROIQ ontology.
+Like for simple roles, also regularity is maintained by repeated addition of weaker axioms. With the help of \Cref{lem:simple-roles} and \Cref{lem:regularity} we will now sketch a proof showing that adding weakened axioms to a \SROIQ ontology will yield another valid \SROIQ ontology.
 
 \begin{lemma} \label{lem:global-constraints}
   Given that $\Omcref$ and $\Omcfull$ are valid \SROIQ ontologies. For every axiom $\phi \in \Omcfull$, if $\phi' \in g_{\Omcref,\Omcfull}(\phi)$, then $\Omcfull \cup \{ \phi' \}$ is a valid \SROIQ ontology.
 \end{lemma}
 
 \begin{proof}(\emph{Sketch})
-  We have established already in \cref{lem:regularity}, that the regularity of the RBox will be preserved.
-  It is guaranteed by \cref{lem:simple-roles} that all roles that were simple before addition, are still simple afterwards. Therefore, all usages of roles in axioms and concepts that were not touched by the refinement do not pose a problem. The condition static that the upcover and downcover of a role contain only roles that are simple in $\Omcfull$ (and therefore by \cref{lem:simple-roles} also in $\Omcfull \cup \{ \phi' \}$) forces that every refinement of a role is simple. This restriction to simple roles guarantees that no non-simple role may be used in disjoint role axioms, or the scope of cardinality and self constraints.
+  We have established already in \Cref{lem:regularity}, that the regularity of the RBox will be preserved.
+  It is guaranteed by \Cref{lem:simple-roles} that all roles that were simple before addition, are still simple afterwards. Therefore, all usages of roles in axioms and concepts that were not touched by the refinement do not pose a problem. The condition static that the upward  and downward cover of a role contain only roles that are simple in $\Omcfull$ (and therefore by \Cref{lem:simple-roles} also in $\Omcfull \cup \{ \phi' \}$) forces that every refinement of a role is simple. This restriction to simple roles guarantees that no non-simple role may be used in disjoint role axioms, or the scope of cardinality and self constraints.
 \end{proof}
 
 \section{Implementing Axiom Weakening for \SROIQ}
@@ -419,13 +419,12 @@ Refinement operator and axiom weakening have previously been implemented for \AL
 
 % explain how the reference ontology is selected
 % explain how bad axioms are selected
-The automatic repair by weakening is implemented as shown in \cref{algo:repair-weaken}. The reference ontology is selected by choosing a maximal consistent subset of the inconsistent ontology. In our implementation used for the evaluation in this paper, the reference ontology was selected by randomly sampling a maximal consistent subset. The procedure $\textnormal{FindBadAxiom}(\Omc)$ may be implemented in a number of ways. Here we consider an implementation that samples some (or all) of the minimal inconsistent subsets of $\Omc$ and selects as the bad axiom the one occurring most frequently. Then, $\textnormal{SelectWeakerAxiom}(\Phi_\textnormal{weaker})$ has been chosen such that is selects an axiom uniformly at random form $\Phi_\textnormal{weaker}$.
-
+The automatic repair by weakening is implemented as shown in \Cref{algo:repair-weaken}. The reference ontology is selected by choosing a maximal consistent subset of the inconsistent ontology. In our implementation used for the evaluation in this paper, the reference ontology was selected by randomly sampling a maximal consistent subset. The procedure $\textnormal{FindBadAxiom}(\Omc)$ may be implemented in a number of ways. Here we consider an implementation that samples some (or all) of the minimal inconsistent subsets of $\Omc$ and selects as the bad axiom the one occurring most frequently. Then, $\textnormal{SelectWeakerAxiom}(\Phi_\textnormal{weaker})$ has been chosen such that is selects an axiom uniformly at random form $\Phi_\textnormal{weaker}$. For all experiments presented in this paper, the FaCT++ reasoner \cite{tsarkov2006fact++} was used to compute all entailment and consistency checks.
 
 \section{Weakening makes you strong: evaluation aspects}
 
 % explain how different repairs are compared
-To experimentally evaluate the proposed axiom weakening operator in the context of its use in automatic repair of ontologies, we need some way to compare the quality of repair. As has already been discussed in \cite{troquard2018repairing}, the problem of deciding which of two possible repaired ontologies $\Omc_1$ or $\Omc_2$ is preferable is not generally well-defined. Similar to what has been proposed in \cite{troquard2018repairing} we will base the evaluation of the repairs on the size of the \emph{inferred class hierarchy}. To compare two possible repairs, we use the \emph{inferable information content} as defined in \cite{troquard2018repairing}. Some weakenesses of this measure when it comes to evaluating repairs, like the fact that only atomic concepts are considered, have already been discussed in \cite{troquard2018repairing}. For the case of repairing \SROIQ ontologies this is even more relevant, since the role hierachy is compleaty ignored.
+To experimentally evaluate the proposed axiom weakening operator in the context of its use in automatic repair of ontologies, we need some way to compare the quality of repair. As has already been discussed in \cite{troquard2018repairing}, the problem of deciding which of two possible repaired ontologies $\Omc_1$ or $\Omc_2$ is preferable is not generally well-defined. Similar to what has been proposed in \cite{troquard2018repairing} we will base the evaluation of the repairs on the size of the \emph{inferred class hierarchy}. To compare two possible repairs, we use the \emph{inferable information content} (IIC) as defined in \cite{troquard2018repairing}. The IIC  of an ontology $\Omc_1$ with respect to a second ontology $\Omc_2$, written $\qual(\Omc_1, \Omc_2)$, is a number between $0$ and $1$. Value closer to $0$ indicates that $\Omc_1$ contains more “information” than $\Omc_2$, while a value towards $1$ indicates the opposite. Some weaknesses of this measure when it comes to evaluating repairs, like the fact that only atomic concepts are considered, have already been discussed in \cite{troquard2018repairing}. For the case of repairing \SROIQ ontologies this is even more relevant, since the role hierarchy is entirely ignored.
 
 \begin{definition}
   The \emph{inferred class hierarchy} of an ontology $\Omc$ is given by
@@ -440,45 +439,47 @@ To experimentally evaluate the proposed axiom weakening operator in the context 
   where $\mathbf{card}(X)$ is the cardinality of the set $X$.
 \end{definition}
 
-
 % explain which ontologies where chosen and from where (BioPortal)
-For the experimental evaluation we have selected ontologies of varying size and expressivity from BioPortal\footnote{\url{https://bioportal.bioontology.org/}}. Additionally the pizza ontology\footnote{Available from Protégé at \url{https://protege.stanford.edu/ontologies/pizza/pizza.owl}} (cite or footnote) was included in the testing.
+For the experimental evaluation we have selected ontologies of varying size and expressivity from BioPortal\footnote{\url{https://bioportal.bioontology.org/}} \cite{whetzel2011bioportal}. Additionally, the pizza ontology\footnote{Available from Protégé at \url{https://protege.stanford.edu/ontologies/pizza/pizza.owl}} was included in the testing. Some characteristics of the used ontologies are shown in \Cref{table:ontologies}. On average, they contain about 289 axioms, 73 concept names, 29 role names, and 168 subconcepts.
 
 \begin{table}
   \centering
-  \begin{tabular}{|l l l r r r r|}
+  \scriptsize
+  \begin{tabular}{|lllrrrr|}
     \hline
     Abbreviation & Name & Expressivity & Axioms & Concepts & Roles & Subconcepts \\
     \hline
     admin & Nurse Administrator & $\mathcal{ALCHOIF}$ & 229 & 42 & 29 & 144 \\
     ahso & Animal Health Surveillance Ontology & $\mathcal{ALCRIF}$ & 166 & 38 & 31 & 104 \\
-    cdao & Comparative Data Analysis Ontology & $\mathcal{ALCROIQ}$ & & & & \\
-    cdpeo & Chronic Disease Patient Education Ontology & $\mathcal{ALCHF}$ & & & & \\
-    covid19-ibo & Covid19 Impact on Banking Ontology & $\mathcal{ALCH}$ & & & & \\
-    ecp & Electronic Care Plan & $\mathcal{ALCRQ}$ & & & & \\
-    emo & Enzyme Mechanism Ontology & $\mathcal{ALCHQ}$ & & & & \\
-    evi & Evidence Graph Ontology & $\mathcal{ALCRI}$ & & & & \\
-    falls & Falls Prevention & $\mathcal{ALCH}$ & & & & \\
-    fo Fern Ontology & $\mathcal{ALCHI}$ & & & & \\
-    gbm & Glioblastoma & $\mathcal{ALCIF}$ & & & & \\
-    gfvo & Genomic Feature and Variation Ontology & $\mathcal{ALCH}$ & & & & \\
-    koro & Knowledge Object Reference Ontology & $\mathcal{ALCHI}$ & & & & \\
-    lico & Liver Case Ontology & $\mathcal{ALCHQ}$ & & & & \\
-    mamo & Mathematical Modelling Ontology & $\mathcal{ALCR}$ & & & & \\
-    mpio & Minimum PDDI Information Ontology & $\mathcal{ALCH}$ & & & & \\
-    provo & Provenance Ontology & $\mathcal{ALCRIN}$ & & & & \\
-    qudt & Quantities, Units, Dimensions, and Types Ontology & $\mathcal{SHOIQ}$ & & & & \\
-    trans & Nurse Transitional & $\mathcal{ALCROIF}$ & & & & \\
-    triage & Nurse triage & $\mathcal{ALCHF}$ & & & & \\
-    vio & Vaccine Investigation Ontology & $\mathcal{ALCRI}$ & & & & \\
-    \hline
-    pizza & Pizza Ontology & $\mathcal{SHOIN}$ & & & & \\
+    cdao & Comparative Data Analysis Ontology & $\mathcal{ALCROIQ}$ & 437 & 132 & 68 & 375 \\
+    cdpeo & Chronic Disease Patient Education & $\mathcal{ALCHF}$ & 422 & 41 & 31 & 170 \\
+    covid19-ibo & Covid19 Impact on Banking Ontology & $\mathcal{ALCH}$ & 288 & 160 & 33 & 227 \\
+    ecp & Electronic Care Plan & $\mathcal{ALCRQ}$ & 127 & 33 & 17 & 99 \\
+    emo & Enzyme Mechanism Ontology & $\mathcal{ALCHQ}$ & 368 & 157 & 24 & 255 \\
+    evi & Evidence Graph Ontology & $\mathcal{ALCRI}$ & 143 & 30 & 38 & 69 \\
+    falls & Falls Prevention & $\mathcal{ALCH}$ & 79 & 30 & 20 & 35 \\
+    fo & Fern Ontology & $\mathcal{ALCHI}$ & 59 & 31 & 4 & 46 \\
+    gbm & Glioblastoma & $\mathcal{ALCIF}$ & 603 & 108 & 28 & 227 \\
+    gfvo & Genomic Feature and Variation Ontology & $\mathcal{ALCH}$ & 332 & 102 & 30 & 170 \\
+    koro & Knowledge Object Reference Ontology & $\mathcal{ALCHI}$ & 262 & 110 & 19 & 194 \\
+    lico & Liver Case Ontology & $\mathcal{ALCHQ}$ & 366 & 93 & 36 & 230 \\
+    mamo & Mathematical Modelling Ontology & $\mathcal{ALCR}$ & 229 & 107 & 3 & 154 \\
+    mpio & Minimum PDDI Information Ontology & $\mathcal{ALCH}$ & 38 & 30 & 14 & 45 \\
+    provo & Provenance Ontology & $\mathcal{ALCRIN}$ & 170 & 31 & 42 & 128 \\
+    qudt & Quantities, Units, Dimensions, and Types & $\mathcal{SHOIQ}$ & 293 & 74 & 73 & 177 \\
+    trans & Nurse Transitional & $\mathcal{ALCROIF}$ & 244 & 44 & 22 & 123 \\
+    triage & Nurse triage & $\mathcal{ALCHF}$ & 132 & 33 & 29 & 129 \\
+    vio & Vaccine Investigation Ontology & $\mathcal{ALCRI}$ & 249 & 81 & 44 & 235 \\
+    pizza & Pizza Ontology & $\mathcal{SHOIN}$ & 1131 & 100 & 8 & 376 \\
     \hline
   \end{tabular}
-  \caption{The BioPortal ontologies used for evaluation. The number of axioms, concepts, roles, and subconcepts are taken after preprocessing.}
+  \caption{The BioPortal ontologies used for evaluation. The number of axioms, concept names, role names, and subconcepts are taken after preprocessing.}
+	\label{table:ontologies}
 \end{table}
 
 % explain how inconsistent ontologies were generated from them and then repaired
+Since the ontologies use OWL 2, the axioms and concepts do not map directly to \SROIQ. In order to follow the definitions laid out in this paper, the OWL ontologies axioms where normalized to conform with \SROIQ. During the preprocessing, we further removed axioms related to data properties and any axiom that caused any OWL 2 DL profile violation, as our weakening does not handle them.
+
 \begin{algorithm}[t]
   \begin{algorithmic}
     \While{$\Omc$ is inconsistent}
@@ -491,15 +492,72 @@ For the experimental evaluation we have selected ontologies of varying size and 
 	\label{algo:repair-remove}
 \end{algorithm}
 
+The evaluation precedes by first making the ontologies inconsistent. This was achieved by repeatedly adding axioms to the ontology until they became inconsistent. The newly added axioms were generated by strengthening randomly selected axioms of the original ontology. It was ensured that the added axioms on their own were not inconsistent. After making the ontology inconsistent, it was repaired once with the repair algorithm using the axiom weakening operator presented in \Cref{algo:repair-weaken} and once using \Cref{algo:repair-remove}. Additionally, the repair was also performed by selecting a randomly sampled maximal consistent subset. This process, both making the ontology inconsistent and then repairing it, was repeated one hundred times for each ontology, and the IIC was computed between the repair by weakening and the repairs by removal and random maximal consistent subset. The evaluation was performed using a randomly selected maximal consistent subset as the reference ontology and by sampling 16 minimal inconsistent subsets during the selection of bad axioms.
+
+Unfortunately, even though the utilized reasoners are generally very fast to evaluate queries on the selected ontologies, they exhibit undesirable performance in some edge cases. When performance pitfalls are encountered, they make the computations required for weakening unreasonably slow. For this reason a timeout of 5 minutes was placed on the repairs execution and the outputs of these runs where discarded and replaced by new runs. The results of these experiments are listed in \Cref{table:results} and shown in \Cref{fig:results-remove} and \Cref{fig:results-mcs}.
+
 % show results of the evaluation
+\begin{table}
+  \centering
+  \scriptsize
+  \begin{tabular}{|lcc|}
+    \hline
+    Abbreviation & IIC w.r.t. repair by removal & IIC w.r.t. maximal consistent subset \\
+    \hline
+    admin & 0.53 [0.47; 0.59] & 0.39 [0.31; 0.47] \\
+    ahso & 0.56 [0.50; 0.62] & 0.51 [0.44; 0.57] \\
+    cdao & 0.53 [0.44; 0.61] & 0.53 [0.45; 0.61] \\
+    cdpeo & 0.50 [0.45; 0.55] & 0.22 [0.16; 0.28] \\
+    covid19-ibo & 0.70 [0.65; 0.75] & 0.63 [0.57; 0.69] \\
+    ecp & 0.74 [0.67; 0.81] & 0.36 [0.28; 0.44] \\
+    emo & 0.69 [0.63; 0.75] & 0.60 [0.53; 0.66] \\
+    evi & 0.49 [0.43; 0.55] & 0.59 [0.53; 0.66] \\
+    falls & 0.78 [0.71; 0.85] & 0.49 [0.41; 0.58] \\
+    fo & 0.50 [0.44; 0.57] & 0.70 [0.62; 0.76] \\
+    gbm & 0.59 [0.52; 0.66] & 0.52 [0.44; 0.59] \\
+    gfvo & 0.56 [0.49; 0.62] & 0.54 [0.49; 0.60] \\
+    koro & 0.51 [0.45; 0.57] & 0.37 [0.29; 0.45] \\
+    lico & 0.55 [0.48; 0.62] & 0.53 [0.46; 0.60] \\
+    mamo & 0.52 [0.44; 0.60] & 0.68 [0.61; 0.74] \\
+    mpio & 0.70 [0.63; 0.76] & 0.73 [0.67; 0.78] \\
+    provo & 0.50 [0.43; 0.56] & 0.55 [0.49; 0.62] \\
+    qudt & 0.96 [0.93; 0.99] & 0.44 [0.35; 0.55] \\
+    trans & 0.58 [0.52; 0.64] & 0.43 [0.35; 0.52] \\
+    triage & 0.53 [0.46; 0.60] & 0.53 [0.46; 0.60] \\
+    vio & 0.46 [0.37; 0.55] & 0.49 [0.40; 0.57] \\
+    pizza & 0.56 [0.49; 0.64] & 0.61 [0.53; 0.68] \\
+    \hline
+    Overall & 0.59 [0.57; 0.61] & 0.52 [0.50; 0.54] \\
+    \hline
+  \end{tabular}
+  \caption{Results of the evaluation. IIC is given as mean and 95\% confidence interval in brackets.}
+  \label{table:results}
+\end{table}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{figures/iic-remove-ontology-bar.png}
+  \caption{Mean IIC with respect to repair via removal per ontology. The error bars show the 95\% confidence interval.}
+  \label{fig:results-remove}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{figures/iic-mcs-ontology-bar.png}
+  \caption{Mean IIC with respect to a random maximal consistent subset per ontology. The error bars show the 95\% confidence interval.}
+  \label{fig:results-mcs}
+\end{figure}
+
+The results of the evaluation suggest that the repair by weakening is on average about as good or better than the repair by removal of axioms. While this supports the conclusion in \cite{troquard2018repairing} that weakening is able to retain more information than removal, the observed advantage was worse than what has been observed in \cite{troquard2018repairing}. In contrast, it can be seen that the repair using weakening is not in general better than choosing a random maximal consistent subset. There are ontologies for which the repairs by weakening are on average significantly worse when comparing using IIC. This is however a somewhat unequal comparison since an alternative repair with weakening could start with a maximal consistent subset and use weakening to add in more information from the remaining axioms. Still, this result suggests that the heuristic used for selecting bad axioms is not reliable for preserving information.
 
 \section{Outlook}
 
+% what have we done
 % better measures for comparing ontologies
 % better heuristics to steer the algorithm
 % complex roles in up and down covers
 % more permissive refinement of role inclusions
-% working directly with OWL 2 axioms
+We have proposed refinement operators and an axiom weakening operator for all aspects of \SROIQ and shown that for repairs of inconsistent ontologies weakening can, in some cases, significantly outperform removal. Further additions to the refinement operators may be studied, e.g., using non-simple roles in the upward and downward covers in certain contexts. Relaxing the allowed weakening for RIAs may also be considered. We have also seen that the repair algorithm likely needs better heuristics to steer the selection of axioms and weakenings. Future work could focus on finding robust measures for comparing the quality of repairs.
 
 %%
 %% Define the bibliography file to be used
