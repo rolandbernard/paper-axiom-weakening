@@ -116,13 +116,12 @@ Axiom weakening is a technique that allows for a fine-grained repair of inconsis
 
 \section{Introduction: Weakening for debugging}
 
+% \begin{example}
+% % give an example ontology where classical repairs are insufficient
+% % give an example where it is advantageous to weaken the role hierarchy
+% \end{example}
+
 % motivate repair using axiom weakening
-
-\begin{example}
-% give an example ontology where classical repairs are insufficient
-% give an example where it is advantageous to weaken the role hierarchy
-\end{example}
-
 % explain other gentle repair approaches
 % briefly describe refinement operators
 % briefly describe what we have done
@@ -400,21 +399,99 @@ Like for simple roles, also regularity is maintained by repeated addition of wea
 \section{Implementing Axiom Weakening for \SROIQ}
 
 % explain how the weakening is used for repair
+Refinement operator and axiom weakening have previously been implemented for \ALC in \cite{troquard2018repairing}. Based on this, we have now extended the implementation to cover the full range of \SROIQ axioms and concepts.\footnote{The source code for the implementation is available at \url{https://github.com/rolandbernard/ontologyutils}} The concept refinement and axiom weakening operators for \SROIQ have been implemented as discussed above. Further, we implemented a repair algorithm using the axiom weakening operator based on the procedures already proposed in \cite{troquard2018repairing} and \cite{confalonieri2020towards}. The implementation performs weakening in OWL 2 DL \cite{motik2009owl} and is implemented in Java using the OWL API \cite{horridge2011owl}. A plug-in for the ontology development tool Protégé has also been implemented, but will not be discussed in detail in this paper.\footnote{The Protégé plugin is available at \url{https://github.com/rolandbernard/protege-weakening}} The plug-in allows for manually weakening axioms and executing the automatic repair algorithm.
+
+\begin{algorithm}[t]
+  \begin{algorithmic}
+    \State $\Omcfull \gets \Omc$
+    \State $\Omcref \gets \textnormal{FindMaximalConsistentSubset(\Omc)}$
+    \While{$\Omc$ is inconsistent}
+      \State $\phi_\textnormal{bad} \gets \textnormal{FindBadAxiom}(\Omc)$
+      \State $\Phi_\textnormal{weaker} \gets g_{\Omcref,\Omcfull}(\phi_\textnormal{bad})$
+      \State $\phi_\textnormal{weaker} \gets \textnormal{SelectWeakerAxiom}(\Phi_\textnormal{weaker})$
+      \State $\Ontology \gets \Ontology \setminus \{\phi_\textnormal{bad}\} \cup \{\phi_\textnormal{weaker}\}$
+    \EndWhile
+    \State Return $\Omc$
+  \end{algorithmic}
+  \caption{RepairOntologyWeaken($\Omc$)}
+	\label{algo:repair-weaken}
+\end{algorithm}
+
 % explain how the reference ontology is selected
 % explain how bad axioms are selected
+The automatic repair by weakening is implemented as shown in \cref{algo:repair-weaken}. The reference ontology is selected by choosing a maximal consistent subset of the inconsistent ontology. In our implementation used for the evaluation in this paper, the reference ontology was selected by randomly sampling a maximal consistent subset. The procedure $\textnormal{FindBadAxiom}(\Omc)$ may be implemented in a number of ways. Here we consider an implementation that samples some (or all) of the minimal inconsistent subsets of $\Omc$ and selects as the bad axiom the one occurring most frequently. Then, $\textnormal{SelectWeakerAxiom}(\Phi_\textnormal{weaker})$ has been chosen such that is selects an axiom uniformly at random form $\Phi_\textnormal{weaker}$.
+
 
 \section{Weakening makes you strong: evaluation aspects}
 
 % explain how different repairs are compared
-To experimentally evaluate the proposed axiom weakening and repair approach, we need some way to compare the quality of repair. As has already been discussed in \cite{troquard2018repairing}, the problem of deciding which of two possible repaired ontologies $\Omc_1$ or $\Omc_2$ is preferable is not generally well-defined. Similar to what has been proposed in \cite{troquard2018repairing} we will base the evaluation of the repairs on the size of the \emph{inferred class hierarchy}. The \emph{inferred class hierarchy} of an ontology $\Omc$ is given by
-\begin{align*}
-  \Inf(\Omc) = \{ A \sqsubseteq B \mid A, B \in N_C \text{ and } \Omc \models A \sqsubseteq B \} \enspace.
-\end{align*}
+To experimentally evaluate the proposed axiom weakening operator in the context of its use in automatic repair of ontologies, we need some way to compare the quality of repair. As has already been discussed in \cite{troquard2018repairing}, the problem of deciding which of two possible repaired ontologies $\Omc_1$ or $\Omc_2$ is preferable is not generally well-defined. Similar to what has been proposed in \cite{troquard2018repairing} we will base the evaluation of the repairs on the size of the \emph{inferred class hierarchy}. To compare two possible repairs, we use the \emph{inferable information content} as defined in \cite{troquard2018repairing}. Some weakenesses of this measure when it comes to evaluating repairs, like the fact that only atomic concepts are considered, have already been discussed in \cite{troquard2018repairing}. For the case of repairing \SROIQ ontologies this is even more relevant, since the role hierachy is compleaty ignored.
+
+\begin{definition}
+  The \emph{inferred class hierarchy} of an ontology $\Omc$ is given by
+  \begin{align*}
+    \Inf(\Omc) = \{ A \sqsubseteq B \mid A, B \in N_C \text{ and } \Omc \models A \sqsubseteq B \} \enspace.
+  \end{align*}
+
+  The \emph{inferable information content} of an ontology $\Omc_1$ with respect to another ontology $\Omc_2$ is given by
+  \begin{align*}
+    \qual(\Omc_1, \Omc_2) = \frac{\mathbf{card}(\Inf(\Omc_1) \setminus \Inf(\Omc_2))}{\mathbf{card}(\Inf(\Omc_1) \setminus \Inf(\Omc_2)) + \mathbf{card}(\Inf(\Omc_2) \setminus \Inf(\Omc_1))} \enspace,
+  \end{align*}
+  where $\mathbf{card}(X)$ is the cardinality of the set $X$.
+\end{definition}
+
 
 % explain which ontologies where chosen and from where (BioPortal)
-% explain how inconsistent ontologies were generated from them
+For the experimental evaluation we have selected ontologies of varying size and expressivity from BioPortal\footnote{\url{https://bioportal.bioontology.org/}}. Additionally the pizza ontology\footnote{Available from Protégé at \url{https://protege.stanford.edu/ontologies/pizza/pizza.owl}} (cite or footnote) was included in the testing.
+
+\begin{table}
+  \centering
+  \begin{tabular}{|l l l r r r r|}
+    \hline
+    Abbreviation & Name & Expressivity & Axioms & Concepts & Roles & Subconcepts \\
+    \hline
+    admin & Nurse Administrator & $\mathcal{ALCHOIF}$ & 229 & 42 & 29 & 144 \\
+    ahso & Animal Health Surveillance Ontology & $\mathcal{ALCRIF}$ & 166 & 38 & 31 & 104 \\
+    cdao & Comparative Data Analysis Ontology & $\mathcal{ALCROIQ}$ & & & & \\
+    cdpeo & Chronic Disease Patient Education Ontology & $\mathcal{ALCHF}$ & & & & \\
+    covid19-ibo & Covid19 Impact on Banking Ontology & $\mathcal{ALCH}$ & & & & \\
+    ecp & Electronic Care Plan & $\mathcal{ALCRQ}$ & & & & \\
+    emo & Enzyme Mechanism Ontology & $\mathcal{ALCHQ}$ & & & & \\
+    evi & Evidence Graph Ontology & $\mathcal{ALCRI}$ & & & & \\
+    falls & Falls Prevention & $\mathcal{ALCH}$ & & & & \\
+    fo Fern Ontology & $\mathcal{ALCHI}$ & & & & \\
+    gbm & Glioblastoma & $\mathcal{ALCIF}$ & & & & \\
+    gfvo & Genomic Feature and Variation Ontology & $\mathcal{ALCH}$ & & & & \\
+    koro & Knowledge Object Reference Ontology & $\mathcal{ALCHI}$ & & & & \\
+    lico & Liver Case Ontology & $\mathcal{ALCHQ}$ & & & & \\
+    mamo & Mathematical Modelling Ontology & $\mathcal{ALCR}$ & & & & \\
+    mpio & Minimum PDDI Information Ontology & $\mathcal{ALCH}$ & & & & \\
+    provo & Provenance Ontology & $\mathcal{ALCRIN}$ & & & & \\
+    qudt & Quantities, Units, Dimensions, and Types Ontology & $\mathcal{SHOIQ}$ & & & & \\
+    trans & Nurse Transitional & $\mathcal{ALCROIF}$ & & & & \\
+    triage & Nurse triage & $\mathcal{ALCHF}$ & & & & \\
+    vio & Vaccine Investigation Ontology & $\mathcal{ALCRI}$ & & & & \\
+    \hline
+    pizza & Pizza Ontology & $\mathcal{SHOIN}$ & & & & \\
+    \hline
+  \end{tabular}
+  \caption{The BioPortal ontologies used for evaluation. The number of axioms, concepts, roles, and subconcepts are taken after preprocessing.}
+\end{table}
+
+% explain how inconsistent ontologies were generated from them and then repaired
+\begin{algorithm}[t]
+  \begin{algorithmic}
+    \While{$\Omc$ is inconsistent}
+      \State $\phi_\textnormal{bad} \gets \textnormal{FindBadAxiom}(\Omc)$
+      \State $\Ontology \gets \Ontology \setminus \{\phi_\textnormal{bad}\}$
+    \EndWhile
+    \State Return $\Omc$
+  \end{algorithmic}
+  \caption{RepairOntologyRemove($\Omc$)}
+	\label{algo:repair-remove}
+\end{algorithm}
+
 % show results of the evaluation
-% explain why the results may be worse
 
 \section{Outlook}
 
