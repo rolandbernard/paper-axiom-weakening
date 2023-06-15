@@ -116,37 +116,13 @@ Axiom weakening is a technique that allows for a fine-grained repair of inconsis
 
 \section{Introduction: Weakening for debugging}
 
-% \begin{example}
-% % give an example ontology where classical repairs are insufficient
-% % give an example where it is advantageous to weaken the role hierarchy
-% \end{example}
-
 % motivate repair using axiom weakening
-% explain other gentle repair approaches
-% briefly describe refinement operators
+% mention other gentle repair approaches
+% mention previous work in axiom weakening
 % briefly describe what we have done
+The classical approach to repairing inconsistent ontologies is to identify and remove problematic axioms so that the ontology becomes consistent (e.g., \cite{ScCo03,kalyanpur2005debugging,kalyanpur2006repairing,BaPS07}). However, deletion whole axioms can lead to the removal of more information than is strictly necessary to regain consistency. More gentle repair methods using \emph{axiom weakening} have therefore been proposed in the literature \cite{du2014practical,AMAI-2018,DBLP:conf/kr/BaaderKNP18,troquard2018repairing,confalonieri2020towards}. In \cite{DBLP:conf/kr/BaaderKNP18} the authors show general theoretical results for repair using axiom weakening, and propose a concrete weakening relation for the $\mathcal{EL}$ description logics. In \cite{troquard2018repairing} axiom weakening using refinement operators has been described for \ALC and experimentally evaluated, showing that axiom weakening is able to retain more information than deletion. In \cite{confalonieri2020towards} the axiom weakening has been extended to include many aspects of \SROIQ, notably omitting however the weakening of RBox axioms. The authors of \cite{confalonieri2020towards} further show that the proposed repair by iterated weakening almost surely terminates.
 
-% \section{Axiom Weakening for \ALC}
-
-% % describe the ALC syntax and semantics
-% % define sub concepts
-% % define upward and downward covers
-
-% \begin{example}
-% % give an example of some cover applications
-% \end{example}
-
-% % define the abstract and concrete refinement operators
-
-% \begin{example}
-% % give an example of the concrete refinement operators
-% \end{example}
-
-% % define the weakening operator
-
-% \begin{example}
-% % give an example of the weakening operator
-% \end{example}
+The main goal of this paper is to extend further extend axiom weakening to handle all \SROIQ axiom types including simple and complex RIAs. Additionally, by implementing the proposed refinement and weakening operators we are able to perform experimental evaluations also on ontologies using the more expressive features of \SROIQ.
 
 \section{Extending Weakening to \SROIQ}
 
@@ -174,7 +150,7 @@ $R \circ R \sqsubseteq R$,
 $S \sqsubseteq R$, $R \circ S_1 \circ \cdots \circ S_n \sqsubseteq R$,
 $S_1 \circ \cdots \circ S_n \circ R \sqsubseteq R$, or
 $S_1 \circ \cdots \circ S_n \sqsubseteq R$,
-where $r \in N_R$ is a role name, $n > 1$ and $R$, $S$, $S_1, \cdots, S_n$ are roles such that $S \preceq R$, $S_i \preceq R$, and $R \not\preceq S_i$ for $i = 1, \dots, n$.\footnote{The definitions for simple roles and regularity used here conform to the global restrictions in OWL 2 DL \cite{motik2009owl}.}
+where $r \in N_R$ is a role name, $n > 1$ and $R$, $S$, $S_1, \cdots, S_n$ are roles such that $S \preceq R$, $S_i \preceq R$, and $R \not\preceq S_i$ for $i = 1, \dots, n$.\footnote{The definitions for simple roles and regularity used here aligns with the global restrictions in OWL 2 DL \cite{motik2009owl}.}
 
 A \SROIQ ontology $\Omc = \Tmc \cup \Amc \cup \Rmc$ consists of a TBox $\Tmc$, an ABox $\Amc$, and a RBox $\Rmc$, where $\Rmc$ is regular.
 
@@ -399,7 +375,7 @@ Like for simple roles, also regularity is maintained by repeated addition of wea
 \section{Implementing Axiom Weakening for \SROIQ}
 
 % explain how the weakening is used for repair
-Refinement operator and axiom weakening have previously been implemented for \ALC in \cite{troquard2018repairing}. Based on this, we have now extended the implementation to cover the full range of \SROIQ axioms and concepts.\footnote{The source code for the implementation is available at \url{https://github.com/rolandbernard/ontologyutils}} The concept refinement and axiom weakening operators for \SROIQ have been implemented as discussed above. Further, we implemented a repair algorithm using the axiom weakening operator based on the procedures already proposed in \cite{troquard2018repairing} and \cite{confalonieri2020towards}. The implementation performs weakening in OWL 2 DL \cite{motik2009owl} and is implemented in Java using the OWL API \cite{horridge2011owl}. A plug-in for the ontology development tool Protégé has also been implemented, but will not be discussed in detail in this paper.\footnote{The Protégé plugin is available at \url{https://github.com/rolandbernard/protege-weakening}} The plug-in allows for manually weakening axioms and executing the automatic repair algorithm.
+Refinement operator and axiom weakening have previously been implemented for \ALC in \cite{troquard2018repairing}. Based on this, we have now extended the implementation to cover the full range of \SROIQ axioms and concepts.\footnote{The source code for the implementation is available at \url{https://github.com/rolandbernard/ontologyutils}.} The concept refinement and axiom weakening operators for \SROIQ have been implemented as discussed above. Further, we implemented a repair algorithm using the axiom weakening operator based on the procedures already proposed in \cite{troquard2018repairing} and \cite{confalonieri2020towards}. The implementation performs weakening in OWL 2 DL \cite{motik2009owl} and is implemented in Java using the OWL API \cite{horridge2011owl}. A plug-in for the ontology development tool Protégé has also been implemented, but will not be discussed in detail in this paper.\footnote{The Protégé plugin is available at \url{https://github.com/rolandbernard/protege-weakening}.} The plug-in allows for manually weakening axioms and executing the automatic repair algorithm.
 
 \begin{algorithm}[t]
   \begin{algorithmic}
@@ -440,7 +416,7 @@ To experimentally evaluate the proposed axiom weakening operator in the context 
 \end{definition}
 
 % explain which ontologies where chosen and from where (BioPortal)
-For the experimental evaluation we have selected ontologies of varying size and expressivity from BioPortal\footnote{\url{https://bioportal.bioontology.org/}} \cite{whetzel2011bioportal}. Additionally, the pizza ontology\footnote{Available from Protégé at \url{https://protege.stanford.edu/ontologies/pizza/pizza.owl}} was included in the testing. Some characteristics of the used ontologies are shown in \Cref{table:ontologies}. On average, they contain about 289 axioms, 73 concept names, 29 role names, and 168 subconcepts.
+For the experimental evaluation we have selected ontologies of varying size and expressivity from BioPortal\footnote{\url{https://bioportal.bioontology.org/}} \cite{whetzel2011bioportal}. Additionally, the pizza ontology\footnote{Available from Protégé at \url{https://protege.stanford.edu/ontologies/pizza/pizza.owl}.} was included in the testing. Some characteristics of the used ontologies are shown in \Cref{table:ontologies}. On average, they contain about 289 axioms, 73 concept names, 29 role names, and 168 subconcepts.
 
 \begin{table}
   \centering
@@ -548,7 +524,7 @@ Unfortunately, even though the utilized reasoners are generally very fast to eva
   \label{fig:results-mcs}
 \end{figure}
 
-The results of the evaluation suggest that the repair by weakening is on average about as good or better than the repair by removal of axioms. While this supports the conclusion in \cite{troquard2018repairing} that weakening is able to retain more information than removal, the observed advantage was worse than what has been observed in \cite{troquard2018repairing}. In contrast, it can be seen that the repair using weakening is not in general better than choosing a random maximal consistent subset. There are ontologies for which the repairs by weakening are on average significantly worse when comparing using IIC. This is however a somewhat unequal comparison since an alternative repair with weakening could start with a maximal consistent subset and use weakening to add in more information from the remaining axioms. Still, this result suggests that the heuristic used for selecting bad axioms is not reliable for preserving information.
+The results of the evaluation suggest that the repair by weakening is on average about as good or better than the repair by removal of axioms. While this supports the conclusion in \cite{troquard2018repairing} that weakening is able to retain more information than removal, the observed advantage was worse than what has been observed in \cite{troquard2018repairing}. In contrast, it can be seen that the repair using weakening is not in general better than choosing a random maximal consistent subset. There are ontologies for which the repairs by weakening are on average significantly worse when comparing using IIC. This is however a somewhat unequal comparison. An alternative repair algorithm could start with a maximal consistent subset and use weakening to add in more information from the remaining axioms. Still, this result suggests that the heuristic used for selecting bad axioms is not reliable for preserving information, at least with respect to the chosen measure.
 
 \section{Outlook}
 
