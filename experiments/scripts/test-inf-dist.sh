@@ -12,7 +12,7 @@ function run-experiment() {
     if ! [ -e $out_dir/$onto_name.txt ]
     then
         if ! systemd-run --scope -p MemoryMax=10G --user \
-            java -cp target/shaded-ontologyutils-0.0.1.jar -Xms9G www.ontologyutils.apps.InfDistribution \
+            java -cp target/ontologyutils.jar -Xms9G www.ontologyutils.apps.InfDistribution \
             $onto >$out_dir/$onto_name.txt 2>&1
         then
             rm $out_dir/$onto_name.txt

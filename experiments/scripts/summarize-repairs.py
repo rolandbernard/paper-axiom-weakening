@@ -25,7 +25,7 @@ repair_data = {
 def read_run_info(onto: str, dir: str, failed: bool):
     repair_data['ontology'].append(onto)
     repair_data['failed'].append(failed)
-    repair_data['failed_repair'].append(failed and exists(f'{dir}/repair-weakening.log'))
+    repair_data['failed_repair'].append(failed if exists(f'{dir}/repair-weakening.log') else None)
     if failed:
         repair_data['steps'].append(None)
         repair_data['time'].append(None)

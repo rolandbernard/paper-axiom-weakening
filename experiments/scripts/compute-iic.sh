@@ -13,12 +13,12 @@ do
         then
             if ! timeout 20m \
                 systemd-run --scope -p MemoryMax=10G --user \
-                java -cp target/shaded-ontologyutils-0.0.1.jar -Xms9G www.ontologyutils.apps.EvaluateRepairs \
+                java -cp target/ontologyutils.jar -Xms9G www.ontologyutils.apps.EvaluateRepairs \
                 --reasoner=$REASONER $run/repair-*.owl --iic-pairs >$run/eval.txt 2>&1
             then
                 if ! timeout 20m \
                     systemd-run --scope -p MemoryMax=10G --user \
-                    java -cp target/shaded-ontologyutils-0.0.1.jar -Xms9G www.ontologyutils.apps.EvaluateRepairs \
+                    java -cp target/ontologyutils.jar -Xms9G www.ontologyutils.apps.EvaluateRepairs \
                     --reasoner=$REASONER_FALLBACK $run/repair-*.owl --iic-pairs >$run/eval.txt 2>&1
                 then
                     echo "failed for $run"

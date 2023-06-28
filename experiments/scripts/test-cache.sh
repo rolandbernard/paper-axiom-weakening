@@ -21,7 +21,7 @@ function run-experiment() {
     if ! [ -e $out_dir/$REASONER-$size.txt ]
     then
         if ! systemd-run --scope -p MemoryMax=10G --user \
-            java -cp target/shaded-ontologyutils-0.0.1.jar -Xms9G www.ontologyutils.apps.BenchCache \
+            java -cp target/ontologyutils.jar -Xms9G www.ontologyutils.apps.BenchCache \
             --reasoner=$REASONER --preset=bernard2023 $onto -n $TESTS_TO_RUN -s $size >$out_dir/$REASONER-$size.txt 2>&1
         then
             rm $out_dir/$REASONER-$size.txt
@@ -30,7 +30,7 @@ function run-experiment() {
     if ! [ -e $out_dir/$REASONER-$size-basic.txt ]
     then
         if ! systemd-run --scope -p MemoryMax=10G --user \
-            java -cp target/shaded-ontologyutils-0.0.1.jar -Xms9G www.ontologyutils.apps.BenchCache \
+            java -cp target/ontologyutils.jar -Xms9G www.ontologyutils.apps.BenchCache \
             --reasoner=$REASONER --preset=bernard2023 --basic-cache $onto -n $TESTS_TO_RUN -s $size >$out_dir/$REASONER-$size-basic.txt 2>&1
         then
             rm $out_dir/$REASONER-$size-basic.txt
@@ -39,7 +39,7 @@ function run-experiment() {
     if ! [ -e $out_dir/$REASONER-$size-uncached.txt ]
     then
         if ! systemd-run --scope -p MemoryMax=10G --user \
-            java -cp target/shaded-ontologyutils-0.0.1.jar -Xms9G www.ontologyutils.apps.BenchCache \
+            java -cp target/ontologyutils.jar -Xms9G www.ontologyutils.apps.BenchCache \
             --reasoner=$REASONER --preset=bernard2023 --uncached $onto -n $TESTS_TO_RUN -s $size >$out_dir/$REASONER-$size-uncached.txt 2>&1
         then
             rm $out_dir/$REASONER-$size-uncached.txt

@@ -8,7 +8,7 @@ REASONER=fact++
 function repair-mcs() {
     if timeout 10m \
         systemd-run --scope -p MemoryMax=10G --user \
-            java -cp target/shaded-ontologyutils-0.0.1.jar -Xms9G www.ontologyutils.apps.RepairMcs \
+            java -cp target/ontologyutils.jar -Xms9G www.ontologyutils.apps.RepairMcs \
             --compute=sample -v --reasoner=$REASONER --limit $REPAIRS_PER_RUN -o $2 $1 >$3 2>&1
     then
         return 0
@@ -20,7 +20,7 @@ function repair-mcs() {
 function repair-weakening() {
     if timeout 30m \
         systemd-run --scope -p MemoryMax=10G --user \
-            java -cp target/shaded-ontologyutils-0.0.1.jar -Xms9G www.ontologyutils.apps.RepairWeakening \
+            java -cp target/ontologyutils.jar -Xms9G www.ontologyutils.apps.RepairWeakening \
             --preset=bernard2023 -v --reasoner=$REASONER --limit $REPAIRS_PER_RUN -o $2 $1 >$3 2>&1
     then
         return 0
@@ -32,7 +32,7 @@ function repair-weakening() {
 function make-inconsistent() {
     if timeout 5m \
         systemd-run --scope -p MemoryMax=10G --user \
-        java -cp target/shaded-ontologyutils-0.0.1.jar -Xms9G www.ontologyutils.apps.MakeInconsistent \
+        java -cp target/ontologyutils.jar -Xms9G www.ontologyutils.apps.MakeInconsistent \
         --strict-sroiq --strict-simple-roles --simple-ria-weakening --strict-owl2 -v --reasoner=$REASONER -o $2 $1 >$3 2>&1
     then
         return 0
@@ -43,7 +43,7 @@ function make-inconsistent() {
 
 function classify-ontology() {
     systemd-run --scope -p MemoryMax=10G --user \
-        java -cp target/shaded-ontologyutils-0.0.1.jar -Xms9G www.ontologyutils.apps.ClassifyOntology \
+        java -cp target/ontologyutils.jar -Xms9G www.ontologyutils.apps.ClassifyOntology \
         $1 >$2 2>&1
 }
 
