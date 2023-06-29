@@ -303,10 +303,10 @@ To also capture these omissions, we define generalization and specialization ope
     \zeta_{\refine,\corefine}(\exists R.\self) &= &&\refine(\exists R.\self) \cup \{ \exists R'.\self \mid R' \in \refine(R) \} \enspace, \\
     \zeta_{\refine,\corefine}(\more n R.C) &= &&\refine(\more n R.C) \cup \{ \more n R'.C \mid R' \in \refine(R) \} \\
     &&& \cup \{ \more n R.C' \mid C' \in \zeta_{\refine,\corefine}(C) \}
-    \cup \{ \more n' R.C \mid n' \in \corefine(C) \} \enspace, \\
+    \cup \{ \more n' R.C \mid n' \in \corefine(n) \} \enspace, \\
     \zeta_{\refine,\corefine}(\less n R.C) &= &&\refine(\less n R.C) \cup \{ \less n R'.C \mid R' \in \corefine(R) \} \\
     &&& \cup \{ \less n R.C' \mid C' \in \zeta_{\corefine,\refine}(C) \}
-    \cup \{ \less n' R.C \mid n' \in \refine(C) \} \enspace, \\
+    \cup \{ \less n' R.C \mid n' \in \refine(n) \} \enspace, \\
     &&& \text{\SROIQ roles:} \\
     \zeta_{\refine,\corefine}(R) &= &&\refine(R) \enspace.
   \end{alignat*}

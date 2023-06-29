@@ -29,6 +29,16 @@ repair_data = {
     'iic_enhance_mcs': [],
     'iic_enhance_remove': [],
     'iic_mcs_remove': [],
+    'eiic_mcs': [],
+    'eiic_remove': [],
+    'einf_mcs': [],
+    'einf_weakening': [],
+    'einf_remove': [],
+    'einf_enhance': [],
+    'eiic_enhance_weaken': [],
+    'eiic_enhance_mcs': [],
+    'eiic_enhance_remove': [],
+    'eiic_mcs_remove': [],
 }
 
 def read_run_info(onto: str, dir: str, failed: bool):
@@ -54,6 +64,16 @@ def read_run_info(onto: str, dir: str, failed: bool):
         repair_data['iic_enhance_mcs'].append(None)
         repair_data['iic_enhance_remove'].append(None)
         repair_data['iic_mcs_remove'].append(None)
+        repair_data['eiic_mcs'].append(None)
+        repair_data['eiic_remove'].append(None)
+        repair_data['einf_mcs'].append(None)
+        repair_data['einf_weakening'].append(None)
+        repair_data['einf_remove'].append(None)
+        repair_data['einf_enhance'].append(None)
+        repair_data['eiic_enhance_weaken'].append(None)
+        repair_data['eiic_enhance_mcs'].append(None)
+        repair_data['eiic_enhance_remove'].append(None)
+        repair_data['eiic_mcs_remove'].append(None)
     else:
         with open(f'{dir}/repair-weakening.log') as log:
             text = log.read()
@@ -138,6 +158,66 @@ def read_run_info(onto: str, dir: str, failed: bool):
             repair_data['iic_enhance_mcs'].append(None)
             repair_data['iic_enhance_remove'].append(None)
             repair_data['iic_mcs_remove'].append(None)
+        if exists(f'{dir}/eeval.txt'):
+            with open(f'{dir}/eeval.txt') as eval:
+                text = eval.read()
+                matched = re.search('[^;\n]+/repair-weakening.owl;([0-9]+);[^;\n]+/repair-mcs.owl;([0-9]+);([.0-9eE+-]+)', text)
+                assert matched is not None
+                iic = float(matched.group(3))
+                assert 0 <= iic and iic <= 1
+                repair_data['eiic_mcs'].append(iic)
+                repair_data['einf_mcs'].append(int(matched.group(2)))
+                repair_data['einf_weakening'].append(int(matched.group(1)))
+                matched = re.search('[^;\n]+/repair-mcs.owl;([0-9]+);[^;\n]+/repair-remove.owl;([0-9]+);([.0-9eE+-]+)', text)
+                if matched is None:
+                    repair_data['eiic_mcs_remove'].append(None)
+                    repair_data['einf_remove'].append(None)
+                else:
+                    iic = float(matched.group(3))
+                    assert 0 <= iic and iic <= 1
+                    repair_data['eiic_mcs_remove'].append(iic)
+                    repair_data['einf_remove'].append(int(matched.group(2)))
+                matched = re.search('[^;\n]+/repair-weakening.owl;([0-9]+);[^;\n]+/repair-remove.owl;([0-9]+);([.0-9eE+-]+)', text)
+                if matched is None:
+                    repair_data['eiic_remove'].append(None)
+                else:
+                    iic = float(matched.group(3))
+                    assert 0 <= iic and iic <= 1
+                    repair_data['eiic_remove'].append(iic)
+                matched = re.search('[^;\n]+/repair-enhance.owl;([0-9]+);[^;\n]+/repair-mcs.owl;([0-9]+);([.0-9eE+-]+)', text)
+                if matched is None:
+                    repair_data['eiic_enhance_mcs'].append(None)
+                    repair_data['einf_enhance'].append(None)
+                else:
+                    iic = float(matched.group(3))
+                    assert 0 <= iic and iic <= 1
+                    repair_data['eiic_enhance_mcs'].append(iic)
+                    repair_data['einf_enhance'].append(int(matched.group(1)))
+                matched = re.search('[^;\n]+/repair-enhance.owl;([0-9]+);[^;\n]+/repair-weakening.owl;([0-9]+);([.0-9eE+-]+)', text)
+                if matched is None:
+                    repair_data['eiic_enhance_weaken'].append(None)
+                else:
+                    iic = float(matched.group(3))
+                    assert 0 <= iic and iic <= 1
+                    repair_data['eiic_enhance_weaken'].append(iic)
+                matched = re.search('[^;\n]+/repair-enhance.owl;([0-9]+);[^;\n]+/repair-remove.owl;([0-9]+);([.0-9eE+-]+)', text)
+                if matched is None:
+                    repair_data['eiic_enhance_remove'].append(None)
+                else:
+                    iic = float(matched.group(3))
+                    assert 0 <= iic and iic <= 1
+                    repair_data['eiic_enhance_remove'].append(iic)
+        else:
+            repair_data['eiic_mcs'].append(None)
+            repair_data['eiic_remove'].append(None)
+            repair_data['einf_mcs'].append(None)
+            repair_data['einf_weakening'].append(None)
+            repair_data['einf_remove'].append(None)
+            repair_data['einf_enhance'].append(None)
+            repair_data['eiic_enhance_weaken'].append(None)
+            repair_data['eiic_enhance_mcs'].append(None)
+            repair_data['eiic_enhance_remove'].append(None)
+            repair_data['eiic_mcs_remove'].append(None)
 
 for onto in listdir(repairs):
     if not onto.startswith('.'):

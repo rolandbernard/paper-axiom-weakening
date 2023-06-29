@@ -18,6 +18,7 @@ cache_data = {
 }
 
 def read_run_info(onto: str, run: str, file: str):
+    print(run)
     matched = re.match('([^-]+)-([0-9]+)(-([^.]+))?.txt', run)
     assert matched is not None
     reasoner = matched.group(1)
