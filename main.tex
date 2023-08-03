@@ -96,7 +96,7 @@ Free University of Bozen-Bolzano, Italy
 %% article.
 \begin{abstract}
 Axiom weakening is a technique that allows for a fine-grained repair of inconsistent ontologies. Its main advantage is that it repairs ontologies by making axioms
-less restrictive rather than by deleting them, employing refinement operators. In this paper, we build on previously introduced axiom weakening for \ALC, and show how it can be extended to deal with \SROIQ, the expressive and decidable description logic underlying OWL 2 DL. The main problem here is to ensure that the regularity conditions of \SROIQ are preserved in the weakening process, as not every weaker axiom can be inserted into an ontology without compromising regularity.
+less restrictive rather than by deleting them, employing refinement operators.  In this paper, we build on previously introduced axiom weakening for \ALC, and show how it can be extended to deal with \SROIQ, the expressive and decidable description logic underlying OWL 2 DL. The main problem here is to ensure that the regularity conditions of \SROIQ are preserved in the weakening process, as not every weaker axiom can be inserted into an ontology without compromising regularity.
 We present a basic regularity-preserving weakening approach for \SROIQ, describe briefly a prototype implementation realising it, and perform and discuss basic evaluations of the approach.
 \end{abstract}
 
@@ -116,14 +116,13 @@ We present a basic regularity-preserving weakening approach for \SROIQ, describe
 %% This command processes the author and affiliation and title
 %% information and builds the first part of the formatted document.
 \maketitle
-
 \section{Introduction}
 
 Many approaches to repairing inconsistent ontologies amount to identifying problematic axioms and then removing them (e.g., ~\cite{ScCo03,kalyanpur2005debugging,kalyanpur2006repairing,BaPS07}). Whilst this approach is obviously sufficient to guarantee that the obtained ontology is consistent, it tends to lead to information loss as a secondary effect, as we outlined in detail in previous work \cite{troquard2018repairing,confalonieri2020towards}, where also a more extensive discussion of related work can be consulted.   Further, this information loss can be reduced by weakening the inferential power of an axiom rather than by deleting it \cite{du2014practical,AMAI-2018,DBLP:conf/kr/BaaderKNP18,troquard2018repairing,confalonieri2020towards}. 
 %
 In \cite{troquard2018repairing}, axiom weakening using refinement operators has been described for \ALC and experimentally evaluated, showing that axiom weakening is able to retain more information than deletion. In \cite{confalonieri2020towards}, the axiom weakening has been extended to include many aspects of \SROIQ, notably omitting, however, the weakening of RBox axioms. The authors of \cite{confalonieri2020towards} further show that the proposed repair by iterated weakening almost surely terminates. 
 
-In this  paper, we extend the previous work on axiom weakening in DLs by extending the underlying basic principles to the logic \SROIQ, including also the weakening of RIAs. We discuss a number of scenarios where weakening can impact regularity of \SROIQ Rboxes, and provide a framework where this is avoided. Additionally, by implementing the proposed refinement and weakening operators we are able to perform experimental evaluation, also on ontologies using the more expressive features of \SROIQ. The results reaffirm the results of \cite{troquard2018repairing} for the case of \SROIQ, namely that weakening may significantly outperform deletion.
+In this  paper, we extend the previous work on axiom weakening in DLs by extending the underlying basic principles to the logic \SROIQ, including also the weakening of RIAs. We discuss a number of scenarios where weakening can impact regularity of \SROIQ RBoxes, and provide a framework where this is avoided. Additionally, by implementing the proposed refinement and weakening operators we are able to perform experimental evaluation, also on ontologies using the more expressive features of \SROIQ. The results reaffirm the results of \cite{troquard2018repairing} for the case of \SROIQ, namely that weakening may significantly outperform deletion.
 
 \section{Axiom Weakening for \SROIQ}
 
@@ -139,10 +138,10 @@ The syntax of \SROIQ is based on a vocabulary of three disjoint sets $N_C$, $N_R
 \begin{alignat*}{2}
   R, S &::={} && U \mid r \mid r^{-} \enspace,\\
   C &::= && \bot \mid \top \mid A \mid \neg C \mid C \sqcap C \mid C \sqcup C \mid \forall R.C \mid \exists R.C \mid \\ 
-  &&& \more n S.C \mid \less n S.C \mid \exists S.\self \mid \nominal i \enspace,
+  &&& \more n S.C \mid \less n S.C \mid \exists S.\self \mid \nominal a \enspace,
 \end{alignat*}
 }
-\noindent where $A \in N_C$ is a concept name, $r \in N_R$ is a role name, $i \in N_I$ is an individual name and $n \in \mathbb{N}_0$ is a non-negative integer. 
+\noindent where $A \in N_C$ is a concept name, $r \in N_R$ is a role name, $a \in N_I$ is an individual name and $n \in \mathbb{N}_0$ is a non-negative integer.
 %
 $U$ is the universal role. $S$ is a \emph{simple role} in the RBox $\Rmc$ (see below). In the following, $\Lmc(N_C, N_R, N_I)$ and $\Lmc(N_R) = N_R \cup \{U\} \cup \{r^- \mid r \in N_R\}$ denote, respectively, the set of concepts and roles that can be built over $N_C$, $N_R$, and $N_I$ in \SROIQ.
 
@@ -161,7 +160,8 @@ All other roles are \emph{simple}.
 % describe regularity since it is relevant
 For convenience, let us define the function $\inv(R)$ such that $\inv(r) = r^-$ and $\inv(r^-) = r$ for all role names $r \in N_R$. 
 %
-An RBox $\Rmc$ is  \emph{regular} if there exists a preorder $\preceq$, i.e., a transitive and reflexive relation, over the set of roles appearing in $\Rmc$, such that $R \preceq S \iff \inv(R) \preceq S$ and all RIAs are of the forms:
+An RBox $\Rmc$ is \emph{regular} if there exists a preorder $\preceq$, i.e., a transitive and reflexive relation, over the set of roles appearing in $\Rmc$, such that $R \preceq S \iff \inv(R) \preceq S$
+and all RIAs in $\Rmc$ are of the forms:
 $\inv(R) \sqsubseteq R$,
 $R \circ R \sqsubseteq R$,
 $S \sqsubseteq R$, $R \circ S_1 \circ \cdots \circ S_n \sqsubseteq R$,
@@ -178,14 +178,14 @@ A \SROIQ  ontology $\Omc = \Tmc \cup \Amc \cup \Rmc$ consists of a TBox $\Tmc$, 
 The semantics of \SROIQ is  defined using \emph{interpretations} $I = \langle \Delta^I, \cdot^I \rangle$, where $\Delta^I$ is a non-empty \emph{domain} and $\cdot^I$ is a function associating to each individual name $a$ an element of the domain $a^I \in \Delta^I$, to each concept $C$ a subset of the domain $C^I \subseteq \Delta^I$, and to each role $R$ a binary relation on the domain $R^I \subseteq \Delta^I \times \Delta^I$; see \cite{baader_horrocks_lutz_sattler_2017,HorrocksKutzSattlerKR2006} for further details. An interpretation $I$ is a \emph{model} for $\Omc$ if it satisfies all the axioms in $\Omc$.
 
 % describe subsumptions of concepts and roles
-Given two concepts $C$ and $D$ we say that $C$ is \emph{subsumed} by $D$ (or $D$ \emph{subsumes} $C$) with respect to the ontology $\Omc$, written $C \sqsubseteq_\Omc D$, if $C^I \subseteq D^I$ in every model $I$ of $\Omc$. Further, $C$ is \emph{strictly subsumed by} $D$, written $C \sqsubset_\Omc D$, if $C \sqsubseteq_\Omc D$ but not $D \sqsubseteq_\Omc C$. Analogously, given two roles $R$ and $S$, $R$ is subsumed by $S$ with respect to $\Omc$ ($R \sqsubseteq_\Omc S$) if $R^I \sqsubseteq S^I$ in all models $I$ of $\Omc$. Again, $R \sqsubset_\Omc S$ holds if $R \sqsubseteq_\Omc S$ but not $D \sqsubseteq_\Omc C$.
+Given two concepts $C$ and $D$ we say that $C$ is \emph{subsumed} by $D$ (or $D$ \emph{subsumes} $C$) with respect to the ontology $\Omc$, written $C \sqsubseteq_\Omc D$, if $C^I \subseteq D^I$ in every model $I$ of $\Omc$. Further, $C$ is \emph{strictly subsumed by} $D$, written $C \sqsubset_\Omc D$, if $C \sqsubseteq_\Omc D$ but not $D \sqsubseteq_\Omc C$. Analogously, given two roles $R$ and $S$, $R$ is subsumed by $S$ with respect to $\Omc$ ($R \sqsubseteq_\Omc S$) if $R^I \sqsubseteq S^I$ in all models $I$ of $\Omc$. Again, $R \sqsubset_\Omc S$ holds if $R \sqsubseteq_\Omc S$ but not $S \sqsubseteq_\Omc R$.
 
 \subsection{Weakening, reference ontologies, covers, refinement operator}
 
 \paragraph{The case of \ALC.}
 Axiom weakening, as discussed in \cite{troquard2018repairing}, is based on refinement operators. Two types of refinement operators are used, a specialization operator and a generalization operator. They return for a given concept a set of, respectively, more specific or more general concepts. In \cite{troquard2018repairing} the proposed refinement operator is based on upward and downward cover sets. The upward or downward cover for a concept is the set of, respectively, the most specific generalization or most general specializations from the set of subconcepts.
 %
-Given an inconsistent ontology $\Omc = \Tmc \cup \Amc \cup \Rmc$, to be able to compute a non-trivial upcover and downcover, we first need to find a consistent subontology $O^\text{ref}$ of $\Omc$ to serve as \emph{reference ontology}. One approach is to pick a random maximally consistent subset of $\Omc$ and choose it as reference ontology $O^\text{ref}$; another is to choose the intersection of all maximally consistent subsets of $\Ontology$ (e.g.,~\cite{LLRRS10}).
+Given an inconsistent ontology $\Omc = \Tmc \cup \Amc \cup \Rmc$, to be able to compute a non-trivial upcover and downcover, we first need to find a consistent subontology $O^\text{ref}$ of $\Omc$ to serve as \emph{reference ontology}. One approach is to pick a random maximal consistent subset of $\Omc$ and choose it as reference ontology $O^\text{ref}$; another is to choose the intersection of all maximal consistent subsets of $\Ontology$ (e.g.,~\cite{LLRRS10}).
 
 Once a reference ontology $O^\text{ref}$ has been chosen, and as long as $\Omc$ is inconsistent, we select a ``bad axiom'' and replace it with a random weakening of it with respect to $O^\text{ref}$.
 %
@@ -265,7 +265,7 @@ We will define now the upward and downward cover sets for concepts and roles. In
   {\footnotesize
   \begin{alignat*}{2}
     \UpC_{\Omcref,\Omcfull}(n) &= \{ n, n + 1 \} \enspace, \\
-    \DownC_{\Omcref,\Omcfull}(R) &=
+    \DownC_{\Omcref,\Omcfull}(n) &=
     \begin{cases*}
       \{ n \} & \text{ if } n = 0 \\
       \{ n, n - 1 \} & \text{ if } n > 0
@@ -284,7 +284,7 @@ Since they operate only over the subconcepts of $\Omcfull$, on their own, the up
 To also capture these omissions, we define generalization and specialization operators that exploit the recursive structure of the concept being refined to generate more complex refinements. For convenience, we also define these operators for roles.
 
 \begin{definition}
-  Let $\refine$ and $\corefine$ be two functions with domain $\Lmc(N_C, N_R, N_I) \cup \Lmc(N_C) \cup \mathbb{N}_0$. They map every concept to a finite subset of $\Lmc(N_C, N_R, N_I)$, every role to a subset of $\Lmc(N_C)$, and every non-negative integer to a finite subset of $\mathbb{N}_0$.
+  Let $\refine$ and $\corefine$ be two functions with domain $\Lmc(N_C, N_R, N_I) \cup \Lmc(N_R) \cup \mathbb{N}_0$. They map every concept to a finite subset of $\Lmc(N_C, N_R, N_I)$, every role to a subset of $\Lmc(N_R)$, and every non-negative integer to a finite subset of $\mathbb{N}_0$.
   The \emph{abstract refinement operator} is defined recursively by induction on the structure of concepts as follows.
   {\footnotesize
   \begin{alignat*}{2}
@@ -299,7 +299,7 @@ To also capture these omissions, we define generalization and specialization ope
     \zeta_{\refine,\corefine}(\exists R.C) &= &&\refine(\exists R.C) \cup \{ \exists R'.C \mid R' \in \refine(R) \}
     \cup \{ \exists R.C' \mid C' \in \zeta_{\refine,\corefine}(C) \} \enspace, \\
     &&& \text{\SROIQ concepts:} \\
-    \zeta_{\refine,\corefine}(\nominal i) &= &&\refine(\nominal i) \enspace, \\
+    \zeta_{\refine,\corefine}(\nominal a) &= &&\refine(\nominal a) \enspace, \\
     \zeta_{\refine,\corefine}(\exists R.\self) &= &&\refine(\exists R.\self) \cup \{ \exists R'.\self \mid R' \in \refine(R) \} \enspace, \\
     \zeta_{\refine,\corefine}(\more n R.C) &= &&\refine(\more n R.C) \cup \{ \more n R'.C \mid R' \in \refine(R) \} \\
     &&& \cup \{ \more n R.C' \mid C' \in \zeta_{\refine,\corefine}(C) \}
@@ -427,7 +427,7 @@ The refinement operators and axiom weakening have previously been implemented fo
 The automatic repair by weakening is implemented as shown in \Cref{algo:repair-weaken}. The reference ontology is selected by choosing a maximal consistent subset of the inconsistent ontology. In our implementation used for the evaluation in this paper, the reference ontology was selected by randomly sampling a maximal consistent subset. The procedure $\textnormal{FindBadAxiom}(\Omc)$ may be implemented in a number of ways. Here we consider an implementation that samples some (or all) of the minimal inconsistent subsets of $\Omc$ and selects as the bad axiom the one occurring most frequently. Then, $\textnormal{SelectWeakerAxiom}(\Phi_\textnormal{weaker})$ has been chosen such that is selects an axiom uniformly at random from $\Phi_\textnormal{weaker}$. For all experiments presented in this paper, the FaCT++ reasoner \cite{tsarkov2006fact++} was used to compute all entailment and consistency checks.
 
 % explain how different repairs are compared
-To experimentally evaluate the proposed axiom weakening operator in the context of its use in automatic repair of ontologies, we need some way to compare the quality of repair. As has already been discussed in \cite{troquard2018repairing}, the problem of deciding which of two possible repaired ontologies $\Omc_1$ or $\Omc_2$ is preferable is not generally well-defined. Similar to what has been proposed in \cite{troquard2018repairing} we will base the evaluation of the repairs on the size of the \emph{inferred class hierarchy}. To compare two possible repairs, we use the \emph{inferable information content} (IIC) as defined in \cite{troquard2018repairing}. The IIC  of an ontology $\Omc_1$ with respect to a second ontology $\Omc_2$, written $\qual(\Omc_1, \Omc_2)$, is a number between $0$ and $1$. Value closer to $0$ indicates that $\Omc_1$ contains more ``information'' than $\Omc_2$, while a value towards $1$ indicates the opposite. Some weaknesses of this measure when it comes to evaluating repairs, like the fact that only atomic concepts are considered, have already been discussed in \cite{troquard2018repairing}. For the case of repairing \SROIQ ontologies this is even more relevant, since the role hierarchy is entirely ignored.
+To experimentally evaluate the proposed axiom weakening operator in the context of its use in automatic repair of ontologies, we need some way to compare the quality of repair. As has already been discussed in \cite{troquard2018repairing}, the problem of deciding which of two possible repaired ontologies $\Omc_1$ or $\Omc_2$ is preferable is not generally well-defined. Similar to what has been proposed in \cite{troquard2018repairing} we will base the evaluation of the repairs on the size of the \emph{inferred class hierarchy}. To compare two possible repairs, we use the \emph{inferable information content} (IIC) as defined in \cite{troquard2018repairing}. The IIC  of an ontology $\Omc_1$ with respect to a second ontology $\Omc_2$, written $\qual(\Omc_1, \Omc_2)$, is a number between $0$ and $1$. A value closer to $1$ indicates that $\Omc_1$ contains more ``information'' than $\Omc_2$, while a value towards $0$ indicates the opposite. Some weaknesses of this measure when it comes to evaluating repairs, like the fact that only atomic concepts are considered, have already been discussed in \cite{troquard2018repairing}. For the case of repairing \SROIQ ontologies this is even more relevant, since the role hierarchy is entirely ignored.
 
 \begin{definition}
   The \emph{inferred class hierarchy} of an ontology $\Omc$ is given by
@@ -487,7 +487,7 @@ For the experimental evaluation we have selected ontologies of varying size and 
 % explain how inconsistent ontologies were generated from them and then repaired
 Since the ontologies use OWL 2, the axioms and concepts do not map directly to \SROIQ. In order to follow the definitions laid out in this paper, the OWL ontologies axioms were normalized to conform with \SROIQ. During the preprocessing, we further removed axioms related to data properties and any axiom that caused any OWL 2 DL profile violation, as our weakening does not handle them.
 
-The evaluation proceeds by first making the ontologies inconsistent. This was achieved by repeatedly adding axioms to the ontology until they became inconsistent. The newly added axioms were generated by strengthening randomly selected axioms of the original ontology. It was ensured that the added axioms on their own were not inconsistent. After making the ontology inconsistent, it was repaired once with the repair algorithm using the axiom weakening operator presented in \Cref{algo:repair-weaken} and once using \Cref{algo:repair-remove}. Additionally, the repair was also performed by selecting a randomly sampled maximal consistent subset. This process, both making the ontology inconsistent and then repairing it, was repeated one hundred times for each ontology, and the IIC was computed between the repair by weakening and the repairs by removal and random maximal consistent subset. The evaluation was performed using a randomly selected maximal consistent subset as the reference ontology and by sampling 16 minimal inconsistent subsets during the selection of bad axioms.
+The evaluation proceeds by first making the ontologies inconsistent. This was achieved by repeatedly adding axioms to the ontology until they became inconsistent. The newly added axioms were generated by strengthening randomly selected axioms of the original ontology. It was ensured that the added axioms on their own were not inconsistent. After making the ontology inconsistent, it was repaired once with the repair algorithm using the axiom weakening operator presented in \Cref{algo:repair-weaken} and once using \Cref{algo:repair-remove}. Additionally, the repair was also performed by selecting a randomly sampled maximal consistent subset. Note that \Cref{algo:repair-remove} is not guaranteed to produce a maximal consistent subset. This process, both making the ontology inconsistent and then repairing it, was repeated one hundred times for each ontology, and the IIC was computed between the repairs generated using the different approaches. The evaluation was performed using a randomly selected maximal consistent subset as the reference ontology and by sampling 16 minimal inconsistent subsets during the selection of bad axioms.
 
 Unfortunately, even though the utilized reasoners are generally very fast to evaluate queries on the selected ontologies, they exhibit undesirable performance in some edge cases. When performance pitfalls are encountered, they make the computations required for weakening unreasonably slow. For this reason a timeout of 5 minutes was placed on the repairs execution and the outputs of these runs were discarded and replaced by new runs. The results of these experiments are listed in \Cref{table:results} and shown in \Cref{fig:results-remove} and \Cref{fig:results-mcs}.
 
@@ -552,7 +552,7 @@ The results of the evaluation suggest that the repair by weakening is on average
 % better heuristics to steer the algorithm
 % complex roles in up and down covers
 % more permissive refinement of role inclusions
-We have proposed refinement operators and an axiom weakening operator for all aspects of \SROIQ and shown that for repairs of inconsistent ontologies weakening can, in some cases, significantly outperform removal. Further additions to the refinement operators may be studied, e.g., using non-simple roles in the upward and downward covers in certain contexts. Relaxing the allowed weakening for RIAs may also be considered, and to cover also extensions to regularity conditions such as those studied in \cite{DBLP:conf/cade/Kazakov10}. We have also seen that the repair algorithm likely needs better heuristics to steer the selection of bad and weakened axioms in order to result in better repairs. Future work could further focus on finding robust measures for comparing the quality of repairs.
+We have proposed refinement operators and an axiom weakening operator for all aspects of \SROIQ and shown that for repairs of inconsistent ontologies weakening can, in some cases, significantly outperform removal. Further additions to the refinement operators may be studied, e.g., using non-simple roles in the upward and downward covers in certain contexts. Relaxing the allowed weakening for RIAs may also be considered, and to cover also extensions to regularity conditions such as those studied in \cite{DBLP:conf/cade/Kazakov10}. We have also seen that the repair algorithm likely needs better heuristics to steer the selection of bad and weakened axioms in order to result in better repairs. Future work could further focus on finding more robust measures for comparing the quality of repairs.
 
 %%
 %% Define the bibliography file to be used
