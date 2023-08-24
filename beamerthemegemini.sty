@@ -1,5 +1,4 @@
-% Based on Gemini theme
-% https://github.com/anishathalye/gemini
+% Based on Gemini theme (https://github.com/anishathalye/gemini)
 
 % ====================
 % Dependencies
@@ -28,7 +27,7 @@
 ]
 
 \setbeamerfont{headline}{family=\Raleway}
-\setbeamerfont{headline title}{size=\Huge,series=\bfseries}
+\setbeamerfont{headline title}{size=\huge,series=\bfseries}
 \setbeamerfont{headline author}{size=\large}
 \setbeamerfont{headline institute}{size=\normalsize}
 \setbeamerfont{block title}{family=\Raleway,size=\large,series=\bfseries}
@@ -162,11 +161,13 @@
   \vskip-0.5ex
   \begin{beamercolorbox}[colsep*=0ex]{block body}
   \justifying
+  \begin{adjustwidth}{1ex}{1ex}
   \setlength{\parskip}{1ex}
   \vskip-2ex
 }
 \setbeamertemplate{block end}
 {
+  \end{adjustwidth}
   \end{beamercolorbox}
   \vskip0pt
   \vspace*{2ex}
@@ -175,11 +176,13 @@
 % Alert Block
 \setbeamertemplate{block alerted begin}
 {
+  \vspace{1ex}
   \begin{beamercolorbox}[colsep*=0ex,dp=2ex,center]{block alerted title}
     \vskip0pt
     \usebeamerfont{block title}\insertblocktitle
     \vskip-1.25ex
-    \begin{beamercolorbox}[colsep=0.025ex]{block alerted separator}\end{beamercolorbox}
+    \vspace{-1ex}
+    \begin{beamercolorbox}{block alerted body}\end{beamercolorbox}
   \end{beamercolorbox}
   {\parskip0pt\par}
   \usebeamerfont{block body}
@@ -196,17 +199,18 @@
   \vskip1ex
   \end{beamercolorbox}
   \vskip0pt
-  \vspace*{2ex}
 }
 
 % Example Block
 \setbeamertemplate{block example begin}
 {
+  \vspace{1ex}
   \begin{beamercolorbox}[colsep*=0ex,dp=2ex,center]{block example title}
     \vskip0pt
     \usebeamerfont{block title}\insertblocktitle
     \vskip-1.25ex
-    \begin{beamercolorbox}[colsep=0.025ex]{block example separator}\end{beamercolorbox}
+    \vspace{-1ex}
+    \begin{beamercolorbox}{block example bod}\end{beamercolorbox}
   \end{beamercolorbox}
   {\parskip0pt\par}
   \usebeamerfont{block body}
@@ -223,7 +227,6 @@
   \vskip1ex
   \end{beamercolorbox}
   \vskip0pt
-  \vspace*{2ex}
 }
 
 % Footer

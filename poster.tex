@@ -6,7 +6,7 @@
 
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[orientation=portrait,size=a0,scale=1.5]{beamerposter}
+\usepackage[orientation=portrait,size=a0,scale=1.6]{beamerposter}
 \usetheme{gemini}
 \usecolortheme{unibz}
 \usepackage{dl}
@@ -24,6 +24,10 @@
 \usepackage{url}
 \pgfplotsset{compat=1.14}
 \usepackage{anyfontsize}
+\usepackage[numbers]{natbib}
+
+\AtBeginDocument{\bibsep=0pt}
+\bibliographystyle{elsarticle-num-names}
 
 % ====================
 % Lengths
@@ -65,6 +69,19 @@
 \begin{column}{\colwidth}
 
   \begin{block}{Introduction}
+    \textbf{Background} \vskip-.5ex
+    \begin{itemize}
+      \item Many methods for fixing inconsistent ontologies involve identifying and removing problematic axioms.
+      \item This approach ensures consistency but leads to information loss.
+      \item Axiom weakening is an alternative approach, that has previously been shown to preserve more information in the case of \ALC.
+    \end{itemize}
+
+    \textbf{In this paper} \vskip-.5ex
+    \begin{itemize}
+      \item We extend axiom weakening principles to \SROIQ, including weakening of RIAs.
+      \item We discuss a number of scenarios where weakening can impact regularity of \SROIQ RBoxes, and provide a framework where this is avoided.
+      \item We perform experimental evaluation of repairing \SROIQ ontologies with axiom weakening.
+    \end{itemize}
 
   \end{block}
 
@@ -74,37 +91,68 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{Axiom Weakening}
+  \begin{block}{Axiom Weakening for Ontology Repair}
+    To achieve axiom weakening, two types of refinement operators are used, a specialization operator and a generalization operator. These are used to define the axiom weakening operator. These need a consistent reference ontology to yield useful results. The process for repairing an inconsistent ontology proceeds as follows:
 
+    \textbf{Repairing ontologies} \vskip-.5ex
+    \begin{enumerate}
+      \item Choose a consistent subset as the reference ontology.
+      \item Select a problematic axiom.
+      \item Weaken the selected axiom using the axiom weakening operator.
+      \item Replace the selected axiom with the weaker axiom.
+      \item Repeat steps 2-4 until the ontology is consistent. 
+    \end{enumerate}
+   
   \end{block}
 
 \end{column}
-\separatorcolumn
 
+\separatorcolumn
 \end{columns}
 
 \begin{columns}[t]
 \separatorcolumn
 
-\begin{column}{\colwidth}
+\begin{column}{2\colwidth+\sepwidth}
+  \begin{block}{Extending Axiom Weakening to \bfSROIQ}
 
-  \begin{block}{Extention to \bfSROIQ}
+  \begin{minipage}[t]{0.5\linewidth-1ex}
+    \textbf{Difficulties} \vskip-.5ex
+    \begin{itemize}
+      \item \SROIQ imposes global restrictions on the ontology that can not be checked by looking at axiom separately.
+      \item Non-simple roles may not be used in cardinality constraints, \self constraints, or disjoint role axioms.
+      \item RBoxes must be regular.
+      \item[$\Rightarrow$] Adding valid axioms (e.g., weakenings) to a valid \SROIQ ontology can make the ontology invalid.
+    \end{itemize}
+
+    \begin{exampleblock}{\normalsize Example: Weakening that breaks regularity}
+      Take the ontology
+      \begin{align*}
+        \Omc &= \{ r \circ s \circ r \sqsubseteq t, \top \sqsubseteq \forall t.\nominal a, \top \sqsubseteq \exists s.\nominal a \} \enspace .
+      \end{align*}
+      Since the range of $t$ is restricted to the single individual $a$, and $s$ contains all connections to $a$, $t \sqsubseteq_\Omc s$. The axiom $r \circ s \circ r \sqsubseteq t$ could therefore be weakened to $r \circ s \circ r \sqsubseteq s$. Yet, this would result in a non-regular RBox.
+    \end{exampleblock}
+  \end{minipage}
+  \hspace{1ex}
+  \begin{minipage}[t]{0.5\linewidth-1ex}
+    \textbf{Avoiding these problems} \vskip-.5ex
+    \begin{itemize}
+      \item The allowed weakenings must be restricted to ensure the result is a \SROIQ ontology.
+      \item We only use simple roles whenever we have to replace roles using the refinement operators.
+      \item For RIAs we only ever refine the super role if the RIA is simple and the sub role is simple.
+      \item[$\Rightarrow$] These two rule ensure that all simple roles remain simple even after applying the weakening.
+      \item[$\Rightarrow$] They further guarantee that the RBox remains regular.
+    \end{itemize}
+
+    \begin{alertblock}{\normalsize Theorem}
+      Given that the original ontology to be repair and the reference ontology are valid \SROIQ ontologies. For every axiom $\phi$ of the original ontology, if $\phi'$ is a weakening of $\phi$ generated using the weakening operator, then the result of adding $\phi'$ to the original ontology is also a valid \SROIQ ontology.
+    \end{alertblock}
+  \end{minipage}
 
   \end{block}
-
 \end{column}
 
 \separatorcolumn
-
-\begin{column}{\colwidth}
-
-  \begin{block}{Saving Regularity}
-
-  \end{block}
-
-\end{column}
-\separatorcolumn
-
 \end{columns}
 
 \begin{columns}[t]
@@ -127,9 +175,13 @@
   \end{block}
 
 \end{column}
-\separatorcolumn
 
+\separatorcolumn
 \end{columns}
+
+% \vfill
+
+% \footnotesize{\bibliography{biblio}}
 
 \end{frame}
 
