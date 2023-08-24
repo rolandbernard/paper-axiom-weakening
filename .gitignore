@@ -23,6 +23,9 @@ notes-tex
 *.run.xml
 *.fdb_latexmk
 *.synctex*
+*.snm
+*.nav
+creationdate.lua
 
 ### Vscode ###
 .vscode/
